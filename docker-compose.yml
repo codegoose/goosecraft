@@ -14,7 +14,7 @@ services:
       - pub-backup:/server/backups
       - pub-cache:/server/.cache
   dev:
-    image: goosecraft:6.0-dev
+    image: goosecraft:6.0
     stop_grace_period: 1m
     ports:
       - 25585:25565/tcp
