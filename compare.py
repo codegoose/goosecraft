@@ -1,5 +1,7 @@
 import zipfile, os, json, unicodedata
 
+if not os.path.exists('mods/icons'): os.makedirs('mods/icons')
+
 def to_ascii(s):
   normalized = unicodedata.normalize('NFKD', s)
   ascii_bytes = normalized.encode('ascii', 'ignore')
@@ -40,7 +42,7 @@ def scan_collection_dir(dir: str):
     if icon is not None:
       icon_format = icon['format']
       if icon_format is not None:
-        open(f'mod_icon/{id}.{icon_format}', 'wb+').write(icon['data'])
+        open(f'mods/icons/{id}.{icon_format}', 'wb+').write(icon['data'])
     version = get_key_value('version', data)
     environment = get_key_value('environment', data)
     if environment is None: environment = '*'
@@ -100,10 +102,10 @@ def compare_lists(old_list, new_list):
   removed_entries = old_set - new_set
   return new_entries, removed_entries
 
-old_mods = scan_collection_dir('mods_rev_old')
-new_mods = scan_collection_dir('mods')
+old_mods = scan_collection_dir('mods/past/v6-0')
+new_mods = scan_collection_dir('mods/current')
 
-open('mods_old.json', 'w+').write(json.dumps(old_mods, indent=2))
+open('mods-old.json', 'w+').write(json.dumps(old_mods, indent=2))
 open('mods.json', 'w+').write(json.dumps(new_mods, indent=2))
 
 old_mods_list = list(old_mods.keys())
