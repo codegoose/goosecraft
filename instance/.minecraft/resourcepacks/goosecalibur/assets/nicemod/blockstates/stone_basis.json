@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "nicemod:block/stone_basis"
+    },
+    "half=top": {
+      "model": "nicemod:block/stone_basis",
+      "x": 180,
+      "uvlock": "true"
+    }
+  }
+}

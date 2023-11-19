@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "nicemod:block/cobblestone_basis"
+    },
+    "half=top": {
+      "model": "nicemod:block/cobblestone_basis",
+      "x": 180,
+      "uvlock": "true"
+    }
+  }
+}

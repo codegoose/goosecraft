@@ -1,0 +1,12 @@
+{
+	"displaySort": false,
+	"middleClick": false,
+	"doubleClickSort": false,
+	"seperateBtn": false,
+	"sortPlayer": false,
+	"sortType": "NAME",
+	"displayTooltip": false,
+	"keybinding": "key.mouse.middle",
+	"sortMouseHighlighted": false,
+	"debugMode": false
+}

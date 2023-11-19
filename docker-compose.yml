@@ -1,0 +1,40 @@
+version: "3"
+services:
+  pub:
+    image: goosecraft:6.0
+    stop_grace_period: 1m
+    ports:
+      - 25575:25565/tcp
+      - 25576:80/tcp
+    restart: unless-stopped
+    volumes:
+      - pub-world:/server/world
+      - pub-schematics:/server/schematics
+      - pub-crash:/server/crash-reports
+      - pub-backup:/server/backups
+      - pub-cache:/server/.cache
+  dev:
+    image: goosecraft:6.0-dev
+    stop_grace_period: 1m
+    ports:
+      - 25585:25565/tcp
+      - 25586:80/tcp
+    restart: unless-stopped
+    volumes:
+      - dev-world:/server/world
+      - dev-schematics:/server/schematics
+      - dev-crash:/server/crash-reports
+      - dev-backup:/server/backups
+      - dev-cache:/server/.cache
+
+volumes:
+  pub-world:
+  pub-schematics:
+  pub-crash:
+  pub-backup:
+  pub-cache:
+  dev-world:
+  dev-schematics:
+  dev-crash:
+  dev-backup:
+  dev-cache:

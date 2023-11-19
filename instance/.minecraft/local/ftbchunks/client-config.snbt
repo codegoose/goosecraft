@@ -1,0 +1,65 @@
+{
+	advanced: {
+		debug_info: false
+		minimap_icon_update_timer: 500
+		rerender_queue_ticks: 60
+		task_queue_max: 100
+		task_queue_ticks: 4
+		memory: {
+			autorelease_on_map_close: 32
+			max_zoom_constraint: true
+			region_release_time: 300
+		}
+	}
+	appearance: {
+		biome_blend: "blend_3x3"
+		chunk_grid: true
+		claimed_chunks_on_map: true
+		foliage_darkness: 50
+		grass_darkness: 50
+		map_mode: "topography"
+		noise: 0.05d
+		only_surface_entities: true
+		own_claimed_chunks_on_map: true
+		reduced_color_palette: false
+		saturation: 1.0d
+		shadows: 0.1d
+		water_height_factor: 8
+		water_visibility: 220
+	}
+	minimap: {
+		biome: false
+		blur_mode: "auto"
+		compass: false
+		enabled: true
+		entities: false
+		entity_heads: false
+		font_scale: 0.5d
+		large_entities: false
+		locked_north: true
+		player_heads: false
+		position: "bottom_right"
+		position_offset_condition: "none"
+		position_offset_x: 0
+		position_offset_y: 0
+		proportional: true
+		scale: 0.4d
+		show_player_when_unlocked: true
+		square: false
+		visibility: 255
+		waypoints: false
+		xyz: false
+		zone: false
+		zoom: 4.0d
+	}
+	waypoints: {
+		death_waypoint_autoremove_distance: 2000
+		death_waypoints: false
+		in_world_waypoints: false
+		waypoint_dot_fade_distance: 1.0d
+		waypoint_fade_distance: 12.0d
+		waypoint_focus_distance: 1.0d
+		waypoint_focus_scale: 2.0d
+		waypoint_max_distance: 5000.0d
+	}
+}

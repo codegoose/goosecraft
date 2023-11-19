@@ -1,0 +1,32 @@
+from fedora:latest as builder
+
+run yum update -y
+run yum install wget java-17-openjdk-headless zip -y
+
+run wget -O /quilt-installer.jar https://maven.quiltmc.org/repository/release/org/quiltmc/quilt-installer/0.9.1/quilt-installer-0.9.1.jar
+run java -jar /quilt-installer.jar install server 1.20.1 --download-server
+
+copy server /server
+run mkdir /server/mods
+copy mods/current /server/mods
+
+from fedora:latest
+
+workdir /server
+
+run yum update -y
+run yum install java-17-openjdk-headless -y
+
+run yum install -y python310 && \
+    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
+    python3.10 get-pip.py && \
+    python3.10 -m pip install supervisor && \
+    rm -f get-pip.py
+
+copy supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+
+copy --from=builder /server /server
+copy config/both /server/config
+copy config/server /server/config
+
+cmd ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]

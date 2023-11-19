@@ -1,0 +1,28 @@
+{
+	show-last-eaten-tips: EXTENDED
+	respawn: {
+		hunger: max(14, hunger)
+		saturation: saturation
+		reset-history: true
+		reset-carrot-mode: true
+	}
+	food: {
+		hunger: hungerValue * power(0.9, timesEaten)
+		saturation: saturationValue
+		consume-duration: consumeDuration
+		history-length: 10
+	}
+	carrot: {
+		enable: true
+		health-formula: 0.8 * baseHealth + max(4 * floor(log2(uniqueFoodsEaten)), 0)
+		max-health: -1
+		uneaten-in-journal: true
+	}
+	items: {
+		enable-paper-bag: true
+		enable-lunch-box: true
+		enable-picnic-basket: true
+		use-polymer: false
+	}
+	enable-journal-command: false
+}

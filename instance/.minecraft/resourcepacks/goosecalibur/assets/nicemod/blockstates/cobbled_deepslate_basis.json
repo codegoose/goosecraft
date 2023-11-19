@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "nicemod:block/cobbled_deepslate_basis"
+    },
+    "half=top": {
+      "model": "nicemod:block/cobbled_deepslate_basis",
+      "x": 180,
+      "uvlock": "true"
+    }
+  }
+}

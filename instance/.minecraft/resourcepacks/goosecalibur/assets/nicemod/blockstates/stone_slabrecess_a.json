@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/stone_slabrecess_a"
+    },
+    "facing=east": {
+      "model": "nicemod:block/stone_slabrecess_a",
+      "y": 90,
+      "uvlock": "true"
+    },
+    "facing=south": {
+      "model": "nicemod:block/stone_slabrecess_a",
+      "y": 180,
+      "uvlock": "true"
+    },
+    "facing=west": {
+      "model": "nicemod:block/stone_slabrecess_a",
+      "y": 270,
+      "uvlock": "true"
+    }
+  }
+}

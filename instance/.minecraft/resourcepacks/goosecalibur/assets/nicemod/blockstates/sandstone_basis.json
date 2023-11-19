@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "nicemod:block/sandstone_basis"
+    },
+    "half=top": {
+      "model": "nicemod:block/sandstone_basis",
+      "x": 180,
+      "uvlock": "true"
+    }
+  }
+}
