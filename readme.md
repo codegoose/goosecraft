@@ -3,6 +3,11 @@
 docker build -t goosecraft:6.0 -f server.docker .
 docker compose up -d
 ```
+# v6.0.3 to v6.0.4 changes
+## Added
+  * **Polymorph**: No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.
+  * **Rotten Flesh to Leather**: A simple mod that makes rotten flesh less useless by allowing smelting into leather
+  * **Harvest Scythes**: Harvest crops in an area!
 # v6.0 to 6.0.3 changes
 ## Added
   * **Open Parties and Claims**: This mod adds the ability to claim and to forceload world chunks, as well as create and manage player parties. It also gives server owners powerful controls over their players' usage of the mod's features.The mod's API allows other mods or plugins to easily interact with the parties and the chunk claims, both on the server and the client side.Xaero's Minimap mod and World Map mods are recommended in order to fully experience everything that this mod has to offer.
