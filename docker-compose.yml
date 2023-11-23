@@ -1,7 +1,7 @@
 version: "3"
 services:
   pub:
-    image: goosecraft:6.0
+    image: goosecraft:6.1.0
     stop_grace_period: 1m
     ports:
       - 25575:25565/tcp
