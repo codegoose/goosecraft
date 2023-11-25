@@ -10,7 +10,7 @@
   "keep_daily": 2,
   "keep_weekly": 1,
   "keep_monthly": 1,
-  "backup_cron": "0 */20 * * * ?",
+  "backup_cron": "0 */30 * * * ?",
   "manual_backups_time": 0,
   "only_if_players_been_online": true,
   "additional_directories": [],

@@ -1,14 +1,60 @@
 # Goosecraft
 ```
-docker build -t goosecraft:6.0 -f server.docker .
+docker build -t goosecraft:6.1.1 -f server.docker .
 docker compose up -d
 ```
-# v6.0.3 to v6.0.4 changes
+# v6.1.1
+## Technicals
+* Increased RAM allotment from 4GB to 8GB.
+* Added WIP "superdupervanilla" shader pack that can be optionally used to increase performance over the "goosecalibur" pack.
+## Mods
+### Added
+  * **SilkSpawners**: Mine spawners with silk touch!
+### Updated
+  * **Chunksending Mod**: Optimized chunk packets **(1.20.1-2.6 to 1.20.1-2.8)**
+  * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.6.17 to 1.20-2.6.18)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.8.65 to 1.20-2.8.65)**
+  * **PolyLib**:  **(1200.0.2-build.85 to 2000.0.3-build.97)**
+# v6.1.0
+## Added
+  * **Jewelry (RPG Series)**: Find precious gems deep down, and craft them into powerful jewelry!
+  * **Wizards (RPG Series)**: Destroy your enemies with Arcane, Fire and Frost magic.
+  * **Chunksending Mod**: Optimized chunk packets
+  * **Paladins & Priests (RPG Series)**: Protect and heal your friends as a Paladin or a Priest.
+  * **Connectible Chains**: Connect your fences with a decorative chain!
+  * **Smooth chunk save Mod**: Spreads out chunk saves equally and saves them after a configured delay
+  * **Archers (RPG Series)**: Draw, Release, Conquer - Master the art of Archery!
+  * **Smooth Particles**: Adds block placement particles
+  * **SimplySkills**: A comprehensive skill tree mod with a focus on combat specialisations.
+  * **Bobby**: Allows for render distances greater than the server's view-distance setting.
+  * **Pufferfish's Skills**: Adds a fully configurable skill system to the game.
+  * **Connectivity Mod**: Connectivity fixes connection issues
+  * **Merchant Markers**: Adds floating markers above villagers to indicate their professions.
+  * **Spell Engine**: Data driven magic library.
+  * **Better chunk loading mod**: Improves chunk loading
+  * **Patchouli**: Patchouli: Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers
+  * **Chunks Fade In**: Adds bedrock-like chunk fade-in animation and chunk animations like in ChunkAnimator mod!
+  * **Spell Power Attribute**: Spell Power entity attributes with related status effects and enchantments.
+  * **AzureLib Armor**: A striped down Azurelib just for Armor!
+  * **Model Gap Fix**: Fixes those annoying gaps that appear in item and block models
+  * **Mythic Mobs**: Discover a world of mythical creatures in Minecraft
+  * **Mythic Mounts**: 
+  * **Runes**: Craft runes to serve as ammo for spells.
+  * **AzureLib**: Based off Geckolib but now just for my own needs.
+  * **Projectile Damage Attribute**: Adds generic projectile damage attribute, so ranged weapon damage can be changed.
+  * **Limited Chunkloading Mod**: Limited chunkloading allows dynamic unloading of chunkloaded chunks after a given time
+## Updated
+  * **YUNG's Better Ocean Monuments**: A complete redesign of Minecraft's ocean monuments! **(1.20-Fabric-3.0.3 to 1.20-Fabric-3.0.4)**
+## Removed
+  * **Origins**: This mod adds several origins with passive abilities to the game, which you can choose from at the beginning of the game.
+  * **Origins Minus**: Simple origins with less to remember.
+  * **Alternate Origin GUI**: Overhauls the origin selection screen to show multiple in a grid for selection.
+# v6.0.4
 ## Added
   * **Polymorph**: No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.
   * **Rotten Flesh to Leather**: A simple mod that makes rotten flesh less useless by allowing smelting into leather
   * **Harvest Scythes**: Harvest crops in an area!
-# v6.0 to 6.0.3 changes
+# v6.0.3
 ## Added
   * **Open Parties and Claims**: This mod adds the ability to claim and to forceload world chunks, as well as create and manage player parties. It also gives server owners powerful controls over their players' usage of the mod's features.The mod's API allows other mods or plugins to easily interact with the parties and the chunk claims, both on the server and the client side.Xaero's Minimap mod and World Map mods are recommended in order to fully experience everything that this mod has to offer.
   * **Neruina**: This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds.
@@ -61,7 +107,7 @@ docker compose up -d
   * **FTB Quests**: Lets you easily create and play with quests
   * **FTB Chunks**: Claim chunks to protect your base from griefers!
   * **FTB Teams**: FTB Teams adds ability to create your own teams that can be used for quests etc.
-# v5.2b to 6.0 changes
+# v6.0
 ## Added
   * **Dragonfight Mod**: Increases the difficulty of the dragonfight with various mechanics
   * **TimeControl**: Take control over Minecraft's day-night cycle

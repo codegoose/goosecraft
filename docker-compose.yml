@@ -1,40 +1,28 @@
 version: "3"
 services:
   pub:
-    image: goosecraft:6.1.0
+    image: goosecraft:6.1.1
     stop_grace_period: 1m
     ports:
       - 25575:25565/tcp
-      - 25576:80/tcp
     restart: unless-stopped
     volumes:
-      - pub-world:/server/world
-      - pub-schematics:/server/schematics
-      - pub-crash:/server/crash-reports
-      - pub-backup:/server/backups
-      - pub-cache:/server/.cache
+      - /mnt/md2/pnd/mc/live/pub/world:/server/world
+      - /mnt/md2/pnd/mc/live/pub/schematics:/server/schematics
+      - /mnt/md2/pnd/mc/live/pub/logs:/server/logs
+      - /mnt/md2/pnd/mc/live/pub/crash:/server/crash-reports
+      - /mnt/md2/pnd/mc/live/pub/backups:/server/backups
+      - /mnt/md2/pnd/mc/live/pub/cache:/server/.cache
   dev:
-    image: goosecraft:6.0
+    image: goosecraft:6.1.1
     stop_grace_period: 1m
     ports:
-      - 25585:25565/tcp
-      - 25586:80/tcp
+      - 25576:25565/tcp
     restart: unless-stopped
     volumes:
-      - dev-world:/server/world
-      - dev-schematics:/server/schematics
-      - dev-crash:/server/crash-reports
-      - dev-backup:/server/backups
-      - dev-cache:/server/.cache
-
-volumes:
-  pub-world:
-  pub-schematics:
-  pub-crash:
-  pub-backup:
-  pub-cache:
-  dev-world:
-  dev-schematics:
-  dev-crash:
-  dev-backup:
-  dev-cache:
+      - /mnt/md2/pnd/mc/live/dev/world:/server/world
+      - /mnt/md2/pnd/mc/live/dev/schematics:/server/schematics
+      - /mnt/md2/pnd/mc/live/dev/logs:/server/logs
+      - /mnt/md2/pnd/mc/live/dev/crash:/server/crash-reports
+      - /mnt/md2/pnd/mc/live/dev/backups:/server/backups
+      - /mnt/md2/pnd/mc/live/dev/cache:/server/.cache
