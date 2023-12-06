@@ -1,10 +1,25 @@
 version: "3"
 services:
-  pub:
-    image: goosecraft:6.1.1
+  sql:
+    image: mysql:latest
     stop_grace_period: 1m
     ports:
-      - 25575:25565/tcp
+      - "25574:3306/tcp"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${SQL_ROOT_PASS}
+      MYSQL_DATABASE: mc
+      MYSQL_USER: herobrine
+      MYSQL_PASSWORD: ${SQL_PASS}
+    volumes:
+      - sql-data:/var/lib/mysql
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+  pub:
+    image: goosecraft:6.1.2
+    stop_grace_period: 1m
+    ports:
+      - "25575:25565/tcp"
     restart: unless-stopped
     volumes:
       - /mnt/md2/pnd/mc/live/pub/world:/server/world
@@ -13,11 +28,13 @@ services:
       - /mnt/md2/pnd/mc/live/pub/crash:/server/crash-reports
       - /mnt/md2/pnd/mc/live/pub/backups:/server/backups
       - /mnt/md2/pnd/mc/live/pub/cache:/server/.cache
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
   dev:
-    image: goosecraft:6.1.1
+    image: goosecraft:6.1.2
     stop_grace_period: 1m
     ports:
-      - 25576:25565/tcp
+      - "25576:25565/tcp"
     restart: unless-stopped
     volumes:
       - /mnt/md2/pnd/mc/live/dev/world:/server/world
@@ -26,3 +43,7 @@ services:
       - /mnt/md2/pnd/mc/live/dev/crash:/server/crash-reports
       - /mnt/md2/pnd/mc/live/dev/backups:/server/backups
       - /mnt/md2/pnd/mc/live/dev/cache:/server/.cache
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+volumes:
+  sql-data:

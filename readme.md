@@ -1,8 +1,39 @@
 # Goosecraft
 ```
-docker build -t goosecraft:6.1.1 -f server.docker .
-docker compose up -d
+docker build -t goosecraft:6.1.2 -f server.docker .
 ```
+# v6.1.2
+## Technicals
+* Updated Quilt server to v22 (beta 2 patch for bug fixes)
+* Embedded server binaries (rather than always downloading the newest one)
+* Moved from Fedora to Arch Linux (#iusearchbtw)
+* Fixed blue contraptions (homemade iris-flw-compat patch: https://github.com/leon-o/iris-flw-compat/issues/82)
+* Fixed entity shadow bugs
+* Removed mods that were causing crashes (spiders 2.0 & chickens shed)
+## Mods
+### Updated
+* **Xaero's Minimap**: The most vanilla-looking minimap for Minecraft. **(23.8.4 to 23.9.1)**
+* **Xaero's World Map**: A self-writing fullscreen map which also works as an add-on to Xaero's Minimap. **
+(1.36.0 to 1.37.1)**
+* **AzureLib Armor**: A striped down Azurelib just for Armor! **(2.0.0 to 2.0.3)**
+* **Beautify**: Beautify adds lots of vanilla-styled ways to spice up your builds with custom models that'll 
+fit right in to your houses etc. **(1.0.0+1.20 to 1.1.0+1.20)**
+* **GeckoLib 4**: GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D 
+keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event 
+keyframes, and more. **(4.2.4 to 4.3)**
+* **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets 
+and registration & more **(1.20-2.8.66 to 1.20-2.8.68)**
+* **Origins Minus**: Simple origins with less to remember. **(2.1.0+1.19.3 to 2.1.1+1.19.3)**
+* **Prometheus**: Modern Ranks/Utilities Mod! **(1.2.1 to 1.2.2)**
+* **Puzzles Lib**: Why's it called Puzzles you ask? That's the puzzle! **(8.1.9 to 8.1.11)**
+* **Resourceful Lib**: Library Mod by Team Resourceful **(2.1.16 to 2.1.19)**
+* **StackDeobfuscator**: Deobfuscates stacktraces to yarn/quilt/mojang mappings **(1.4.1+03a1fe4 to 1.4.2
++bf1fc22)**
+* **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-2.6.31 to 1.20-2.7.4)**
+* **Things**: Trinkets and other utilities **(0.3.1+1.20 to 0.3.3+1.20)**
+### Removed
+* **ChickensShed**: Chickens shed their feathers occasionally.
+* **Nyf's Spiders**: Vanilla spiders are not yet creepy enough for you? You wish spiders would ?oactually climb properly?r?!Nyf's Spiders enables spiders to walk along walls and ceilings and it also improves their AI such that they can find their way around almost any obstacle!
 # v6.1.1
 ## Technicals
 * Increased RAM allotment from 4GB to 8GB.
