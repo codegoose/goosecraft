@@ -1,7 +1,40 @@
 # Goosecraft
 ```
-docker build -t goosecraft:6.1.2 -f server.docker .
+docker build -t goosecraft:6.1.3 -f server.docker .
 ```
+# v6.1.3
+## Mods
+## (Re) Added
+  * **ChickensShed**: Chickens shed their feathers occasionally.
+  * **Nyf's Spiders**: Vanilla spiders are not yet creepy enough for you? You wish spiders would ?oactually climb properly?r?!Nyf's Spiders enables spiders to walk along walls and ceilings and it also improves their AI such that they can find their way around almost any obstacle!
+## Updated
+  * **Xaero's Minimap**: The most vanilla-looking minimap for Minecraft. **(23.9.1 to 23.9.3)**
+  * **Xaero's World Map**: A self-writing fullscreen map which also works as an add-on to Xaero's Minimap. **(1.37.1 to 1.37.2)**
+  * **Balm**: Abstraction Layer (but not really)TM for Blay's multiplatform mods **(7.1.4 to 7.2.1)**
+  * **Better Archeology**: Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration! **(1.1.0 to 1.1.1)**
+  * **Blockus**: A mod that mainly adds blocks! **(2.7.6+1.20.1 to 2.7.9+1.20.1)**
+  * **Deeper and Darker**: A Minecraft 1.20 mod which features more blocks, items, armors, and hidden mysteries to complement the Deep Dark biome. **(1.2.3 to 1.2.5)**
+  * **Farmer's Delight**: Fabric port for the awesome Farmer's Delight Forge mod! **(1.20.1-1.4.2 to 1.20.1-1.4.3)**
+  * **GeckoLib 4**: GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more. **(4.3 to 4.3.1)**
+  * **Highlighter**: Highlights newly picked-up items in your inventory. **(1.1.6 to 1.1.9)**
+  * **Iceberg**: A library containing events, helpers, and utilities to make modding easier. **(1.1.15 to 1.1.18)**
+  * **Item Borders**: Adds colored borders around items to indicate rarity. **(1.2.0 to 1.2.1)**
+  * **Legendary Tooltips**: Gives rare items a fancy tooltip and adds additional tooltip configuration options. **(1.4.4 to 1.4.5)**
+  * **Vinery**: Vinery contains nearly everything needed for not only creating wine but also for building up your own vinery. **(1.4.6 to 1.4.7)**
+  * **NetherPortalFix**: Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer. **(13.0.0 to 13.0.1)**
+  * **Roughly Enough Items**: Clean and Customizable. **(12.0.674 to 12.0.684)**
+  * **Sound Physics Remastered**: Provides realistic sound attenuation, reverberation, and absorption through blocks. **(1.20.1-1.2.1 to 1.20.1-1.3.0)**
+  * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-2.7.4 to 1.20-2.7.7)**
+  * **Terralith**: Terralith ~ Overworld Evolved (v2.4.11 for 1.20-1.20.4) **(2.4.8 to 2.4.11)**
+## Removed
+  * **Merchant Markers**: Adds floating markers above villagers to indicate their professions.
+  * **Limited Chunkloading Mod**: Limited chunkloading allows dynamic unloading of chunkloaded chunks after a given time
+  * **Cadmus**: A land claiming mod that allows users to claim land to protect your home from thieves, bandits and monsters, and admins to claim land with region flags and advanced protection.
+  * **Chunksending Mod**: Optimized chunk packets
+  * **Argonauts**: A guild and party mod to work and play together with your teammates on a server!
+  * **Prometheus**: Modern Ranks/Utilities Mod!
+  * **Better chunk loading mod**: Improves chunk loading
+  * **Smooth chunk save Mod**: Spreads out chunk saves equally and saves them after a configured delay
 # v6.1.2
 ## Technicals
 * Updated Quilt server to v22 (beta 2 patch for bug fixes)
