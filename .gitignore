@@ -1,7 +1,6 @@
 .temp/
 backup/
 mods/
-mods.json
 mods-old.json
 payload.zip
 payload-*.zip
