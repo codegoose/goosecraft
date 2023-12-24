@@ -1,13 +1,41 @@
 # Goosecraft
 ```
-docker build -t goosecraft:6.1.3 -f server.docker .
+docker build -t goosecraft:6.1.4 -f server.docker .
 ```
+# v6.1.4
+## Technicals
+* Updated Quilt to v23 beta 1
+## Mods
+### Updated
+  * **BCLib**: A library for BetterX team mods **(3.0.13 to 3.0.14)**
+  * **Better End**: More content for The End dimension, including new biomes, plants, mobs, mechanics, terrain generation and more.Made by:- paulevs (code & art)- Bulldog83 (code & art)- Edos (building)- Yuki (art)- Seaward (art)- Firel (music) **(4.0.10 to 4.0.11)**
+  * **Better Nether**: Mod that improves Nether **(9.0.9 to 9.0.10)**
+  * **Blockus**: A mod that mainly adds blocks! **(2.7.9+1.20.1 to 2.7.10+1.20.1)**
+  * **Bookshelf**: A library for building other mods. **(20.1.6 to 20.1.8)**
+  * **BotanyPots**: Pots for growing different types of plants. **(13.0.17 to 13.0.18)**
+  * **CC: Tweaked**: CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft. **(1.109.0 to 1.109.2)**
+  * **Chat Heads**: See who are you chatting with!. This mod adds player heads next to their chat messages. **(0.10.26 to 0.10.27)**
+  * **Cloth Config v11**: An API for config screens. **(11.1.106 to 11.1.118)**
+  * **Connectivity Mod**: Connectivity fixes connection issues **(1.20.1-4.8 to 1.20.1-4.9)**
+  * **cupboard**:  **(1.20.1-2.1 to 1.20.1-2.2)**
+  * **Fast IP Ping**: Yeet the laggy reversed DNS lookup for pure IP server addresses **(1.0.0 to 1.0.1)**
+  * **ImmediatelyFast**: Speed up and optimize immediate mode rendering in Minecraft **(1.2.7+1.20.2 to 1.2.8+1.20.4)**
+  * **Jade**: Minecraft mod shows what you are looking at. (Hwyla fork) **(11.6.2 to 11.7.0)**
+  * **Kiwi Library**: Minecraft modding library **(11.1.1 to 11.3.0)**
+  * **MC Dungeons Weapons**: Add the weapons (and some tools) from Minecraft Dungeons to Minecraft Java **(8.1.0 to 9.0.0)**
+  * **Macaw's Holidays**: Adds 250+ Christmas decorations and 80+ Halloween themed decorations! **(1.0.0 to 1.1.0)**
+  * **Macaw's Windows**: Adds lots of Windows, Mosaic Glass, Blinds, Arrow Slits and more..! **(2.2.0 to 2.2.1)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.8.68 to 1.20-2.8.70)**
+  * **Pehkui**: Allows resizing of most entities. **(3.7.11+1.14.4-1.20.2 to 3.7.12+1.14.4-1.20.4)**
+  * **Resourceful Lib**: Library Mod by Team Resourceful **(2.1.19 to 2.1.20)**
+  * **Sound Physics Remastered**: Provides realistic sound attenuation, reverberation, and absorption through blocks. **(1.20.1-1.3.0 to 1.20.1-1.3.1)**
+  * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-2.7.7 to 1.20-2.7.14)**
 # v6.1.3
 ## Mods
-## (Re) Added
+### (Re) Added
   * **ChickensShed**: Chickens shed their feathers occasionally.
   * **Nyf's Spiders**: Vanilla spiders are not yet creepy enough for you? You wish spiders would ?oactually climb properly?r?!Nyf's Spiders enables spiders to walk along walls and ceilings and it also improves their AI such that they can find their way around almost any obstacle!
-## Updated
+### Updated
   * **Xaero's Minimap**: The most vanilla-looking minimap for Minecraft. **(23.9.1 to 23.9.3)**
   * **Xaero's World Map**: A self-writing fullscreen map which also works as an add-on to Xaero's Minimap. **(1.37.1 to 1.37.2)**
   * **Balm**: Abstraction Layer (but not really)TM for Blay's multiplatform mods **(7.1.4 to 7.2.1)**
@@ -26,7 +54,7 @@ docker build -t goosecraft:6.1.3 -f server.docker .
   * **Sound Physics Remastered**: Provides realistic sound attenuation, reverberation, and absorption through blocks. **(1.20.1-1.2.1 to 1.20.1-1.3.0)**
   * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-2.7.4 to 1.20-2.7.7)**
   * **Terralith**: Terralith ~ Overworld Evolved (v2.4.11 for 1.20-1.20.4) **(2.4.8 to 2.4.11)**
-## Removed
+### Removed
   * **Merchant Markers**: Adds floating markers above villagers to indicate their professions.
   * **Limited Chunkloading Mod**: Limited chunkloading allows dynamic unloading of chunkloaded chunks after a given time
   * **Cadmus**: A land claiming mod that allows users to claim land to protect your home from thieves, bandits and monsters, and admins to claim land with region flags and advanced protection.
@@ -80,7 +108,8 @@ and registration & more **(1.20-2.8.66 to 1.20-2.8.68)**
   * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.8.65 to 1.20-2.8.65)**
   * **PolyLib**:  **(1200.0.2-build.85 to 2000.0.3-build.97)**
 # v6.1.0
-## Added
+## Mods
+### Added
   * **Jewelry (RPG Series)**: Find precious gems deep down, and craft them into powerful jewelry!
   * **Wizards (RPG Series)**: Destroy your enemies with Arcane, Fire and Frost magic.
   * **Chunksending Mod**: Optimized chunk packets
@@ -107,19 +136,21 @@ and registration & more **(1.20-2.8.66 to 1.20-2.8.68)**
   * **AzureLib**: Based off Geckolib but now just for my own needs.
   * **Projectile Damage Attribute**: Adds generic projectile damage attribute, so ranged weapon damage can be changed.
   * **Limited Chunkloading Mod**: Limited chunkloading allows dynamic unloading of chunkloaded chunks after a given time
-## Updated
+### Updated
   * **YUNG's Better Ocean Monuments**: A complete redesign of Minecraft's ocean monuments! **(1.20-Fabric-3.0.3 to 1.20-Fabric-3.0.4)**
-## Removed
+### Removed
   * **Origins**: This mod adds several origins with passive abilities to the game, which you can choose from at the beginning of the game.
   * **Origins Minus**: Simple origins with less to remember.
   * **Alternate Origin GUI**: Overhauls the origin selection screen to show multiple in a grid for selection.
 # v6.0.4
-## Added
+## Mods
+### Added
   * **Polymorph**: No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.
   * **Rotten Flesh to Leather**: A simple mod that makes rotten flesh less useless by allowing smelting into leather
   * **Harvest Scythes**: Harvest crops in an area!
 # v6.0.3
-## Added
+## Mods
+### Added
   * **Open Parties and Claims**: This mod adds the ability to claim and to forceload world chunks, as well as create and manage player parties. It also gives server owners powerful controls over their players' usage of the mod's features.The mod's API allows other mods or plugins to easily interact with the parties and the chunk claims, both on the server and the client side.Xaero's Minimap mod and World Map mods are recommended in order to fully experience everything that this mod has to offer.
   * **Neruina**: This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds.
   * **YUNG's Better Witch Huts**: Adds new and improved witch huts to swamps!
@@ -157,14 +188,14 @@ and registration & more **(1.20-2.8.66 to 1.20-2.8.68)**
   * **YUNG's Better Dungeons**: A complete redesign of Minecraft's dungeons
   * **Beneath the Wetlands**: Enhances the atmosphere of the swamps by adding new structures, blocks, items and mobs
   * **TooFast**: Disables 'moved too quickly' for recent versions of Minecraft.
-## Updated
+### Updated
   * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-2.6.30 to 1.20-2.6.31)**
   * **Better Archeology**: Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration! **(1.0.2 to 1.1.0)**
   * **Carry On**: Carry On is a simple mod that improves game interaction by allowing players to pick up, carry, and place single block Tile Entities using only their empty hands. **(2.1.2.5 to 2.1.2.7)**
   * **Chat Heads**: See who are you chatting with!. This mod adds player heads next to their chat messages. **(0.10.23 to 0.10.26)**
   * **Geophilic**: A subtle overhaul of Overworld biomes **(v2.0.0-mc1.20u1.20.2 to v2.1.0-mc1.20u1.20.2)**
   * **Puzzles Lib**: Why's it called Puzzles you ask? That's the puzzle! **(8.1.8 to 8.1.9)**
-## Removed
+### Removed
   * **FTB Library**: FTB Library adds nothing.
   * **FTB Essentials**: Adds many essential utility commands for servers
   * **FTB Ranks**: A simple mod that lets you create ranks for players, similar to Discord roles, and manage permissions for them
@@ -172,7 +203,8 @@ and registration & more **(1.20-2.8.66 to 1.20-2.8.68)**
   * **FTB Chunks**: Claim chunks to protect your base from griefers!
   * **FTB Teams**: FTB Teams adds ability to create your own teams that can be used for quests etc.
 # v6.0
-## Added
+## Mods
+### Added
   * **Dragonfight Mod**: Increases the difficulty of the dragonfight with various mechanics
   * **TimeControl**: Take control over Minecraft's day-night cycle
   * **Tiny Item Animations**: Adds a cute little animation when picking up items with your mouse.
@@ -212,7 +244,7 @@ and registration & more **(1.20-2.8.66 to 1.20-2.8.68)**
   * **Better Ping Display**: Shows the actual ping number instead of just bars in the player list!
   * **Quilt Kotlin Libraries**: Quilt's official Kotlin libraries
   * **Kiwi Library**: Minecraft modding library
-## Updated
+### Updated
   * **Another Furniture**: Decorating your home just got better! Another Furniture adds various furniture, with the goal of staying vanilla-styled and consistently sized, keeping normal blocks and player sizes in mind. **(1.19.2-2.1.4 to 1.20.1-3.0.1)**
   * **AppleSkin**: Adds various food-related HUD improvements **(2.4.1+mc1.19 to 2.5.1+mc1.20)**
   * **Architectury**: A intermediary api aimed to ease developing multiplatform mods. **(6.5.85 to 9.1.12)**
@@ -301,7 +333,7 @@ and registration & more **(1.20-2.8.66 to 1.20-2.8.68)**
   * **Twigs**: A Minecraft mod all about building, adding new and interesting materials, as well as new renditions of current vanilla blocks. **(3.0.0 to 3.1.0)**
   * **Visual Workbench**: Items stay inside crafting tables and are also rendered on top. It's really fancy! **(4.2.4 to 8.0.0)**
   * **Wandering Collector**: Wandering Traders trade lost items back to the player.. The initial idea for this feature was suggested by SimplySarc in one of his videos. **(1.1.3+mc1.19 to 1.2.1+mc1.20-pre5)**
-## Kept
+### Kept
   * **Alternate Current**: An efficient and non-locational redstone dust implementation.
   * **Alternate Origin GUI**: Overhauls the origin selection screen to show multiple in a grid for selection.
   * **Chat Heads**: See who are you chatting with!. This mod adds player heads next to their chat messages.
@@ -321,7 +353,7 @@ and registration & more **(1.20-2.8.66 to 1.20-2.8.68)**
   * **Respite Creators**: Making automation between Farmer's Respite and Create
   * **Xaero's Minimap**: The most vanilla-looking minimap for Minecraft.
   * **Xaero's World Map**: A self-writing fullscreen map which also works as an add-on to Xaero's Minimap.
-## Removed
+### Removed
   * **Wolf Armor Compat**: Wolf Armor Compat adds intermod compatability with Wolves With Armor and other popular Fabric mods.
   * **Immersive Armors**: A lot of unique and vanilla-faithful armor sets.
   * **Create Enchantment Industry**: An add-on for Create, providing enchanting & experience related automation.
