@@ -1,7 +1,73 @@
 # Goosecraft
 ```
-docker build -t goosecraft:6.1.4 -f server.docker .
+docker build -t goosecraft:6.1.5 -f server.docker .
 ```
+# v6.1.5
+## Technicals
+* Updated Quilt to v23
+## Mods
+### Added
+  * **Runes**: Craft runes to serve as ammo for spells.
+  * **Valkyrien Skies 2**: Moving blocks with physics :)
+  * **NiftyCarts**: A Fabric Port of the AstikorCarts Minecraft mod. It adds carts for travel, shipping and farming.
+  * **Projectile Damage Attribute**: Adds generic projectile damage attribute, so ranged weapon damage can be changed.
+  * **Enderman Overhaul**: Enderman overhaul adds biome-specific Enderman!
+  * **VS Eureka Mod**: Basically Archimedes Ships, but with VS2 as the backend!
+  * **Spell Engine**: Data driven magic library.
+  * **Hamsters**: Introducing small, fluffy, and adorable hamsters to Minecraft!
+  * **Create Enchantment Industry**: An add-on for Create, providing enchanting & experience related automation.
+  * **Spawn**: An animal mod that tries to add new animals with niches and personality to the Minecraft world
+  * **SimplySkills**: A comprehensive skill tree mod with a focus on combat specialisations.
+  * **Paladins & Priests (RPG Series)**: Protect and heal your friends as a Paladin or a Priest.
+  * **Wizards (RPG Series)**: Destroy your enemies with Arcane, Fire and Frost magic.
+  * **Archers (RPG Series)**: Draw, Release, Conquer - Master the art of Archery!
+  * **Pufferfish's Skills**: Adds a fully configurable skill system to the game.
+  * **Thaumon [BETA]**: Thaumcraft-inspired decoration blocks for modern Minecraft
+  * **Create Deco**: Decorative options for your Create factory
+  * **CreateFabric&REIBugFix**: Fix CreateFabric Recipe display on REI issues. Code from Create's Delight by Phoupraw.
+  * **Create: Structures**: Add-on for Create that implements naturally generating structures containing early-game Create contraptions and items.
+  * **Create Ore Excavation**: Extract resources using machines powered by Rotational Force
+  * **What Are They Up To**: Lets you see if players are typing, in a GUI, idle, with cool ingame visuals
+  * **Spell Power Attribute**: Spell Power entity attributes with related status effects and enchantments.
+  * **Smooth Particles**: Adds block placement particles
+  * **CoroUtil**: It utils
+  * **Create: Interactive**: Create made interactive!
+  * **Illager Invasion**: The illagers are back! Be ready to fight new foes. A port of Illager Expansion.
+  * **Create Big Cannons**: Artillery engineering comes to Create. . Attributions:. Logo by Milkyfur. Textures by rbasamoyai, Milkyfur, and LopyLuna
+### Updated
+  * **Create**: Technology that empowers the player. **(0.5.1-d-build.5+mc1.20.1 to 0.5.1-d-build.1161+mc1.20.1)**
+  * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.6.18 to 1.20-2.6.23)**
+  * **Kiwi Library**: Minecraft modding library **(11.3.0 to 11.4.0)**
+  * **Nether Vinery**: Welcome to Nether Vinery! New grapes, new decor - all in the style of the Nether. **(2.0.1 to 1.2.2)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.8.70 to 1.20-2.8.82)**
+  * **Puzzles Lib**: Why's it called Puzzles you ask? That's the puzzle! **(8.1.11 to 8.1.13)**
+  * **Resourcefulconfig**:  **(2.1.0 to 2.1.2)**
+  * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-2.7.14 to 1.20-2.7.23)**
+  * **Traveler's Backpack**: Traveler's Backpack for Fabric! **(1.20.1-9.1.8 to 1.20.1-9.1.9)**
+  * **Better Archeology**: Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration! **(1.1.1 to 1.1.2-1.20.1)**
+  * **BotanyPots**: Pots for growing different types of plants. **(13.0.18 to 13.0.22)**
+  * **CC: Tweaked**: CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft. **(1.109.2 to 1.109.3)**
+  * **Chat Heads**: See who are you chatting with!. This mod adds player heads next to their chat messages. **(0.10.27 to 0.10.30)**
+### Removed
+  * **Sodium Extra**: Features that shouldn't be in Sodium.
+  * **MC Dungeons Weapons**: Add the weapons (and some tools) from Minecraft Dungeons to Minecraft Java
+  * **Better Ping Display**: Shows the actual ping number instead of just bars in the player list!
+  * **Better Combat**: Easy, spectacular and fun melee combat system from Minecraft Dungeons.
+  * **Origins**: This mod adds several origins with passive abilities to the game, which you can choose from at the beginning of the game.
+  * **Randomium**: ?????
+  * **Better Third Person**: Adds independent camera rotation for third-person view
+  * **Indium**: Sodium addon providing support for the Fabric Rendering API, based on Indigo
+  * **Origins Minus**: Simple origins with less to remember.
+  * **Reese's Sodium Options**: Replaces Sodium's Options Screen
+  * **Axiom**: Client-side building utility mod
+  * **Iris Flywheel Compat**: Allow Flywheel instancing optimization to be enabled when using iris.
+  * **Dragonfight Mod**: Increases the difficulty of the dragonfight with various mechanics
+  * **Sodium**: Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.
+  * **Chunks Fade In**: Adds bedrock-like chunk fade-in animation and chunk animations like in ChunkAnimator mod!
+  * **Physics Mod**: Welcome to a more destructive Minecraft then you've ever seen before!
+  * **Alternate Origin GUI**: Overhauls the origin selection screen to show multiple in a grid for selection.
+  * **MC Dungeons Armors**: Bringing the armour of Minecraft Dungeons to Minecraft
+  * **Iris**: A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs
 # v6.1.4
 ## Technicals
 * Updated Quilt to v23 beta 1
