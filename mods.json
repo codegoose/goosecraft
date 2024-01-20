@@ -1,111 +1,4 @@
 {
-  "travelersbackpack": {
-    "name": "Traveler's Backpack",
-    "description": "Traveler's Backpack for Fabric!",
-    "version": "1.20.1-9.1.9",
-    "environment": "*",
-    "file": "mods/current/travelers-backpack-1.20.1-9.1.9.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.6",
-      "fabric": "*",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "cardinal-components-base": "*",
-      "cardinal-components-entity": "*",
-      "cloth-config2": "*"
-    }
-  },
-  "trinkets": {
-    "name": "Trinkets",
-    "description": "Adds a data-driven accessory system to Minecraft",
-    "version": "3.7.1",
-    "environment": "*",
-    "file": "mods/current/trinkets-3.7.1.jar",
-    "dependencies": {
-      "minecraft": ">1.18",
-      "fabricloader": ">=0.7.0",
-      "cardinal-components-base": ">=3.0.0-0",
-      "cardinal-components-entity": ">=3.0.0-0",
-      "fabric": ">=0.51.2"
-    }
-  },
-  "twigs": {
-    "name": "Twigs",
-    "description": "A Minecraft mod all about building, adding new and interesting materials, as well as new renditions of current vanilla blocks.",
-    "version": "3.1.0",
-    "environment": "*",
-    "file": "mods/current/twigs-3.1.0-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": "*",
-      "minecraft": "~1.20",
-      "java": ">=17"
-    }
-  },
-  "valkyrienskies": {
-    "name": "Valkyrien Skies 2",
-    "description": "Moving blocks with physics :)",
-    "version": "2.1.3-beta.1",
-    "environment": "*",
-    "file": "mods/current/valkyrienskies-120-2.1.3-beta.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.9",
-      "minecraft": "1.20.1",
-      "fabric-api": "*"
-    }
-  },
-  "visuality": {
-    "name": "Visuality",
-    "description": "Little visual improvements by adding a bunch of new particles.",
-    "version": "0.7.1+1.20",
-    "environment": "client",
-    "file": "mods/current/visuality-0.7.1+1.20.jar",
-    "dependencies": {
-      "fabricloader": "*",
-      "fabric-api": "*",
-      "cloth-config": "*",
-      "minecraft": ">=1.20-beta.4 <1.21",
-      "java": ">=17"
-    }
-  },
-  "visualworkbench": {
-    "name": "Visual Workbench",
-    "description": "Items stay inside crafting tables and are also rendered on top. It's really fancy!",
-    "version": "8.0.0",
-    "environment": "*",
-    "file": "mods/current/VisualWorkbench-v8.0.0-1.20.1-Fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": ">=0.83.0",
-      "puzzleslib": ">=8.0.0",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
-  },
-  "wandering_collector": {
-    "name": "Wandering Collector",
-    "description": "Wandering Traders trade lost items back to the player.. The initial idea for this feature was suggested by SimplySarc in one of his videos.",
-    "version": "1.2.1+mc1.20-pre5",
-    "environment": "*",
-    "file": "mods/current/wanderingcollector-1.2.1+mc1.20-pre5.jar",
-    "dependencies": {
-      "fabricloader": ">=0.4.0"
-    }
-  },
-  "watut": {
-    "name": "What Are They Up To",
-    "description": "Lets you see if players are typing, in a GUI, idle, with cool ingame visuals",
-    "version": "1.20.1-1.0.12",
-    "environment": "*",
-    "file": "mods/current/watut-fabric-1.20.1-1.0.12.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "coroutil": ">=1.20.1-1.3.5",
-      "fabric-api": "*",
-      "minecraft": "1.20.x",
-      "java": ">=17"
-    }
-  },
   "wetlands": {
     "name": "Beneath the Wetlands",
     "description": "Enhances the atmosphere of the swamps by adding new structures, blocks, items and mobs",
@@ -506,6 +399,20 @@
       "yungsapi": ">=1.20-Fabric-4.0.2"
     }
   },
+  "bettercombat": {
+    "name": "Better Combat",
+    "description": "Easy, spectacular and fun melee combat system from Minecraft Dungeons.",
+    "version": "1.8.3+1.20.1",
+    "environment": "*",
+    "file": "mods/current/bettercombat-fabric-1.8.3+1.20.1.jar",
+    "dependencies": {
+      "minecraft": ">=1.20.0",
+      "fabricloader": ">=0.14.0",
+      "fabric-api": "*",
+      "cloth-config": ">=11.0.0",
+      "player-animator": ">=1.0.0"
+    }
+  },
   "betterend": {
     "name": "Better End",
     "description": "More content for The End dimension, including new biomes, plants, mobs, mechanics, terrain generation and more.Made by:- paulevs (code & art)- Bulldog83 (code & art)- Edos (building)- Yuki (art)- Seaward (art)- Firel (music)",
@@ -551,19 +458,6 @@
       "cardinal-components-base": "*",
       "cardinal-components-entity": "*",
       "minecraft": "1.20.1",
-      "java": ">=17"
-    }
-  },
-  "blockus": {
-    "name": "Blockus",
-    "description": "A mod that mainly adds blocks!",
-    "version": "2.7.10+1.20.1",
-    "environment": "*",
-    "file": "mods/current/blockus-2.7.10+1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.22",
-      "fabric-api": "*",
-      "minecraft": "<=1.20.1",
       "java": ">=17"
     }
   },
@@ -819,32 +713,6 @@
       "minecraft": "1.20.1"
     }
   },
-  "create_interactive": {
-    "name": "Create: Interactive",
-    "description": "Create made interactive!",
-    "version": "1.0.2-beta.1",
-    "environment": "*",
-    "file": "mods/current/create_interactive-1201-fabric-1.0.2-beta.1.jar",
-    "dependencies": {
-      "minecraft": ">=1.20.1",
-      "valkyrienskies": ">=2.1.3-beta.1",
-      "fabricloader": ">=0.14.21",
-      "create": ">=0.5.1-d-build.1161+mc1.20.1"
-    }
-  },
-  "createbigcannons": {
-    "name": "Create Big Cannons",
-    "description": "Artillery engineering comes to Create. . Attributions:. Logo by Milkyfur. Textures by rbasamoyai, Milkyfur, and LopyLuna",
-    "version": "0.5.3.b-nightly-8a45d8e",
-    "environment": "*",
-    "file": "mods/current/createbigcannons-fabric-1.20.1-0.5.3.b.jar",
-    "dependencies": {
-      "minecraft": "1.20.1",
-      "fabricloader": ">=0.14.22",
-      "fabric-api": ">=0.89.3+1.20.1",
-      "create": "*"
-    }
-  },
   "createdeco": {
     "name": "Create Deco",
     "description": "Decorative options for your Create factory",
@@ -856,32 +724,6 @@
       "fabricloader": ">=0.14.22",
       "fabric-api": ">=0.88.1+1.20.1",
       "create": "0.5.1-d-build.1161+mc1.20.1"
-    }
-  },
-  "create": {
-    "name": "Create",
-    "description": "Technology that empowers the player.",
-    "version": "0.5.1-d-build.1161+mc1.20.1",
-    "environment": "*",
-    "file": "mods/current/create-fabric-0.5.1-d-build.1161+mc1.20.1.jar",
-    "dependencies": {
-      "minecraft": "1.20.1",
-      "fabricloader": ">=0.14.21",
-      "fabric-api": ">=0.86.0+1.20.1",
-      "porting_lib_accessors": ">=2.1.1127+1.20",
-      "porting_lib_base": ">=2.1.1127+1.20",
-      "porting_lib_entity": ">=2.1.1127+1.20",
-      "porting_lib_extensions": ">=2.1.1127+1.20",
-      "porting_lib_fake_players": ">=2.1.1127+1.20",
-      "porting_lib_networking": ">=2.1.1127+1.20",
-      "porting_lib_obj_loader": ">=2.1.1127+1.20",
-      "porting_lib_tags": ">=3.0",
-      "porting_lib_transfer": ">=2.1.1127+1.20",
-      "porting_lib_models": ">=2.1.1127+1.20",
-      "porting_lib_client_events": ">=2.1.1127+1.20",
-      "forgeconfigapiport": ">=4.2.9",
-      "milk": ">=1.2.60",
-      "reach-entity-attributes": ">=2.4.0"
     }
   },
   "createreibugfix": {
@@ -910,6 +752,32 @@
       "minecraft": "~1.20.1",
       "java": ">=17",
       "fabric-api": "*"
+    }
+  },
+  "create": {
+    "name": "Create",
+    "description": "Technology that empowers the player.",
+    "version": "0.5.1-d-build.1161+mc1.20.1",
+    "environment": "*",
+    "file": "mods/current/create-sodium-fix-0.5.1-d-build.1161+mc1.20.1.jar",
+    "dependencies": {
+      "minecraft": "1.20.1",
+      "fabricloader": ">=0.15.3",
+      "fabric-api": ">=0.90.0+1.20.1",
+      "porting_lib_accessors": ">=2.1.1127+1.20",
+      "porting_lib_base": ">=2.1.1127+1.20",
+      "porting_lib_entity": ">=2.1.1127+1.20",
+      "porting_lib_extensions": ">=2.1.1127+1.20",
+      "porting_lib_fake_players": ">=2.1.1127+1.20",
+      "porting_lib_networking": ">=2.1.1127+1.20",
+      "porting_lib_obj_loader": ">=2.1.1127+1.20",
+      "porting_lib_tags": ">=3.0",
+      "porting_lib_transfer": ">=2.1.1127+1.20",
+      "porting_lib_models": ">=2.1.1127+1.20",
+      "porting_lib_client_events": ">=2.1.1127+1.20",
+      "forgeconfigapiport": ">=4.2.9",
+      "milk": ">=1.2.60",
+      "reach-entity-attributes": ">=2.4.0"
     }
   },
   "create_structures": {
@@ -1081,17 +949,6 @@
       "java": ">=17"
     }
   },
-  "imst": {
-    "name": "Immersive structures",
-    "description": "More structures pack by ChoiceTheorem.",
-    "version": "2.1.0",
-    "environment": "*",
-    "file": "mods/current/imst-2.1.0.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": ">=1.20"
-    }
-  },
   "endermanoverhaul": {
     "name": "Enderman Overhaul",
     "description": "Enderman overhaul adds biome-specific Enderman!",
@@ -1131,18 +988,6 @@
       "fabricloader": ">=0.14.9",
       "minecraft": ">=1.20.1",
       "java": ">=17"
-    }
-  },
-  "vs_eureka": {
-    "name": "VS Eureka Mod",
-    "description": "Basically Archimedes Ships, but with VS2 as the backend!",
-    "version": "1.3.0-beta.4",
-    "environment": "*",
-    "file": "mods/current/eureka-1201-1.3.0-beta.4.jar",
-    "dependencies": {
-      "minecraft": ">=1.20.1",
-      "valkyrienskies": ">=2.1.3-beta.1",
-      "fabricloader": ">=0.14.21"
     }
   },
   "everycomp": {
@@ -1295,6 +1140,18 @@
       "minecraft": ">=1.20.1"
     }
   },
+  "geckoanimfix": {
+    "name": "GeckoLibIrisCompat",
+    "description": "Fixes GeckoLib animations not playing while using shaderpacks that add entity shadows",
+    "version": "1.0.0",
+    "environment": "client",
+    "file": "mods/current/GeckoLibIrisCompat-Fabric-1.0.0.jar",
+    "dependencies": {
+      "fabric": "*",
+      "fabricloader": ">=0.14.9",
+      "java": ">=16"
+    }
+  },
   "geophilic": {
     "name": "Geophilic",
     "description": "A subtle overhaul of Overworld biomes",
@@ -1374,6 +1231,20 @@
       "fabric-api-base": ">=0.1.0"
     }
   },
+  "indium": {
+    "name": "Indium",
+    "description": "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
+    "version": "1.0.27+mc1.20.1",
+    "environment": "client",
+    "file": "mods/current/indium-1.0.27+mc1.20.1.jar",
+    "dependencies": {
+      "fabricloader": ">=0.8.0",
+      "minecraft": "~1.20.1",
+      "sodium": "0.5.3",
+      "fabric-renderer-api-v1": ">=3.2.0",
+      "fabric-resource-loader-v0": ">=0.4.0"
+    }
+  },
   "inventorysorter": {
     "name": "Inventory Sorter",
     "description": "Quickly and easily sort inventorys",
@@ -1397,6 +1268,33 @@
       "fabric": ">=0.83.0",
       "minecraft": ">=1.20",
       "java": ">=17"
+    }
+  },
+  "irisflw": {
+    "name": "Iris Flywheel Compat",
+    "description": "Allow Flywheel instancing optimization to be enabled when using iris.",
+    "version": "0.2.1",
+    "environment": "client",
+    "file": "mods/current/iris-flywheel-compat-1.20.1-0.2.1.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14.19",
+      "fabric": "*",
+      "minecraft": "~1.20.1",
+      "java": ">=17",
+      "iris": ">=1.6",
+      "flywheel": "*"
+    }
+  },
+  "iris": {
+    "name": "Iris",
+    "description": "A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs",
+    "version": "1.6.10",
+    "environment": "client",
+    "file": "mods/current/iris-mc1.20.1-1.6.10.jar",
+    "dependencies": {
+      "fabricloader": ">=0.12.3",
+      "minecraft": "1.20.x",
+      "sodium": "0.5.3"
     }
   },
   "itemborders": {
@@ -1740,6 +1638,17 @@
       "fabric-api": "*"
     }
   },
+  "mixintrace": {
+    "name": "MixinTrace",
+    "description": "Adds a list of mixins in the stack trace to crash reports",
+    "version": "1.1.1+1.17",
+    "environment": "*",
+    "file": "mods/current/mixintrace-1.1.1+1.17.jar",
+    "dependencies": {
+      "fabricloader": ">=0.12.0",
+      "minecraft": "*"
+    }
+  },
   "modelfix": {
     "name": "Model Gap Fix",
     "description": "Fixes those annoying gaps that appear in item and block models",
@@ -1857,17 +1766,6 @@
         ">=1.20"
       ],
       "java": ">=17"
-    }
-  },
-  "notenoughcrashes": {
-    "name": "Not Enough Crashes",
-    "description": "Improves crashes in Minecraft - allows returning to title screen, blaming causing mods, and more.",
-    "version": "4.4.7+1.20.1",
-    "environment": "*",
-    "file": "mods/current/notenoughcrashes-4.4.7+1.20.1-fabric.jar",
-    "dependencies": {
-      "minecraft": ">=1.17",
-      "fabricloader": ">=0.12.0"
     }
   },
   "nyfsspiders": {
@@ -2273,6 +2171,19 @@
       "minecraft": "~1.20"
     }
   },
+  "sodium": {
+    "name": "Sodium",
+    "description": "Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.",
+    "version": "0.5.3",
+    "environment": "client",
+    "file": "mods/current/sodium-fabric-mc1.20.1-0.5.3.jar",
+    "dependencies": {
+      "minecraft": "1.20.1",
+      "fabricloader": ">=0.12.0",
+      "fabric-rendering-data-attachment-v1": ">=0.1",
+      "fabric-rendering-fluids-v1": ">=0.1"
+    }
+  },
   "sound_physics_remastered": {
     "name": "Sound Physics Remastered",
     "description": "Provides realistic sound attenuation, reverberation, and absorption through blocks.",
@@ -2445,6 +2356,101 @@
     "dependencies": {
       "fabricloader": ">=0.14",
       "fabric": "*",
+      "minecraft": "1.20.x",
+      "java": ">=17"
+    }
+  },
+  "travelersbackpack": {
+    "name": "Traveler's Backpack",
+    "description": "Traveler's Backpack for Fabric!",
+    "version": "1.20.1-9.1.9",
+    "environment": "*",
+    "file": "mods/current/travelers-backpack-1.20.1-9.1.9.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14.6",
+      "fabric": "*",
+      "minecraft": "~1.20.1",
+      "java": ">=17",
+      "cardinal-components-base": "*",
+      "cardinal-components-entity": "*",
+      "cloth-config2": "*"
+    }
+  },
+  "trinkets": {
+    "name": "Trinkets",
+    "description": "Adds a data-driven accessory system to Minecraft",
+    "version": "3.7.1",
+    "environment": "*",
+    "file": "mods/current/trinkets-3.7.1.jar",
+    "dependencies": {
+      "minecraft": ">1.18",
+      "fabricloader": ">=0.7.0",
+      "cardinal-components-base": ">=3.0.0-0",
+      "cardinal-components-entity": ">=3.0.0-0",
+      "fabric": ">=0.51.2"
+    }
+  },
+  "twigs": {
+    "name": "Twigs",
+    "description": "A Minecraft mod all about building, adding new and interesting materials, as well as new renditions of current vanilla blocks.",
+    "version": "3.1.0",
+    "environment": "*",
+    "file": "mods/current/twigs-3.1.0-fabric.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14.21",
+      "fabric-api": "*",
+      "minecraft": "~1.20",
+      "java": ">=17"
+    }
+  },
+  "visuality": {
+    "name": "Visuality",
+    "description": "Little visual improvements by adding a bunch of new particles.",
+    "version": "0.7.1+1.20",
+    "environment": "client",
+    "file": "mods/current/visuality-0.7.1+1.20.jar",
+    "dependencies": {
+      "fabricloader": "*",
+      "fabric-api": "*",
+      "cloth-config": "*",
+      "minecraft": ">=1.20-beta.4 <1.21",
+      "java": ">=17"
+    }
+  },
+  "visualworkbench": {
+    "name": "Visual Workbench",
+    "description": "Items stay inside crafting tables and are also rendered on top. It's really fancy!",
+    "version": "8.0.0",
+    "environment": "*",
+    "file": "mods/current/VisualWorkbench-v8.0.0-1.20.1-Fabric.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14.21",
+      "fabric-api": ">=0.83.0",
+      "puzzleslib": ">=8.0.0",
+      "minecraft": "1.20.1",
+      "java": ">=17"
+    }
+  },
+  "wandering_collector": {
+    "name": "Wandering Collector",
+    "description": "Wandering Traders trade lost items back to the player.. The initial idea for this feature was suggested by SimplySarc in one of his videos.",
+    "version": "1.2.1+mc1.20-pre5",
+    "environment": "*",
+    "file": "mods/current/wanderingcollector-1.2.1+mc1.20-pre5.jar",
+    "dependencies": {
+      "fabricloader": ">=0.4.0"
+    }
+  },
+  "watut": {
+    "name": "What Are They Up To",
+    "description": "Lets you see if players are typing, in a GUI, idle, with cool ingame visuals",
+    "version": "1.20.1-1.0.12",
+    "environment": "*",
+    "file": "mods/current/watut-fabric-1.20.1-1.0.12.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14.21",
+      "coroutil": ">=1.20.1-1.3.5",
+      "fabric-api": "*",
       "minecraft": "1.20.x",
       "java": ">=17"
     }
