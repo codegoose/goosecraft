@@ -1,168 +1,4 @@
 {
-  "spawn": {
-    "name": "Spawn",
-    "description": "An animal mod that tries to add new animals with niches and personality to the Minecraft world",
-    "version": "1.0.3-fabric",
-    "environment": "*",
-    "file": "mods/current/spawn-1.0.3-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.24",
-      "fabric-api": "*",
-      "minecraft": "~1.20",
-      "java": ">=17"
-    }
-  },
-  "spell_engine": {
-    "name": "Spell Engine",
-    "description": "Data driven magic library.",
-    "version": "0.12.5+1.20.1",
-    "environment": "*",
-    "file": "mods/current/spell_engine-0.12.5+1.20.1.jar",
-    "dependencies": {
-      "minecraft": ">=1.20.0",
-      "fabricloader": ">=0.14.10",
-      "fabric": ">=0.87.0+1.20.1",
-      "cloth-config": ">=11.1.106",
-      "player-animator": ">=0.9.9",
-      "spell_power": ">=0.9.18+1.20.1",
-      "trinkets": "*"
-    }
-  },
-  "spell_power": {
-    "name": "Spell Power Attribute",
-    "description": "Spell Power entity attributes with related status effects and enchantments.",
-    "version": "0.9.19+1.20.1",
-    "environment": "*",
-    "file": "mods/current/spell_power-fabric-0.9.19+1.20.1.jar",
-    "dependencies": {
-      "minecraft": ">=1.20.0",
-      "fabricloader": ">=0.14.0"
-    }
-  },
-  "spiceoffabric": {
-    "name": "Spice of Fabric",
-    "description": "A new iteration on the good ol' \\\"Spice of life\\\".. . This mod embeds exp4j (https://github.com/fasseg/exp4j), licensed as Apache 2.0.",
-    "version": "1.6.2+mc1.20.1",
-    "environment": "*",
-    "file": "mods/current/spiceoffabric-1.6.2+mc1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.4.0"
-    }
-  },
-  "stackdeobfuscator": {
-    "name": "StackDeobfuscator",
-    "description": "Deobfuscates stacktraces to yarn/quilt/mojang mappings",
-    "version": "1.4.2+bf1fc22",
-    "environment": "*",
-    "file": "mods/current/StackDeobfuscatorFabric-1.4.2+bf1fc22.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.11",
-      "minecraft": ">=1.14-alpha.18.49.a",
-      "java": ">=17"
-    }
-  },
-  "supplementaries": {
-    "name": "Supplementaries",
-    "description": "Many functional and useful Vanilla+ blocks",
-    "version": "1.20-2.7.27",
-    "environment": "*",
-    "file": "mods/current/supplementaries-1.20-2.7.27-fabric.jar",
-    "dependencies": {
-      "fabric": "*",
-      "minecraft": ">=1.20",
-      "moonlight": ">=1.20-2.8.67"
-    }
-  },
-  "terralith": {
-    "name": "Terralith",
-    "description": "Terralith ~ Overworld Evolved (v2.4.11 for 1.20-1.20.4)",
-    "version": "2.4.11",
-    "environment": "*",
-    "file": "mods/current/Terralith_1.20.4_v2.4.11.jar",
-    "dependencies": {
-      "fabricloader": ">=0.12.7",
-      "fabric-api-base": "*",
-      "minecraft": ">=1.20"
-    }
-  },
-  "thaumon": {
-    "name": "Thaumon [BETA]",
-    "description": "Thaumcraft-inspired decoration blocks for modern Minecraft",
-    "version": "2.1.0",
-    "environment": "*",
-    "file": "mods/current/thaumon-fabric-2.1.0+1.20.1.jar",
-    "dependencies": {
-      "fabric-api": "*",
-      "minecraft": ">=1.20.1"
-    }
-  },
-  "things": {
-    "name": "Things",
-    "description": "Trinkets and other utilities",
-    "version": "0.3.3+1.20",
-    "environment": "*",
-    "file": "mods/current/things-0.3.3+1.20.jar",
-    "dependencies": {
-      "fabricloader": "*",
-      "fabric": "*",
-      "minecraft": ">=1.19.3",
-      "trinkets": ">=3.3.0",
-      "owo": ">=0.5.4+1.18",
-      "reach-entity-attributes": "*",
-      "lavender": ">=0.1.0-pre.6"
-    }
-  },
-  "tia": {
-    "name": "Tiny Item Animations",
-    "description": "Adds a cute little animation when picking up items with your mouse.",
-    "version": "1.20-1.1",
-    "environment": "client",
-    "file": "mods/current/tia-1.20-1.1-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "java": ">=17"
-    }
-  },
-  "timecontrol": {
-    "name": "TimeControl",
-    "description": "Take control over Minecraft's day-night cycle",
-    "version": "1.4.1",
-    "environment": "*",
-    "file": "mods/current/timecontrol-1.20.1-1.4.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
-  },
-  "tipsmod": {
-    "name": "Tips",
-    "description": "Adds useful tips to various loading screens in game.",
-    "version": "12.0.4",
-    "environment": "client",
-    "file": "mods/current/Tips-Fabric-1.20.1-12.0.4.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "java": ">=17",
-      "bookshelf": ">=20"
-    }
-  },
-  "toofast": {
-    "name": "TooFast",
-    "description": "Disables 'moved too quickly' for recent versions of Minecraft.",
-    "version": "1.2.0",
-    "environment": "*",
-    "file": "mods/current/toofast-fabric-1.20-1.2.0.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14",
-      "fabric": "*",
-      "minecraft": "1.20.x",
-      "java": ">=17"
-    }
-  },
   "travelersbackpack": {
     "name": "Traveler's Backpack",
     "description": "Traveler's Backpack for Fabric!",
@@ -509,16 +345,6 @@
       "yungsapi": ">=1.20-Fabric-4.0.1"
     }
   },
-  "alternate-current": {
-    "name": "Alternate Current",
-    "description": "An efficient and non-locational redstone dust implementation.",
-    "version": "1.7.0",
-    "environment": "*",
-    "file": "mods/current/alternate-current-mc1.20-1.7.0.jar",
-    "dependencies": {
-      "minecraft": "1.20.x"
-    }
-  },
   "another_furniture": {
     "name": "Another Furniture",
     "description": "Decorating your home just got better! Another Furniture adds various furniture, with the goal of staying vanilla-styled and consistently sized, keeping normal blocks and player sizes in mind.",
@@ -539,19 +365,6 @@
     "dependencies": {
       "fabricloader": ">=0.14.21",
       "fabric-api": "*"
-    }
-  },
-  "aquamirae": {
-    "name": "Aquamirae",
-    "description": "Ship graveyard with terrible deep sea creatures.",
-    "version": "6",
-    "environment": "*",
-    "file": "mods/current/Aquamirae-6.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "obscure_api": ">=16"
     }
   },
   "archers": {
@@ -966,20 +779,6 @@
       "cloth-config2": ">=8.2.88"
     }
   },
-  "connectivity": {
-    "name": "Connectivity Mod",
-    "description": "Connectivity fixes connection issues",
-    "version": "1.20.1-4.9",
-    "environment": "*",
-    "file": "mods/current/connectivity-fabric-1.20.1-4.9.jar",
-    "dependencies": {
-      "fabricloader": ">=0.11.3",
-      "fabric": "*",
-      "minecraft": "1.20.x",
-      "cupboard": ">=1.20.1-1.5",
-      "java": ">=17"
-    }
-  },
   "controlling": {
     "name": "Controlling For Fabric",
     "description": "Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.",
@@ -1282,6 +1081,17 @@
       "java": ">=17"
     }
   },
+  "imst": {
+    "name": "Immersive structures",
+    "description": "More structures pack by ChoiceTheorem.",
+    "version": "2.1.0",
+    "environment": "*",
+    "file": "mods/current/imst-2.1.0.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14.21",
+      "minecraft": ">=1.20"
+    }
+  },
   "endermanoverhaul": {
     "name": "Enderman Overhaul",
     "description": "Enderman overhaul adds biome-specific Enderman!",
@@ -1552,18 +1362,6 @@
       "java": ">=17"
     }
   },
-  "immediatelyfast": {
-    "name": "ImmediatelyFast",
-    "description": "Speed up and optimize immediate mode rendering in Minecraft",
-    "version": "1.2.8+1.20.4",
-    "environment": "client",
-    "file": "mods/current/ImmediatelyFast-Fabric-1.2.8+1.20.4.jar",
-    "dependencies": {
-      "fabricloader": ">=0.15.0",
-      "minecraft": ">=1.20 <=1.20.4",
-      "java": ">=17"
-    }
-  },
   "immersive_aircraft": {
     "name": "Immersive Aircraft",
     "description": "A bunch of rustic aircraft to travel, transport, and explore!. ",
@@ -1574,17 +1372,6 @@
       "fabricloader": ">=0.11.3",
       "java": ">=8",
       "fabric-api-base": ">=0.1.0"
-    }
-  },
-  "imst": {
-    "name": "Immersive structures",
-    "description": "More structures pack by ChoiceTheorem.",
-    "version": "2.1.0",
-    "environment": "*",
-    "file": "mods/current/imst-2.1.0.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": ">=1.20"
     }
   },
   "inventorysorter": {
@@ -1715,17 +1502,6 @@
       "java": ">=17"
     }
   },
-  "krypton": {
-    "name": "Krypton",
-    "description": "A Fabric mod that optimizes the Minecraft networking stack and entity tracker.",
-    "version": "0.2.3",
-    "environment": "*",
-    "file": "mods/current/krypton-0.2.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.11.3",
-      "minecraft": "1.20.x"
-    }
-  },
   "leavesbegone": {
     "name": "Leaves Be Gone",
     "description": "Quick leaf decay from cutting down trees. Built for great performance and mod compat!",
@@ -1780,17 +1556,6 @@
       "minecraft": ">=1.20",
       "architectury": ">=9.0.8",
       "doapi": ">=1.2.8"
-    }
-  },
-  "lithium": {
-    "name": "Lithium",
-    "description": "Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.",
-    "version": "0.11.2",
-    "environment": "*",
-    "file": "mods/current/lithium-fabric-mc1.20.1-0.11.2.jar",
-    "dependencies": {
-      "fabricloader": ">=0.12.11",
-      "minecraft": "1.20.1"
     }
   },
   "lootbeams": {
@@ -2035,17 +1800,6 @@
       "java": ">=17"
     }
   },
-  "neruina": {
-    "name": "Neruina",
-    "description": "This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds.",
-    "version": "1.3.0",
-    "environment": "*",
-    "file": "mods/current/neruina-1.3.0-fabric+1.18.2-1.20.1.jar",
-    "dependencies": {
-      "minecraft": ">=1.18.2",
-      "fabric-api": "*"
-    }
-  },
   "netherportalfix": {
     "name": "NetherPortalFix",
     "description": "Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer.",
@@ -2129,18 +1883,6 @@
       "java": ">=17"
     }
   },
-  "obscure_api": {
-    "name": "Obscure API",
-    "description": "",
-    "version": "16",
-    "environment": "*",
-    "file": "mods/current/Obscure-API-16.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "1.20.1"
-    }
-  },
   "oceansdelight": {
     "name": "Ocean's Delight",
     "description": "This is a mod that adds food based on the creatures in the ocean",
@@ -2193,21 +1935,6 @@
       "spell_engine": ">=0.12.0+1.20.1",
       "spell_power": "*",
       "runes": ">=0.9.10+1.20.1"
-    }
-  },
-  "presencefootsteps": {
-    "name": "Presence Footsteps",
-    "description": "An overly complicated sound mod.",
-    "version": "1.9.1",
-    "environment": "client",
-    "file": "mods/current/PresenceFootsteps-1.9.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.12.0",
-      "java": ">=17",
-      "fabric-api-base": ">=0.1.0",
-      "fabric-lifecycle-events-v1": ">=0.1.0",
-      "fabric-resource-loader-v0": ">=0.1.0",
-      "kirin": "*"
     }
   },
   "passablefoliage": {
@@ -2282,6 +2009,21 @@
     "dependencies": {
       "id": "quilt_loader",
       "version": "*"
+    }
+  },
+  "presencefootsteps": {
+    "name": "Presence Footsteps",
+    "description": "An overly complicated sound mod.",
+    "version": "1.9.1",
+    "environment": "client",
+    "file": "mods/current/PresenceFootsteps-1.9.1.jar",
+    "dependencies": {
+      "fabricloader": ">=0.12.0",
+      "java": ">=17",
+      "fabric-api-base": ">=0.1.0",
+      "fabric-lifecycle-events-v1": ">=0.1.0",
+      "fabric-resource-loader-v0": ">=0.1.0",
+      "kirin": "*"
     }
   },
   "prism": {
@@ -2381,17 +2123,6 @@
     "dependencies": {
       "id": "quilt_loader",
       "versions": ">=0.18.1"
-    }
-  },
-  "rare-ice": {
-    "name": "Rare Ice",
-    "description": "Adds rare ice into the world. Can you find them?",
-    "version": "0.6.0",
-    "environment": "*",
-    "file": "mods/current/rare-ice-0.6.0.jar",
-    "dependencies": {
-      "fabricloader": ">=0.13.0",
-      "fabric": ">=0.40.6"
     }
   },
   "resourcefulconfig": {
@@ -2551,6 +2282,170 @@
     "dependencies": {
       "fabricloader": ">=0.14.21",
       "minecraft": "1.20.1",
+      "java": ">=17"
+    }
+  },
+  "spawn": {
+    "name": "Spawn",
+    "description": "An animal mod that tries to add new animals with niches and personality to the Minecraft world",
+    "version": "1.0.3-fabric",
+    "environment": "*",
+    "file": "mods/current/spawn-1.0.3-fabric.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14.24",
+      "fabric-api": "*",
+      "minecraft": "~1.20",
+      "java": ">=17"
+    }
+  },
+  "spell_engine": {
+    "name": "Spell Engine",
+    "description": "Data driven magic library.",
+    "version": "0.12.5+1.20.1",
+    "environment": "*",
+    "file": "mods/current/spell_engine-0.12.5+1.20.1.jar",
+    "dependencies": {
+      "minecraft": ">=1.20.0",
+      "fabricloader": ">=0.14.10",
+      "fabric": ">=0.87.0+1.20.1",
+      "cloth-config": ">=11.1.106",
+      "player-animator": ">=0.9.9",
+      "spell_power": ">=0.9.18+1.20.1",
+      "trinkets": "*"
+    }
+  },
+  "spell_power": {
+    "name": "Spell Power Attribute",
+    "description": "Spell Power entity attributes with related status effects and enchantments.",
+    "version": "0.9.19+1.20.1",
+    "environment": "*",
+    "file": "mods/current/spell_power-fabric-0.9.19+1.20.1.jar",
+    "dependencies": {
+      "minecraft": ">=1.20.0",
+      "fabricloader": ">=0.14.0"
+    }
+  },
+  "spiceoffabric": {
+    "name": "Spice of Fabric",
+    "description": "A new iteration on the good ol' \\\"Spice of life\\\".. . This mod embeds exp4j (https://github.com/fasseg/exp4j), licensed as Apache 2.0.",
+    "version": "1.6.2+mc1.20.1",
+    "environment": "*",
+    "file": "mods/current/spiceoffabric-1.6.2+mc1.20.1.jar",
+    "dependencies": {
+      "fabricloader": ">=0.4.0"
+    }
+  },
+  "stackdeobfuscator": {
+    "name": "StackDeobfuscator",
+    "description": "Deobfuscates stacktraces to yarn/quilt/mojang mappings",
+    "version": "1.4.2+bf1fc22",
+    "environment": "*",
+    "file": "mods/current/StackDeobfuscatorFabric-1.4.2+bf1fc22.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14.11",
+      "minecraft": ">=1.14-alpha.18.49.a",
+      "java": ">=17"
+    }
+  },
+  "supplementaries": {
+    "name": "Supplementaries",
+    "description": "Many functional and useful Vanilla+ blocks",
+    "version": "1.20-2.7.27",
+    "environment": "*",
+    "file": "mods/current/supplementaries-1.20-2.7.27-fabric.jar",
+    "dependencies": {
+      "fabric": "*",
+      "minecraft": ">=1.20",
+      "moonlight": ">=1.20-2.8.67"
+    }
+  },
+  "terralith": {
+    "name": "Terralith",
+    "description": "Terralith ~ Overworld Evolved (v2.4.11 for 1.20-1.20.4)",
+    "version": "2.4.11",
+    "environment": "*",
+    "file": "mods/current/Terralith_1.20.4_v2.4.11.jar",
+    "dependencies": {
+      "fabricloader": ">=0.12.7",
+      "fabric-api-base": "*",
+      "minecraft": ">=1.20"
+    }
+  },
+  "thaumon": {
+    "name": "Thaumon [BETA]",
+    "description": "Thaumcraft-inspired decoration blocks for modern Minecraft",
+    "version": "2.1.0",
+    "environment": "*",
+    "file": "mods/current/thaumon-fabric-2.1.0+1.20.1.jar",
+    "dependencies": {
+      "fabric-api": "*",
+      "minecraft": ">=1.20.1"
+    }
+  },
+  "things": {
+    "name": "Things",
+    "description": "Trinkets and other utilities",
+    "version": "0.3.3+1.20",
+    "environment": "*",
+    "file": "mods/current/things-0.3.3+1.20.jar",
+    "dependencies": {
+      "fabricloader": "*",
+      "fabric": "*",
+      "minecraft": ">=1.19.3",
+      "trinkets": ">=3.3.0",
+      "owo": ">=0.5.4+1.18",
+      "reach-entity-attributes": "*",
+      "lavender": ">=0.1.0-pre.6"
+    }
+  },
+  "tia": {
+    "name": "Tiny Item Animations",
+    "description": "Adds a cute little animation when picking up items with your mouse.",
+    "version": "1.20-1.1",
+    "environment": "client",
+    "file": "mods/current/tia-1.20-1.1-fabric.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14.21",
+      "java": ">=17"
+    }
+  },
+  "timecontrol": {
+    "name": "TimeControl",
+    "description": "Take control over Minecraft's day-night cycle",
+    "version": "1.4.1",
+    "environment": "*",
+    "file": "mods/current/timecontrol-1.20.1-1.4.1.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14.21",
+      "minecraft": "~1.20.1",
+      "java": ">=17",
+      "fabric-api": "*"
+    }
+  },
+  "tipsmod": {
+    "name": "Tips",
+    "description": "Adds useful tips to various loading screens in game.",
+    "version": "12.0.4",
+    "environment": "client",
+    "file": "mods/current/Tips-Fabric-1.20.1-12.0.4.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14.21",
+      "fabric": "*",
+      "minecraft": "1.20.1",
+      "java": ">=17",
+      "bookshelf": ">=20"
+    }
+  },
+  "toofast": {
+    "name": "TooFast",
+    "description": "Disables 'moved too quickly' for recent versions of Minecraft.",
+    "version": "1.2.0",
+    "environment": "*",
+    "file": "mods/current/toofast-fabric-1.20-1.2.0.jar",
+    "dependencies": {
+      "fabricloader": ">=0.14",
+      "fabric": "*",
+      "minecraft": "1.20.x",
       "java": ">=17"
     }
   }
