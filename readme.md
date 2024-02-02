@@ -1,14 +1,14 @@
 # Goosecraft
 Build Docker image:
 ```
-docker build -t goosecraft:6.1.5 -f server.docker .
+docker build -t goosecraft:6.1.6 -f server.docker .
 ```
 Example Compose file:
 ```yml
 version: "3"
 services:
   pub:
-    image: goosecraft:6.1.5
+    image: goosecraft:6.1.6
     stop_grace_period: 1m
     ports:
       - "25575:25565/tcp"
@@ -46,6 +46,31 @@ agrpdir() {
   done
 }
 ```
+# v6.1.6
+## Technicals
+* Updated Quilt to v23.1
+## Mods
+### Updated
+  * **Xaero's Minimap**: The most vanilla-looking minimap for Minecraft. **(23.9.3 to 23.9.7)**
+  * **Xaero's World Map**: A self-writing fullscreen map which also works as an add-on to Xaero's Minimap. **(1.37.2 to 1.37.8)**
+  * **YUNG's API**: API Library for YUNG's minecraft mods. **(1.20-Fabric-4.0.2 to 1.20-Fabric-4.0.3)**
+  * **Better Archeology**: Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration! **(1.1.2-1.20.1 to 1.1.4-1.20.1)**
+  * **Better Combat**: Easy, spectacular and fun melee combat system from Minecraft Dungeons. **(1.8.3+1.20.1 to 1.8.4+1.20.1)**
+  * **CC: Tweaked**: CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft. **(1.109.3 to 1.109.5)**
+  * **Chat Heads**: See who are you chatting with!. This mod adds player heads next to their chat messages. **(0.10.30 to 0.10.31)**
+  * **Create Deco**: Decorative options for your Create factory **(2.0.0-fabric-1.20.1 to 2.0.1-1.20.1-fabric)**
+  * **cupboard**:  **(1.20.1-2.2 to 1.20.1-2.3)**
+  * **Deeper and Darker**: A Minecraft 1.20 mod which features more blocks, items, armors, and hidden mysteries to complement the Deep Dark biome. **(1.2.5 to 1.2.6)**
+  * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.6.26 to 1.20-2.6.28)**
+  * **GeckoLib 4**: GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more. **(4.3.1 to 4.4.2)**
+  * **Illager Invasion**: The illagers are back! Be ready to fight new foes. A port of Illager Expansion. **(8.0.3 to 8.0.4)**
+  * **Kiwi Library**: Minecraft modding library **(11.4.0 to 11.5.4)**
+  * **Macaw's Paths and Pavings**: Adds new vanila styled paths and pavings! **(1.0.3 to 1.0.4)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.8.84 to 1.20-2.9.7)**
+  * **Puzzles Lib**: Why's it called Puzzles you ask? That's the puzzle! **(8.1.13 to 8.1.16)**
+  * **Quilted Fabric API**: A reimplementation of Fabric API on top of Quilt Standard Libraries. **(7.4.0+0.90.0-1.20.1 to 7.5.0+0.91.0-1.20.1)**
+  * **Resourceful Lib**: Library Mod by Team Resourceful **(2.1.20 to 2.1.21)**
+  * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-2.7.27 to 1.20-2.7.32)**
 # v6.1.5
 ## Technicals
 * Updated Quilt to v23

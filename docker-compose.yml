@@ -1,22 +1,7 @@
 version: "3"
 services:
-  sql:
-    image: mysql:latest
-    stop_grace_period: 1m
-    ports:
-      - "25574:3306/tcp"
-    environment:
-      MYSQL_ROOT_PASSWORD: ${SQL_ROOT_PASS}
-      MYSQL_DATABASE: mc
-      MYSQL_USER: herobrine
-      MYSQL_PASSWORD: ${SQL_PASS}
-    volumes:
-      - sql-data:/var/lib/mysql
-      - /etc/timezone:/etc/timezone:ro
-      - /etc/localtime:/etc/localtime:ro
-    restart: unless-stopped
   pub:
-    image: goosecraft:6.1.5
+    image: goosecraft:6.1.6
     stop_grace_period: 1m
     ports:
       - "25575:25565/tcp"
@@ -31,7 +16,7 @@ services:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
   dev:
-    image: goosecraft:6.1.5
+    image: goosecraft:6.1.6
     stop_grace_period: 1m
     ports:
       - "25576:25565/tcp"
@@ -45,5 +30,3 @@ services:
       - /mnt/md2/pnd/mc/live/dev/cache:/server/.cache
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
-volumes:
-  sql-data:
