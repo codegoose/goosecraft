@@ -1,14 +1,14 @@
 # Goosecraft
 Build Docker image:
 ```
-docker build -t goosecraft:6.1.6 -f server.docker .
+docker build -t goosecraft:6.1.7 -f server.docker .
 ```
 Example Compose file:
 ```yml
 version: "3"
 services:
   pub:
-    image: goosecraft:6.1.6
+    image: goosecraft:6.1.7
     stop_grace_period: 1m
     ports:
       - "25575:25565/tcp"
@@ -46,6 +46,60 @@ agrpdir() {
   done
 }
 ```
+# v6.1.7
+## Technicals
+* Updated Quilt to v24
+## Mods
+### Added
+  * **Fabric Seasons: Extras**: Custom blocks and items to make your Fabric Seasons experience better.
+  * **Cluttered**: Decor
+  * **Fabric Seasons**: A simple mod that adds seasons to the game, dynamically changing biomes as you play.
+  * **Amendments**: Many tweaks to Vanilla Blocks
+  * **Fabric Seasons: Delight Compat**: Farmer's Delight compatibility for Fabric Seasons
+  * **Fabric Seasons: Terralith Compat**: Terralith compatibility for Fabric Seasons
+### Updated
+  * **What Are They Up To**: Lets you see if players are typing, in a GUI, idle, with cool ingame visuals **(1.20.1-1.0.12 to 1.20.1-1.1.0)**
+  * **YetAnotherConfigLib**: YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft. **(3.2.1+1.20 to 3.2.2+1.20)**
+  * **YUNG's API**: API Library for YUNG's minecraft mods. **(1.20-Fabric-4.0.3 to 1.20-Fabric-4.0.4)**
+  * **Architectury**: A intermediary api aimed to ease developing multiplatform mods. **(9.1.12 to 9.2.14)**
+  * **Artifacts**: Adds various new powerful uncraftable items to make exploration a bit more interesting **(9.2.0 to 9.3.0)**
+  * **Balm**: Abstraction Layer (but not really)TM for Blay's multiplatform mods **(7.2.1 to 7.2.2)**
+  * **Better Archeology**: Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration! **(1.1.4-1.20.1 to 1.1.6-1.20.1)**
+  * **Bookshelf**: A library for building other mods. **(20.1.8 to 20.1.9)**
+  * **BotanyPots**: Pots for growing different types of plants. **(13.0.22 to 13.0.24)**
+  * **BotanyTrees**: Allows Botany Pots to grow trees. **(9.0.7 to 9.0.11)**
+  * **CC: Tweaked**: CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft. **(1.109.5 to 1.109.6)**
+  * **CoroUtil**: It utils **(1.20.1-1.3.5 to 1.20.1-1.3.7)**
+  * **Create Enchantment Industry**: An add-on for Create, providing enchanting & experience related automation. **(1.2.12 to 1.2.14)**
+  * **Creeper Overhaul**: Creeper Overhaul replaces the vanilla creeper with a variety of different biome-specific creeper types, some friendlier than others :) **(3.0.1 to 3.0.2)**
+  * **cupboard**:  **(1.20.1-2.3 to 1.20.1-2.5)**
+  * **Easy Anvils**: Be ready for overhauled anvils! Items stay, better name tags, many tweaks! **(8.0.1 to 8.0.2)**
+  * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.6.28 to 1.20-2.6.35)**
+  * **Geophilic**: A subtle overhaul of Overworld biomes **(v2.1.0-mc1.20u1.20.2 to v2.2.0-mc1.20u1.20.2)**
+  * **Hamsters**: Introducing small, fluffy, and adorable hamsters to Minecraft! **(1.0.2-fabric to fabric-1.0.3-1.20.1)**
+  * **Immersive Aircraft**: A bunch of rustic aircraft to travel, transport, and explore!.  **(0.6.2+1.20.1 to 0.7.4+1.20.1)**
+  * **Indium**: Sodium addon providing support for the Fabric Rendering API, based on Indigo **(1.0.27+mc1.20.1 to 1.0.30+mc1.20.4)**
+  * **Iris Flywheel Compat**: Allow Flywheel instancing optimization to be enabled when using iris. **(0.2.1 to 0.2.4)**
+  * **Iris**: A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs **(1.6.10 to 1.6.17)**
+  * **Item Borders**: Adds colored borders around items to indicate rarity. **(1.2.1 to 1.2.2)**
+  * **Jade**: Minecraft mod shows what you are looking at. (Hwyla fork) **(11.7.0 to 11.8.0)**
+  * **Kiwi Library**: Minecraft modding library **(11.5.4 to 11.5.5)**
+  * **Nether Vinery**: Welcome to Nether Vinery! New grapes, new decor - all in the style of the Nether. **(1.2.2 to 1.2.5)**
+  * **Vinery**: Vinery contains nearly everything needed for not only creating wine but also for building up your own vinery. **(1.4.7 to 1.4.10)**
+  * **Lootr**: A mod that makes it so nobody misses out on Loot! **(0.7.29.75 to 0.7.30.77)**
+  * **Macaw's Fences and Walls**: Adds new vanila styled fences, walls and gates! **(1.1.0 to 1.1.1)**
+  * **Macaw's Roofs**: Builds roofs with actual roofs! **(2.2.4 to 2.3.0)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.9.7 to 1.20-2.10.11)**
+  * **NiftyCarts**: A Fabric Port of the AstikorCarts Minecraft mod. It adds carts for travel, shipping and farming. **(3.0.0+1.20.1 to 3.0.1+1.20.1)**
+  * **Pufferfish's Skills**: Adds a fully configurable skill system to the game. **(0.10.0 to 0.11.3)**
+  * **Puzzles Lib**: Why's it called Puzzles you ask? That's the puzzle! **(8.1.16 to 8.1.17)**
+  * **Resourceful Lib**: Library Mod by Team Resourceful **(2.1.21 to 2.1.23)**
+  * **SimplySkills**: A comprehensive skill tree mod with a focus on combat specialisations. **(1.0.0+1.20.1 to 1.0.2+1.20.1)**
+  * **Sodium**: Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes. **(0.5.3 to 0.5.8+mc1.20.1)**
+  * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-2.7.32 to 1.20-2.8.6)**
+  * **Thaumon [BETA]**: Thaumcraft-inspired decoration blocks for modern Minecraft **(2.1.0 to 2.2.0+1.20.1)**
+  * **TimeControl**: Take control over Minecraft's day-night cycle **(1.4.1 to 1.6.0)**
+  * **Tips**: Adds useful tips to various loading screens in game. **(12.0.4 to 12.0.5)**
 # v6.1.6
 ## Technicals
 * Updated Quilt to v23.1

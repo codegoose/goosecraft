@@ -1,27 +1,27 @@
 {
+  "visualworkbench": {
+    "name": "Visual Workbench",
+    "description": "Items stay inside crafting tables and are also rendered on top. It's really fancy!",
+    "version": "8.0.0",
+    "environment": "*",
+    "file": "mods/current/VisualWorkbench-v8.0.0-1.20.1-Fabric.jar",
+    "dependencies": {}
+  },
   "wandering_collector": {
     "name": "Wandering Collector",
     "description": "Wandering Traders trade lost items back to the player.. The initial idea for this feature was suggested by SimplySarc in one of his videos.",
     "version": "1.2.1+mc1.20-pre5",
     "environment": "*",
     "file": "mods/current/wanderingcollector-1.2.1+mc1.20-pre5.jar",
-    "dependencies": {
-      "fabricloader": ">=0.4.0"
-    }
+    "dependencies": {}
   },
   "watut": {
     "name": "What Are They Up To",
     "description": "Lets you see if players are typing, in a GUI, idle, with cool ingame visuals",
-    "version": "1.20.1-1.0.12",
+    "version": "1.20.1-1.1.0",
     "environment": "*",
-    "file": "mods/current/watut-fabric-1.20.1-1.0.12.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "coroutil": ">=1.20.1-1.3.5",
-      "fabric-api": "*",
-      "minecraft": "1.20.x",
-      "java": ">=17"
-    }
+    "file": "mods/current/watut-fabric-1.20.1-1.1.0.jar",
+    "dependencies": {}
   },
   "wetlands": {
     "name": "Beneath the Wetlands",
@@ -29,12 +29,7 @@
     "version": "1.1.1",
     "environment": "*",
     "file": "mods/current/wetlands-1.1.9-1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.9",
-      "fabric-api": "*",
-      "minecraft": "~1.20",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "wizards": {
     "name": "Wizards (RPG Series)",
@@ -42,14 +37,7 @@
     "version": "1.0.5+1.20.1",
     "environment": "*",
     "file": "mods/current/wizards-1.0.5+1.20.1.jar",
-    "dependencies": {
-      "minecraft": ">=1.20.0",
-      "fabricloader": ">=0.14.0",
-      "azurelibarmor": "*",
-      "spell_engine": ">=0.12.0+1.20.1",
-      "spell_power": "*",
-      "runes": ">=0.9.9+1.20.1"
-    }
+    "dependencies": {}
   },
   "harvest_scythes": {
     "name": "Harvest Scythes",
@@ -57,13 +45,7 @@
     "version": "2.5.6+mc1.20",
     "environment": "*",
     "file": "mods/current/wraith-harvestscythes-2.5.6+mc1.20.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "~1.20",
-      "java": ">=17",
-      "mm": ">=2.3"
-    }
+    "dependencies": {}
   },
   "silkspawners": {
     "name": "SilkSpawners",
@@ -71,12 +53,7 @@
     "version": "1.1.3",
     "environment": "*",
     "file": "mods/current/wraith-silkspawners-1.1.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "1.20.x",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "xaerominimap": {
     "name": "Xaero's Minimap",
@@ -84,15 +61,7 @@
     "version": "23.9.7",
     "environment": "*",
     "file": "mods/current/Xaeros_Minimap_23.9.7_Fabric_1.20.jar",
-    "dependencies": {
-      "minecraft": [
-        "1.20",
-        "1.20.0",
-        "1.20.1"
-      ],
-      "fabric-api": ">=0.43.1",
-      "fabricloader": ">=0.13.0"
-    }
+    "dependencies": {}
   },
   "xaeroworldmap": {
     "name": "Xaero's World Map",
@@ -100,40 +69,23 @@
     "version": "1.37.8",
     "environment": "*",
     "file": "mods/current/XaerosWorldMap_1.37.8_Fabric_1.20.jar",
-    "dependencies": {
-      "minecraft": [
-        "1.20",
-        "1.20.0",
-        "1.20.1"
-      ],
-      "fabric-api": ">=0.43.1",
-      "fabricloader": ">=0.13.0"
-    }
+    "dependencies": {}
   },
   "yet_another_config_lib_v3": {
     "name": "YetAnotherConfigLib",
     "description": "YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.",
-    "version": "3.2.1+1.20",
+    "version": "3.2.2+1.20",
     "environment": "*",
-    "file": "mods/current/yet-another-config-lib-fabric-3.2.1+1.20.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.0",
-      "minecraft": ">1.20-",
-      "java": ">=17",
-      "fabric-resource-loader-v0": "*"
-    }
+    "file": "mods/current/yet-another-config-lib-fabric-3.2.2+1.20.jar",
+    "dependencies": {}
   },
   "yungsapi": {
     "name": "YUNG's API",
     "description": "API Library for YUNG's minecraft mods.",
-    "version": "1.20-Fabric-4.0.3",
+    "version": "1.20-Fabric-4.0.4",
     "environment": "*",
-    "file": "mods/current/YungsApi-1.20-Fabric-4.0.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": ">=1.20"
-    }
+    "file": "mods/current/YungsApi-1.20-Fabric-4.0.4.jar",
+    "dependencies": {}
   },
   "betterdeserttemples": {
     "name": "YUNG's Better Desert Temples",
@@ -141,14 +93,7 @@
     "version": "1.20-Fabric-3.0.3",
     "environment": "*",
     "file": "mods/current/YungsBetterDesertTemples-1.20-Fabric-3.0.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": ">=1.20",
-      "cloth-config2": ">=11.0.99",
-      "java": ">=17",
-      "yungsapi": ">=1.20-Fabric-4.0.1"
-    }
+    "dependencies": {}
   },
   "betterdungeons": {
     "name": "YUNG's Better Dungeons",
@@ -156,14 +101,7 @@
     "version": "1.20-Fabric-4.0.3",
     "environment": "*",
     "file": "mods/current/YungsBetterDungeons-1.20-Fabric-4.0.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": ">=1.20",
-      "cloth-config2": ">=11.0.99",
-      "java": ">=17",
-      "yungsapi": ">=1.20-Fabric-4.0.1"
-    }
+    "dependencies": {}
   },
   "betterjungletemples": {
     "name": "YUNG's Better Jungle Temples",
@@ -171,14 +109,7 @@
     "version": "1.20-Fabric-2.0.4",
     "environment": "*",
     "file": "mods/current/YungsBetterJungleTemples-1.20-Fabric-2.0.4.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": ">=1.20",
-      "cloth-config2": ">=11.0.99",
-      "java": ">=17",
-      "yungsapi": ">=1.20-Fabric-4.0.1"
-    }
+    "dependencies": {}
   },
   "bettermineshafts": {
     "name": "YUNG's Better Mineshafts",
@@ -186,14 +117,7 @@
     "version": "1.20-Fabric-4.0.4",
     "environment": "*",
     "file": "mods/current/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": ">=1.20",
-      "cloth-config2": ">=11.0.99",
-      "java": ">=17",
-      "yungsapi": ">=1.20-Fabric-4.0.1"
-    }
+    "dependencies": {}
   },
   "betterfortresses": {
     "name": "YUNG's Better Nether Fortresses",
@@ -201,14 +125,7 @@
     "version": "1.20-Fabric-2.0.5",
     "environment": "*",
     "file": "mods/current/YungsBetterNetherFortresses-1.20-Fabric-2.0.5.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": ">=1.20",
-      "cloth-config2": ">=11.0.99",
-      "java": ">=17",
-      "yungsapi": ">=1.20-Fabric-4.0.1"
-    }
+    "dependencies": {}
   },
   "betteroceanmonuments": {
     "name": "YUNG's Better Ocean Monuments",
@@ -216,14 +133,7 @@
     "version": "1.20-Fabric-3.0.4",
     "environment": "*",
     "file": "mods/current/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": ">=1.20",
-      "cloth-config2": ">=11.0.99",
-      "java": ">=17",
-      "yungsapi": ">=1.20-Fabric-4.0.1"
-    }
+    "dependencies": {}
   },
   "betterstrongholds": {
     "name": "YUNG's Better Strongholds",
@@ -231,14 +141,7 @@
     "version": "1.20-Fabric-4.0.3",
     "environment": "*",
     "file": "mods/current/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": ">=1.20",
-      "cloth-config2": ">=11.0.99",
-      "java": ">=17",
-      "yungsapi": ">=1.20-Fabric-4.0.1"
-    }
+    "dependencies": {}
   },
   "betterwitchhuts": {
     "name": "YUNG's Better Witch Huts",
@@ -246,14 +149,7 @@
     "version": "1.20-Fabric-3.0.3",
     "environment": "*",
     "file": "mods/current/YungsBetterWitchHuts-1.20-Fabric-3.0.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": ">=1.20",
-      "cloth-config2": ">=11.0.99",
-      "java": ">=17",
-      "yungsapi": ">=1.20-Fabric-4.0.1"
-    }
+    "dependencies": {}
   },
   "yungsextras": {
     "name": "YUNG's Extras",
@@ -261,14 +157,15 @@
     "version": "1.20-Fabric-4.0.3",
     "environment": "*",
     "file": "mods/current/YungsExtras-1.20-Fabric-4.0.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": ">=1.20",
-      "cloth-config2": ">=11.0.99",
-      "java": ">=17",
-      "yungsapi": ">=1.20-Fabric-4.0.1"
-    }
+    "dependencies": {}
+  },
+  "amendments": {
+    "name": "Amendments",
+    "description": "Many tweaks to Vanilla Blocks",
+    "version": "1.20-1.1.6",
+    "environment": "*",
+    "file": "mods/current/amendments-1.20-1.1.6-fabric.jar",
+    "dependencies": {}
   },
   "another_furniture": {
     "name": "Another Furniture",
@@ -276,10 +173,7 @@
     "version": "1.20.1-3.0.1",
     "environment": "*",
     "file": "mods/current/another_furniture-fabric-1.20.1-3.0.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": ">=1.20.1"
-    }
+    "dependencies": {}
   },
   "appleskin": {
     "name": "AppleSkin",
@@ -287,10 +181,7 @@
     "version": "2.5.1+mc1.20",
     "environment": "*",
     "file": "mods/current/appleskin-fabric-mc1.20.1-2.5.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "archers": {
     "name": "Archers (RPG Series)",
@@ -298,39 +189,23 @@
     "version": "1.0.7+1.20.1",
     "environment": "*",
     "file": "mods/current/archers-1.0.7+1.20.1.jar",
-    "dependencies": {
-      "minecraft": ">=1.20.1",
-      "fabricloader": ">=0.14.0",
-      "azurelibarmor": "*",
-      "spell_engine": ">=0.12.3+1.20.1",
-      "projectile_damage": "*"
-    }
+    "dependencies": {}
   },
   "architectury": {
     "name": "Architectury",
     "description": "A intermediary api aimed to ease developing multiplatform mods.",
-    "version": "9.1.12",
+    "version": "9.2.14",
     "environment": "*",
-    "file": "mods/current/architectury-9.1.12-fabric.jar",
-    "dependencies": {
-      "minecraft": "~1.20-",
-      "fabricloader": ">=0.14.0",
-      "fabric-api": ">=0.66.0"
-    }
+    "file": "mods/current/architectury-9.2.14-fabric.jar",
+    "dependencies": {}
   },
   "artifacts": {
     "name": "Artifacts",
     "description": "Adds various new powerful uncraftable items to make exploration a bit more interesting",
-    "version": "9.2.0",
+    "version": "9.3.0",
     "environment": "*",
-    "file": "mods/current/artifacts-fabric-9.2.0.jar",
-    "dependencies": {
-      "fabric": ">=0.86.1",
-      "minecraft": ">=1.20",
-      "architectury": ">=9.0.7",
-      "trinkets": "*",
-      "cloth-config": "*"
-    }
+    "file": "mods/current/artifacts-fabric-9.3.0.jar",
+    "dependencies": {}
   },
   "autotag-convention": {
     "name": "AutoTag Convention",
@@ -338,12 +213,7 @@
     "version": "2.0.2+1.20",
     "environment": "*",
     "file": "mods/current/autotag-2.0.2+1.20.jar",
-    "dependencies": {
-      "fabricloader": ">=0.13.3",
-      "minecraft": ">=1.20",
-      "java": ">=17",
-      "autotag": "*"
-    }
+    "dependencies": {}
   },
   "azurelibarmor": {
     "name": "AzureLib Armor",
@@ -351,25 +221,15 @@
     "version": "2.0.3",
     "environment": "*",
     "file": "mods/current/azurelibarmor-fabric-1.20.1-2.0.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.10",
-      "fabric-api": "*",
-      "java": ">=17",
-      "minecraft": "1.20.1"
-    }
+    "dependencies": {}
   },
   "balm-fabric": {
     "name": "Balm",
     "description": "Abstraction Layer (but not really)TM for Blay's multiplatform mods",
-    "version": "7.2.1",
+    "version": "7.2.2",
     "environment": "*",
-    "file": "mods/current/balm-fabric-1.20.1-7.2.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": "*",
-      "minecraft": ">=1.20",
-      "java": ">=17"
-    }
+    "file": "mods/current/balm-fabric-1.20.1-7.2.2.jar",
+    "dependencies": {}
   },
   "bclib": {
     "name": "BCLib",
@@ -377,15 +237,7 @@
     "version": "3.0.14",
     "environment": "*",
     "file": "mods/current/bclib-3.0.14.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": [
-        "1.20",
-        "1.20.1"
-      ],
-      "wunderlib": "1.1.x"
-    }
+    "dependencies": {}
   },
   "beaconoverhaul": {
     "name": "Beacon Overhaul",
@@ -393,43 +245,23 @@
     "version": "1.8.4+1.20",
     "environment": "*",
     "file": "mods/current/BeaconOverhaul-1.8.4+1.20.jar",
-    "dependencies": {
-      "fabric-api-base": ">=0.4.29",
-      "fabric-networking-api-v1": ">=1.3.8",
-      "fabric-registry-sync-v0": ">=2.2.6",
-      "fabric-resource-loader-v0": ">=0.11.7",
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20",
-      "reach-entity-attributes": "~2.4.0"
-    }
+    "dependencies": {}
   },
   "beautify": {
     "name": "Beautify",
     "description": "Beautify adds lots of vanilla-styled ways to spice up your builds with custom models that'll fit right in to your houses etc.",
     "version": "1.1.0+1.20",
     "environment": "*",
-    "file": "mods/current/beautify-1.1.0+fabric-1.20.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": "*",
-      "minecraft": "~1.20",
-      "java": ">=17",
-      "cloth-config": "*"
-    }
+    "file": "mods/current/beautify-1.1.1+fabric-1.20.jar",
+    "dependencies": {}
   },
   "betterarcheology": {
     "name": "Better Archeology",
     "description": "Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration!",
-    "version": "1.1.4-1.20.1",
+    "version": "1.1.6-1.20.1",
     "environment": "*",
-    "file": "mods/current/betterarcheology-1.1.4-1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.14",
-      "fabric-api": "*",
-      "minecraft": "~1.20",
-      "java": ">=17",
-      "yungsapi": ">=1.20-Fabric-4.0.2"
-    }
+    "file": "mods/current/betterarcheology-1.1.6-1.20.1.jar",
+    "dependencies": {}
   },
   "bettercombat": {
     "name": "Better Combat",
@@ -437,13 +269,7 @@
     "version": "1.8.4+1.20.1",
     "environment": "*",
     "file": "mods/current/bettercombat-fabric-1.8.4+1.20.1.jar",
-    "dependencies": {
-      "minecraft": ">=1.20.0",
-      "fabricloader": ">=0.14.0",
-      "fabric-api": "*",
-      "cloth-config": ">=11.0.0",
-      "player-animator": ">=1.0.0"
-    }
+    "dependencies": {}
   },
   "betterend": {
     "name": "Better End",
@@ -451,15 +277,7 @@
     "version": "4.0.11",
     "environment": "*",
     "file": "mods/current/better-end-4.0.11.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": [
-        "1.20",
-        "1.20.1"
-      ],
-      "bclib": "3.0.x"
-    }
+    "dependencies": {}
   },
   "betternether": {
     "name": "Better Nether",
@@ -467,15 +285,7 @@
     "version": "9.0.10",
     "environment": "*",
     "file": "mods/current/better-nether-9.0.10.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0",
-      "minecraft": [
-        "1.20",
-        "1.20.1"
-      ],
-      "bclib": "3.0.x"
-    }
+    "dependencies": {}
   },
   "bettertridents": {
     "name": "Better Tridents",
@@ -483,15 +293,7 @@
     "version": "8.0.1",
     "environment": "*",
     "file": "mods/current/BetterTridents-v8.0.1-1.20.1-Fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": ">=0.83.0",
-      "puzzleslib": ">=8.0.0",
-      "cardinal-components-base": "*",
-      "cardinal-components-entity": "*",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "blur": {
     "name": "Blur (Fabric)",
@@ -499,51 +301,31 @@
     "version": "3.1.0",
     "environment": "client",
     "file": "mods/current/blur-3.1.0.jar",
-    "dependencies": {
-      "satin": "*"
-    }
+    "dependencies": {}
   },
   "bookshelf": {
     "name": "Bookshelf",
     "description": "A library for building other mods.",
-    "version": "20.1.8",
+    "version": "20.1.9",
     "environment": "*",
-    "file": "mods/current/Bookshelf-Fabric-1.20.1-20.1.8.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
+    "file": "mods/current/Bookshelf-Fabric-1.20.1-20.1.9.jar",
+    "dependencies": {}
   },
   "botanypots": {
     "name": "BotanyPots",
     "description": "Pots for growing different types of plants.",
-    "version": "13.0.22",
+    "version": "13.0.24",
     "environment": "*",
-    "file": "mods/current/BotanyPots-Fabric-1.20.1-13.0.22.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "java": ">=17",
-      "bookshelf": ">=20"
-    }
+    "file": "mods/current/BotanyPots-Fabric-1.20.1-13.0.24.jar",
+    "dependencies": {}
   },
   "botanytrees": {
     "name": "BotanyTrees",
     "description": "Allows Botany Pots to grow trees.",
-    "version": "9.0.7",
+    "version": "9.0.11",
     "environment": "*",
-    "file": "mods/current/BotanyTrees-Fabric-1.20.1-9.0.7.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "java": ">=17",
-      "bookshelf": ">=20",
-      "botanypots": ">=12"
-    }
+    "file": "mods/current/BotanyTrees-Fabric-1.20.1-9.0.11.jar",
+    "dependencies": {}
   },
   "bountiful": {
     "name": "Bountiful",
@@ -551,12 +333,7 @@
     "version": "6.0.3+1.20.1",
     "environment": "*",
     "file": "mods/current/Bountiful-6.0.3+1.20.1-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "kambrik": ">=6.1.0"
-    }
+    "dependencies": {}
   },
   "brewinandchewin": {
     "name": "Brewin And Chewin",
@@ -564,13 +341,7 @@
     "version": "fabric-2.3.1+1.20.1",
     "environment": "*",
     "file": "mods/current/brewinandchewin-fabric-2.3.2+1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.11",
-      "fabric-api": "*",
-      "minecraft": ">=1.20.1",
-      "java": ">=17",
-      "farmersdelight": ">=1.4.0"
-    }
+    "dependencies": {}
   },
   "cardinal-components": {
     "name": "Cardinal Components API",
@@ -586,12 +357,7 @@
     "version": "2.1.2.7",
     "environment": "*",
     "file": "mods/current/carryon-fabric-1.20.1-2.1.2.7.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14",
-      "fabric-api": "*",
-      "minecraft": ">=1.20",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "cccbridge": {
     "name": "CC:C Bridge",
@@ -599,26 +365,15 @@
     "version": "1.6.2b-fabric",
     "environment": "*",
     "file": "mods/current/cccbridge-mc1.20.1-fabric-v1.6.2b.jar",
-    "dependencies": {
-      "create": ">=0.5.1-d",
-      "computercraft": ">=1.106.1",
-      "fabricloader": ">=0.14.21",
-      "fabric-api": "*",
-      "minecraft": "~1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "computercraft": {
     "name": "CC: Tweaked",
     "description": "CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft.",
-    "version": "1.109.5",
+    "version": "1.109.6",
     "environment": "*",
-    "file": "mods/current/cc-tweaked-1.20.1-fabric-1.109.5.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": ">=0.86.1",
-      "minecraft": "=1.20.1"
-    }
+    "file": "mods/current/cc-tweaked-1.20.1-fabric-1.109.6.jar",
+    "dependencies": {}
   },
   "chalk": {
     "name": "Chalk",
@@ -626,10 +381,7 @@
     "version": "2.2.0",
     "environment": "*",
     "file": "mods/current/chalk-2.2.0.jar",
-    "dependencies": {
-      "minecraft": "~1.20-beta",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "chat_heads": {
     "name": "Chat Heads",
@@ -637,10 +389,7 @@
     "version": "0.10.31",
     "environment": "client",
     "file": "mods/current/chat_heads-0.10.31-fabric-1.20.jar",
-    "dependencies": {
-      "fabricloader": ">=0.15.0",
-      "minecraft": ">=1.20 <=1.20.1"
-    }
+    "dependencies": {}
   },
   "chefsdelight": {
     "name": "Chefs Delight",
@@ -648,12 +397,7 @@
     "version": "1.0.3-fabric-1.20.1",
     "environment": "*",
     "file": "mods/current/chefs-delight-1.0.3-fabric-1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.22",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "chickensshed": {
     "name": "ChickensShed",
@@ -661,12 +405,7 @@
     "version": "1.5.0+1.20.1",
     "environment": "*",
     "file": "mods/current/chickensshed-1.5.0+1.20.1-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.23",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "architectury": ">=9.1.12"
-    }
+    "dependencies": {}
   },
   "chimes": {
     "name": "Chimes",
@@ -674,12 +413,7 @@
     "version": "2.0.1",
     "environment": "*",
     "file": "mods/current/Chimes-v2.0.1-1.20.1-Fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.0",
-      "minecraft": ">=1.20",
-      "java": ">=8",
-      "fabric": "*"
-    }
+    "dependencies": {}
   },
   "cloth-config": {
     "name": "Cloth Config v11",
@@ -687,10 +421,15 @@
     "version": "11.1.118",
     "environment": "*",
     "file": "mods/current/cloth-config-11.1.118-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.0",
-      "minecraft": ">=1.20-"
-    }
+    "dependencies": {}
+  },
+  "luphieclutteredmod": {
+    "name": "Cluttered",
+    "description": "Decor",
+    "version": "2.1.0+1.20.1",
+    "environment": "*",
+    "file": "mods/current/Cluttered-2.1.0-1.20.1[Fabric].jar",
+    "dependencies": {}
   },
   "connectiblechains": {
     "name": "Connectible Chains",
@@ -698,12 +437,7 @@
     "version": "2.2.1+1.20.1",
     "environment": "*",
     "file": "mods/current/connectiblechains-2.2.1+1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.9",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "cloth-config2": ">=8.2.88"
-    }
+    "dependencies": {}
   },
   "controlling": {
     "name": "Controlling For Fabric",
@@ -711,39 +445,23 @@
     "version": "12.0.2",
     "environment": "client",
     "file": "mods/current/Controlling-fabric-1.20.1-12.0.2.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14",
-      "java": ">=17",
-      "minecraft": "1.20.1",
-      "searchables": "1.0.x",
-      "fabric": "*"
-    }
+    "dependencies": {}
   },
   "coroutil": {
     "name": "CoroUtil",
     "description": "It utils",
-    "version": "1.20.1-1.3.5",
+    "version": "1.20.1-1.3.7",
     "environment": "*",
-    "file": "mods/current/coroutil-fabric-1.20.1-1.3.5.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": "*",
-      "minecraft": "1.20.x",
-      "java": ">=17"
-    }
+    "file": "mods/current/coroutil-fabric-1.20.1-1.3.7.jar",
+    "dependencies": {}
   },
   "create_enchantment_industry": {
     "name": "Create Enchantment Industry",
     "description": "An add-on for Create, providing enchanting & experience related automation.",
-    "version": "1.2.12",
+    "version": "1.2.14",
     "environment": "*",
-    "file": "mods/current/create_enchantment_industry-1.2.12.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.22",
-      "fabric-api": ">=0.88.1+1.20.1",
-      "create": "*",
-      "minecraft": "1.20.1"
-    }
+    "file": "mods/current/create_enchantment_industry-1.2.14.jar",
+    "dependencies": {}
   },
   "createdeco": {
     "name": "Create Deco",
@@ -751,12 +469,7 @@
     "version": "2.0.1-1.20.1-fabric",
     "environment": "*",
     "file": "mods/current/createdeco-2.0.1-1.20.1-fabric.jar",
-    "dependencies": {
-      "minecraft": "1.20.1",
-      "fabricloader": ">=0.14.22",
-      "fabric-api": ">=0.88.1+1.20.1",
-      "create": ">=0.5.1-c-build.1105+mc1.20.1"
-    }
+    "dependencies": {}
   },
   "createreibugfix": {
     "name": "CreateFabric&REIBugFix",
@@ -764,14 +477,7 @@
     "version": "0.1.0-create0.5.1-mc1.20.x",
     "environment": "*",
     "file": "mods/current/CreateFabricREIBugFix-0.1.0-create0.5.1-mc1.20.x.jar",
-    "dependencies": {
-      "fabricloader": "*",
-      "fabric": "*",
-      "minecraft": "1.20.x",
-      "java": ">=17",
-      "roughlyenoughitems": "*",
-      "create": "*"
-    }
+    "dependencies": {}
   },
   "createoreexcavation": {
     "name": "Create Ore Excavation",
@@ -779,12 +485,7 @@
     "version": "1.4.3",
     "environment": "*",
     "file": "mods/current/createoreexcavation-fabric-1.20-1.4.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.14",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "create": {
     "name": "Create",
@@ -792,25 +493,7 @@
     "version": "0.5.1-d-build.1161+mc1.20.1",
     "environment": "*",
     "file": "mods/current/create-sodium-fix-0.5.1-d-build.1161+mc1.20.1.jar",
-    "dependencies": {
-      "minecraft": "1.20.1",
-      "fabricloader": ">=0.15.3",
-      "fabric-api": ">=0.90.0+1.20.1",
-      "porting_lib_accessors": ">=2.1.1127+1.20",
-      "porting_lib_base": ">=2.1.1127+1.20",
-      "porting_lib_entity": ">=2.1.1127+1.20",
-      "porting_lib_extensions": ">=2.1.1127+1.20",
-      "porting_lib_fake_players": ">=2.1.1127+1.20",
-      "porting_lib_networking": ">=2.1.1127+1.20",
-      "porting_lib_obj_loader": ">=2.1.1127+1.20",
-      "porting_lib_tags": ">=3.0",
-      "porting_lib_transfer": ">=2.1.1127+1.20",
-      "porting_lib_models": ">=2.1.1127+1.20",
-      "porting_lib_client_events": ">=2.1.1127+1.20",
-      "forgeconfigapiport": ">=4.2.9",
-      "milk": ">=1.2.60",
-      "reach-entity-attributes": ">=2.4.0"
-    }
+    "dependencies": {}
   },
   "create_structures": {
     "name": "Create: Structures",
@@ -818,39 +501,23 @@
     "version": "1.1.0",
     "environment": "*",
     "file": "mods/current/create-structures-0.1.1-1.20.1-FABRIC.jar",
-    "dependencies": {
-      "minecraft": "1.20.1",
-      "fabric-resource-loader-v0": "*",
-      "create": "*"
-    }
+    "dependencies": {}
   },
   "creeperoverhaul": {
     "name": "Creeper Overhaul",
     "description": "Creeper Overhaul replaces the vanilla creeper with a variety of different biome-specific creeper types, some friendlier than others :)",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "environment": "*",
-    "file": "mods/current/creeperoverhaul-3.0.1-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.11.3",
-      "fabric": "*",
-      "minecraft": ">=1.20",
-      "java": ">=17",
-      "geckolib": "*",
-      "resourcefulconfig": ">=1.0.20"
-    }
+    "file": "mods/current/creeperoverhaul-3.0.2-fabric.jar",
+    "dependencies": {}
   },
   "cupboard": {
     "name": "cupboard",
     "description": "",
-    "version": "1.20.1-2.3",
+    "version": "1.20.1-2.5",
     "environment": "*",
-    "file": "mods/current/cupboard-fabric-1.20.1-2.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.11.3",
-      "fabric": "*",
-      "minecraft": "1.20.x",
-      "java": ">=17"
-    }
+    "file": "mods/current/cupboard-fabric-1.20.1-2.5.jar",
+    "dependencies": {}
   },
   "dark-loading-screen": {
     "name": "Dark Loading Screen",
@@ -858,9 +525,7 @@
     "version": "1.6.14",
     "environment": "client",
     "file": "mods/current/dark-loading-screen-1.6.14.jar",
-    "dependencies": {
-      "minecraft": ">=1.20-"
-    }
+    "dependencies": {}
   },
   "darkpaintings": {
     "name": "DarkPaintings",
@@ -868,13 +533,7 @@
     "version": "17.0.4",
     "environment": "*",
     "file": "mods/current/DarkPaintings-Fabric-1.20.1-17.0.4.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "java": ">=17",
-      "bookshelf": ">=20"
-    }
+    "dependencies": {}
   },
   "decorative_blocks": {
     "name": "Decorative Blocks",
@@ -882,12 +541,7 @@
     "version": "4.0.3",
     "environment": "*",
     "file": "mods/current/Decorative Blocks-fabric-1.20.1-4.0.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14",
-      "fabric": "*",
-      "minecraft": ">=1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "deeperdarker": {
     "name": "Deeper and Darker",
@@ -895,13 +549,7 @@
     "version": "1.2.6",
     "environment": "*",
     "file": "mods/current/deeperdarker-fabric-1.20-1.2.6.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": ">=1.20 <=1.20.1",
-      "java": ">=17",
-      "fabric-api": "*",
-      "yet_another_config_lib_v3": "*"
-    }
+    "dependencies": {}
   },
   "delightfulcreators": {
     "name": "Delightful Creators",
@@ -909,12 +557,7 @@
     "version": "1.1.8",
     "environment": "*",
     "file": "mods/current/delightful-creators-1.1.8.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "doapi": {
     "name": "Lets Do Api",
@@ -922,26 +565,15 @@
     "version": "1.2.8",
     "environment": "*",
     "file": "mods/current/doapi-1.2.8-fabric.jar",
-    "dependencies": {
-      "fabric": "*",
-      "minecraft": ">=1.20",
-      "architectury": ">=9.0.8",
-      "terraform-wood-api-v1": ">=7.0.1"
-    }
+    "dependencies": {}
   },
   "easyanvils": {
     "name": "Easy Anvils",
     "description": "Be ready for overhauled anvils! Items stay, better name tags, many tweaks!",
-    "version": "8.0.1",
+    "version": "8.0.2",
     "environment": "*",
-    "file": "mods/current/EasyAnvils-v8.0.1-1.20.1-Fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": ">=0.83.0",
-      "puzzleslib": ">=8.0.0",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
+    "file": "mods/current/EasyAnvils-v8.0.2-1.20.1-Fabric.jar",
+    "dependencies": {}
   },
   "easymagic": {
     "name": "Easy Magic",
@@ -949,13 +581,7 @@
     "version": "8.0.1",
     "environment": "*",
     "file": "mods/current/EasyMagic-v8.0.1-1.20.1-Fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": ">=0.83.0",
-      "puzzleslib": ">=8.0.0",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "ecologics": {
     "name": "Ecologics",
@@ -963,10 +589,7 @@
     "version": "2.2.0",
     "environment": "*",
     "file": "mods/current/ecologics-fabric-1.20.1-2.2.0.jar",
-    "dependencies": {
-      "fabric": "*",
-      "minecraft": ">=1.19.3"
-    }
+    "dependencies": {}
   },
   "emojiful": {
     "name": "Emojiful",
@@ -974,12 +597,7 @@
     "version": "4.2.0",
     "environment": "*",
     "file": "mods/current/Emojiful-Fabric-1.20.1-4.2.0.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14",
-      "minecraft": "1.20.1",
-      "fabric": "*",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "endermanoverhaul": {
     "name": "Enderman Overhaul",
@@ -987,14 +605,7 @@
     "version": "1.0.4",
     "environment": "*",
     "file": "mods/current/endermanoverhaul-fabric-1.20.1-1.0.4.jar",
-    "dependencies": {
-      "fabric-api": "*",
-      "minecraft": ">=1.20.1",
-      "java": ">=17",
-      "resourcefullib": ">=2.1.20",
-      "resourcefulconfig": ">=2.0.0",
-      "geckolib": ">=4.3.1"
-    }
+    "dependencies": {}
   },
   "ends_delight": {
     "name": "End's Delight",
@@ -1002,13 +613,7 @@
     "version": "1.0.1",
     "environment": "*",
     "file": "mods/current/ends_delight-fabric-1.20.1-1.0.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*",
-      "farmersdelight": "*"
-    }
+    "dependencies": {}
   },
   "euphonium": {
     "name": "Euphonium",
@@ -1016,23 +621,15 @@
     "version": "1.0.1+1.20",
     "environment": "*",
     "file": "mods/current/euphonium-1.0.1+1.20.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.9",
-      "minecraft": ">=1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "everycomp": {
     "name": "Every Compat",
     "description": "Ultimate Wood Compat Mod",
-    "version": "1.20-2.6.28",
+    "version": "1.20-2.6.35",
     "environment": "*",
-    "file": "mods/current/everycomp-1.20-2.6.28-fabric.jar",
-    "dependencies": {
-      "fabric": "*",
-      "minecraft": ">=1.20",
-      "moonlight": ">=1.20-2.8.4"
-    }
+    "file": "mods/current/everycomp-1.20-2.6.35-fabric.jar",
+    "dependencies": {}
   },
   "expandeddelight": {
     "name": "Expanded Delight",
@@ -1040,13 +637,7 @@
     "version": "0.3.0.2",
     "environment": "*",
     "file": "mods/current/expandeddelight-0.3.0.2.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "~1.20",
-      "java": ">=17",
-      "farmersdelight": "*"
-    }
+    "dependencies": {}
   },
   "explorify": {
     "name": "Explorify",
@@ -1054,10 +645,7 @@
     "version": "v1.3.0-mc1.20",
     "environment": "*",
     "file": "mods/current/explorify-v1.3.0-mc1.20.jar",
-    "dependencies": {
-      "fabric-resource-loader-v0": "*",
-      "minecraft": "<=1.20.9"
-    }
+    "dependencies": {}
   },
   "chunkpregen": {
     "name": "Fabric Chunk Pregenerator",
@@ -1065,11 +653,39 @@
     "version": "0.3.3",
     "environment": "*",
     "file": "mods/current/fabric-chunkpregen-0.3.7.jar",
-    "dependencies": {
-      "fabricloader": ">=0.7.2",
-      "fabric": "*",
-      "minecraft": ">=1.14-"
-    }
+    "dependencies": {}
+  },
+  "seasons": {
+    "name": "Fabric Seasons",
+    "description": "A simple mod that adds seasons to the game, dynamically changing biomes as you play.",
+    "version": "2.3+1.20",
+    "environment": "*",
+    "file": "mods/current/fabric-seasons-2.3+1.20.jar",
+    "dependencies": {}
+  },
+  "seasonsdelightcompat": {
+    "name": "Fabric Seasons: Delight Compat",
+    "description": "Farmer's Delight compatibility for Fabric Seasons",
+    "version": "1.0-1.3.9",
+    "environment": "*",
+    "file": "mods/current/fabric-seasons-delight-1.3.9-compat-1.0.jar",
+    "dependencies": {}
+  },
+  "seasonsextras": {
+    "name": "Fabric Seasons: Extras",
+    "description": "Custom blocks and items to make your Fabric Seasons experience better.",
+    "version": "1.2-BETA+1.20",
+    "environment": "*",
+    "file": "mods/current/fabric-seasons-extras-1.2-BETA+1.20.jar",
+    "dependencies": {}
+  },
+  "seasonsterralithcompat": {
+    "name": "Fabric Seasons: Terralith Compat",
+    "description": "Terralith compatibility for Fabric Seasons",
+    "version": "1.0-2.3.7",
+    "environment": "*",
+    "file": "mods/current/fabric-seasons-terralith-2.3.7-compat-1.0.jar",
+    "dependencies": {}
   },
   "fallingleaves": {
     "name": "Falling Leaves",
@@ -1077,13 +693,7 @@
     "version": "1.15.4",
     "environment": "client",
     "file": "mods/current/fallingleaves-1.15.4+1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.7",
-      "fabric-api": "*",
-      "minecraft": ">=1.19.4",
-      "cloth-config": ">=10.0.0",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "farmersdelight": {
     "name": "Farmer's Delight",
@@ -1091,11 +701,7 @@
     "version": "1.20.1-1.4.3",
     "environment": "*",
     "file": "mods/current/farmers-delight-fabric-1.4.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": ">=0.83.0+1.20",
-      "minecraft": "~1.20"
-    }
+    "dependencies": {}
   },
   "farmersrespite": {
     "name": "Farmer's Respite",
@@ -1103,13 +709,7 @@
     "version": "2.3.4",
     "environment": "*",
     "file": "mods/current/Farmersrespite-Fabric-2.3.4.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.9",
-      "fabric": "*",
-      "minecraft": ">=1.20.1",
-      "java": ">=17",
-      "forgeconfigapiport": "*"
-    }
+    "dependencies": {}
   },
   "fastipping": {
     "name": "Fast IP Ping",
@@ -1117,10 +717,7 @@
     "version": "1.0.1",
     "environment": "client",
     "file": "mods/current/fast-ip-ping-mc1.20.4-fabric-v1.0.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.11.4",
-      "minecraft": "1.20.x"
-    }
+    "dependencies": {}
   },
   "ferritecore": {
     "name": "FerriteCore",
@@ -1128,10 +725,7 @@
     "version": "6.0.1",
     "environment": "*",
     "file": "mods/current/ferritecore-6.0.1-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": ">=1.20 <1.21"
-    }
+    "dependencies": {}
   },
   "frightsdelight": {
     "name": "Frights Delight",
@@ -1139,13 +733,7 @@
     "version": "1.20.1-1.0.1",
     "environment": "*",
     "file": "mods/current/frightsdelight-1.20.1-1.0.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": ">=1.20.0",
-      "java": ">=17",
-      "fabric-api": "*",
-      "farmersdelight": "*"
-    }
+    "dependencies": {}
   },
   "ftbbackups2": {
     "name": "FTB Backups 2",
@@ -1153,11 +741,7 @@
     "version": "1.0.23",
     "environment": "*",
     "file": "mods/current/ftbbackups2-fabric-1.20-1.0.23.jar",
-    "dependencies": {
-      "fabric": "*",
-      "minecraft": ">=1.20",
-      "architectury": ">=9.0.8"
-    }
+    "dependencies": {}
   },
   "geckolib": {
     "name": "GeckoLib 4",
@@ -1165,12 +749,7 @@
     "version": "4.4.2",
     "environment": "*",
     "file": "mods/current/geckolib-fabric-1.20.1-4.4.2.jar",
-    "dependencies": {
-      "fabricloader": ">=0.15.3",
-      "fabric-api": ">=0.91.0+1.20.1",
-      "java": ">=17",
-      "minecraft": ">=1.20.1"
-    }
+    "dependencies": {}
   },
   "geckoanimfix": {
     "name": "GeckoLibIrisCompat",
@@ -1178,36 +757,23 @@
     "version": "1.0.0",
     "environment": "client",
     "file": "mods/current/GeckoLibIrisCompat-Fabric-1.0.0.jar",
-    "dependencies": {
-      "fabric": "*",
-      "fabricloader": ">=0.14.9",
-      "java": ">=16"
-    }
+    "dependencies": {}
   },
   "geophilic": {
     "name": "Geophilic",
     "description": "A subtle overhaul of Overworld biomes",
-    "version": "v2.1.0-mc1.20u1.20.2",
+    "version": "v2.2.0-mc1.20u1.20.2",
     "environment": "*",
-    "file": "mods/current/geophilic-v2.1.0-mc1.20u1.20.2.jar",
-    "dependencies": {
-      "fabric-resource-loader-v0": "*",
-      "minecraft": "<=1.20.2"
-    }
+    "file": "mods/current/geophilic-v2.2.0-mc1.20u1.20.2.jar",
+    "dependencies": {}
   },
   "hamsters": {
     "name": "Hamsters",
     "description": "Introducing small, fluffy, and adorable hamsters to Minecraft!",
-    "version": "1.0.2-fabric",
+    "version": "fabric-1.0.3-1.20.1",
     "environment": "*",
-    "file": "mods/current/hamsters-1.0.2-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.24",
-      "fabric-api": "*",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "geckolib": ">=4.2.4"
-    }
+    "file": "mods/current/hamsters-fabric-1.0.3-1.20.1.jar",
+    "dependencies": {}
   },
   "highlighter": {
     "name": "Highlighter",
@@ -1215,14 +781,7 @@
     "version": "1.1.9",
     "environment": "client",
     "file": "mods/current/Highlighter-1.20.1-fabric-1.1.9.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.19",
-      "fabric": "*",
-      "minecraft": "~1.20",
-      "java": ">=17",
-      "forgeconfigapiport": ">=8.0",
-      "iceberg": ">=1.1.16"
-    }
+    "dependencies": {}
   },
   "iceberg": {
     "name": "Iceberg",
@@ -1230,12 +789,7 @@
     "version": "1.1.18",
     "environment": "*",
     "file": "mods/current/Iceberg-1.20.1-fabric-1.1.18.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.19",
-      "fabric": "*",
-      "minecraft": "~1.20",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "illagerinvasion": {
     "name": "Illager Invasion",
@@ -1243,39 +797,23 @@
     "version": "8.0.4",
     "environment": "*",
     "file": "mods/current/IllagerInvasion-v8.0.4-1.20.1-Fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": ">=0.83.0",
-      "puzzleslib": ">=8.0.19",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "immersive_aircraft": {
     "name": "Immersive Aircraft",
     "description": "A bunch of rustic aircraft to travel, transport, and explore!. ",
-    "version": "0.6.2+1.20.1",
+    "version": "0.7.4+1.20.1",
     "environment": "*",
-    "file": "mods/current/immersive_aircraft-0.6.2+1.20.1-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.11.3",
-      "java": ">=8",
-      "fabric-api-base": ">=0.1.0"
-    }
+    "file": "mods/current/immersive_aircraft-0.7.4+1.20.1-fabric.jar",
+    "dependencies": {}
   },
   "indium": {
     "name": "Indium",
     "description": "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
-    "version": "1.0.27+mc1.20.1",
+    "version": "1.0.30+mc1.20.4",
     "environment": "client",
-    "file": "mods/current/indium-1.0.27+mc1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.8.0",
-      "minecraft": "~1.20.1",
-      "sodium": "0.5.3",
-      "fabric-renderer-api-v1": ">=3.2.0",
-      "fabric-resource-loader-v0": ">=0.4.0"
-    }
+    "file": "mods/current/indium-1.0.30+mc1.20.4.jar",
+    "dependencies": {}
   },
   "inventorysorter": {
     "name": "Inventory Sorter",
@@ -1283,11 +821,7 @@
     "version": "1.9.0-1.20",
     "environment": "*",
     "file": "mods/current/InventorySorter-1.9.0-1.20.jar",
-    "dependencies": {
-      "fabricloader": ">=0.12.5",
-      "fabric": "*",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "inventoryhud": {
     "name": "Inventory HUD +",
@@ -1295,55 +829,31 @@
     "version": "3.4.18",
     "environment": "client",
     "file": "mods/current/invhud.fabric.1.20-3.4.18.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.11",
-      "fabric": ">=0.83.0",
-      "minecraft": ">=1.20",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "irisflw": {
     "name": "Iris Flywheel Compat",
     "description": "Allow Flywheel instancing optimization to be enabled when using iris.",
-    "version": "0.2.1",
+    "version": "0.2.4",
     "environment": "client",
-    "file": "mods/current/iris-flywheel-compat-1.20.1-0.2.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.19",
-      "fabric": "*",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "iris": ">=1.6",
-      "flywheel": "*"
-    }
+    "file": "mods/current/iris-flywheel-compat-1.20.1-0.2.4.jar",
+    "dependencies": {}
   },
   "iris": {
     "name": "Iris",
     "description": "A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs",
-    "version": "1.6.10",
+    "version": "1.6.17",
     "environment": "client",
-    "file": "mods/current/iris-mc1.20.1-1.6.10.jar",
-    "dependencies": {
-      "fabricloader": ">=0.12.3",
-      "minecraft": "1.20.x",
-      "sodium": "0.5.3"
-    }
+    "file": "mods/current/iris-mc1.20.1-1.6.17.jar",
+    "dependencies": {}
   },
   "itemborders": {
     "name": "Item Borders",
     "description": "Adds colored borders around items to indicate rarity.",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "environment": "client",
-    "file": "mods/current/ItemBorders-1.20.1-fabric-1.2.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.19",
-      "fabric": "*",
-      "minecraft": "~1.20",
-      "java": ">=17",
-      "forgeconfigapiport": ">=8.0",
-      "iceberg": ">=1.1.16",
-      "prism": ">=1.0.5"
-    }
+    "file": "mods/current/ItemBorders-1.20.1-fabric-1.2.2.jar",
+    "dependencies": {}
   },
   "itemfilters": {
     "name": "Item Filters",
@@ -1351,23 +861,15 @@
     "version": "2001.1.0-build.59",
     "environment": "*",
     "file": "mods/current/item-filters-fabric-2001.1.0-build.59.jar",
-    "dependencies": {
-      "fabric": "*",
-      "minecraft": "~1.20.1",
-      "architectury": ">=9.0.8"
-    }
+    "dependencies": {}
   },
   "jade": {
     "name": "Jade",
     "description": "Minecraft mod shows what you are looking at. (Hwyla fork)",
-    "version": "11.7.0",
+    "version": "11.8.0",
     "environment": "*",
-    "file": "mods/current/Jade-1.20-fabric-11.7.0.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14",
-      "minecraft": ">=1.20-",
-      "java": ">=17"
-    }
+    "file": "mods/current/Jade-1.20-fabric-11.8.0.jar",
+    "dependencies": {}
   },
   "jadeaddons": {
     "name": "Jade Addons",
@@ -1375,10 +877,7 @@
     "version": "5.2.3",
     "environment": "*",
     "file": "mods/current/JadeAddons-1.20.1-fabric-5.2.3.jar",
-    "dependencies": {
-      "jade": ">=11.6",
-      "minecraft": ">=1.20"
-    }
+    "dependencies": {}
   },
   "kambrik": {
     "name": "Kambrik",
@@ -1386,11 +885,7 @@
     "version": "6.1.1+1.20.1",
     "environment": "*",
     "file": "mods/current/Kambrik-6.1.1+1.20.1-fabric.jar",
-    "dependencies": {
-      "fabric": ">=0.83.0",
-      "minecraft": "1.20.1",
-      "fabric-language-kotlin": ">=1.8.21"
-    }
+    "dependencies": {}
   },
   "techsupportred": {
     "name": "Kebabs Delight",
@@ -1398,13 +893,7 @@
     "version": "1.0.0",
     "environment": "*",
     "file": "mods/current/kebabsdelight-1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*",
-      "farmersdelight": "*"
-    }
+    "dependencies": {}
   },
   "keybind_fix": {
     "name": "Keybind Fix",
@@ -1412,25 +901,15 @@
     "version": "1.0.0",
     "environment": "*",
     "file": "mods/current/keybind_fix-1.0.0.jar",
-    "dependencies": {
-      "fabricloader": ">=0.13.3",
-      "fabric": "*",
-      "fabric-language-kotlin": ">=1.7.0+kotlin.1.6.0",
-      "minecraft": ">=1.18",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "kiwi": {
     "name": "Kiwi Library",
     "description": "Minecraft modding library",
-    "version": "11.5.4",
+    "version": "11.5.5",
     "environment": "*",
-    "file": "mods/current/Kiwi-1.20.1-fabric-11.5.4.jar",
-    "dependencies": {
-      "fabric-api": "*",
-      "minecraft": ">=1.20-",
-      "java": ">=17"
-    }
+    "file": "mods/current/Kiwi-1.20.1-fabric-11.5.5.jar",
+    "dependencies": {}
   },
   "leavesbegone": {
     "name": "Leaves Be Gone",
@@ -1438,13 +917,7 @@
     "version": "8.0.0",
     "environment": "*",
     "file": "mods/current/LeavesBeGone-v8.0.0-1.20.1-Fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": ">=0.83.0",
-      "puzzleslib": ">=8.0.0",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "legendarytooltips": {
     "name": "Legendary Tooltips",
@@ -1452,41 +925,23 @@
     "version": "1.4.5",
     "environment": "client",
     "file": "mods/current/LegendaryTooltips-1.20.1-fabric-1.4.5.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.19",
-      "fabric": "*",
-      "minecraft": "~1.20",
-      "java": ">=17",
-      "forgeconfigapiport": ">=8.0",
-      "iceberg": ">=1.1.16",
-      "prism": "*"
-    }
+    "dependencies": {}
   },
   "nethervinery": {
     "name": "Nether Vinery",
     "description": "Welcome to Nether Vinery! New grapes, new decor - all in the style of the Nether.",
-    "version": "1.2.2",
+    "version": "1.2.5",
     "environment": "*",
-    "file": "mods/current/letsdo-nethervinery-fabric-1.2.2.jar",
-    "dependencies": {
-      "fabric": "*",
-      "minecraft": ">=1.19.2",
-      "architectury": ">=6.5.77",
-      "vinery": ">=1.3.12"
-    }
+    "file": "mods/current/letsdo-nethervinery-fabric-1.2.5.jar",
+    "dependencies": {}
   },
   "vinery": {
     "name": "Vinery",
     "description": "Vinery contains nearly everything needed for not only creating wine but also for building up your own vinery.",
-    "version": "1.4.7",
+    "version": "1.4.10",
     "environment": "*",
-    "file": "mods/current/letsdo-vinery-1.4.7-fabric.jar",
-    "dependencies": {
-      "fabric-api": "*",
-      "minecraft": ">=1.20",
-      "architectury": ">=9.0.8",
-      "doapi": ">=1.2.8"
-    }
+    "file": "mods/current/letsdo-vinery-fabric-1.4.10.jar",
+    "dependencies": {}
   },
   "lootbeams": {
     "name": "LootBeams",
@@ -1494,25 +949,15 @@
     "version": "1.0.3",
     "environment": "client",
     "file": "mods/current/lootbeams-1.0.3.jar",
-    "dependencies": {
-      "fabricloader": ">=0.12.0",
-      "fabric": "*",
-      "minecraft": ">=1.20"
-    }
+    "dependencies": {}
   },
   "lootr": {
     "name": "Lootr",
     "description": "A mod that makes it so nobody misses out on Loot!",
-    "version": "0.7.29.75",
+    "version": "0.7.30.77",
     "environment": "*",
-    "file": "mods/current/lootr-1.20-0.7.29.75.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.19",
-      "fabric": "*",
-      "minecraft": "~1.20",
-      "java": ">=17",
-      "cloth-config2": ">=11.0.99"
-    }
+    "file": "mods/current/lootr-1.20-0.7.30.77.jar",
+    "dependencies": {}
   },
   "lovely_snails": {
     "name": "Lovely Snails",
@@ -1520,12 +965,7 @@
     "version": "1.1.3+1.20.1",
     "environment": "*",
     "file": "mods/current/lovely_snails-1.1.3+1.20.1.jar",
-    "dependencies": {
-      "minecraft": "~1.20",
-      "fabricloader": ">=0.14.20",
-      "fabric": ">=0.83.0",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "mcwbridges": {
     "name": "Macaw's Bridges",
@@ -1533,12 +973,7 @@
     "version": "2.1.0",
     "environment": "*",
     "file": "mods/current/mcw-bridges-2.1.0-mc1.20.1fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "mcwdoors": {
     "name": "Macaw's Doors",
@@ -1546,25 +981,15 @@
     "version": "1.1.0",
     "environment": "*",
     "file": "mods/current/mcw-doors-1.1.0fabric-mc1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "mcwfences": {
     "name": "Macaw's Fences and Walls",
     "description": "Adds new vanila styled fences, walls and gates!",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "environment": "*",
-    "file": "mods/current/mcw-fences-1.1.0-mc1.20.1fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "file": "mods/current/mcw-fences-1.1.1-mc1.20.1fabric.jar",
+    "dependencies": {}
   },
   "mcwfurnitures": {
     "name": "Macaw's Furniture",
@@ -1572,12 +997,7 @@
     "version": "3.2.2",
     "environment": "*",
     "file": "mods/current/mcw-furniture-3.2.2-mc1.20.1fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "mcwholidays": {
     "name": "Macaw's Holidays",
@@ -1585,12 +1005,7 @@
     "version": "1.1.0",
     "environment": "*",
     "file": "mods/current/mcw-holidays-1.1.0-mc1.20.1fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "mcwlights": {
     "name": "Macaw's Lights and Lamps",
@@ -1598,12 +1013,7 @@
     "version": "1.0.6",
     "environment": "*",
     "file": "mods/current/mcw-lights-1.0.6-mc1.20.1fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "mcwpaintings": {
     "name": "Macaw's Paintings",
@@ -1611,12 +1021,7 @@
     "version": "1.0.5",
     "environment": "*",
     "file": "mods/current/mcw-paintings-1.0.5-1.20.1fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "mcwpaths": {
     "name": "Macaw's Paths and Pavings",
@@ -1624,25 +1029,15 @@
     "version": "1.0.4",
     "environment": "*",
     "file": "mods/current/mcw-paths-1.0.4fabric-mc1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "mcwroofs": {
     "name": "Macaw's Roofs",
     "description": "Builds roofs with actual roofs!",
-    "version": "2.2.4",
+    "version": "2.3.0",
     "environment": "*",
-    "file": "mods/current/mcw-roofs-2.2.4-mc1.20.1fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "file": "mods/current/mcw-roofs-2.3.0-mc1.20.1fabric.jar",
+    "dependencies": {}
   },
   "mcwtrpdoors": {
     "name": "Macaw's Trapdoors",
@@ -1650,12 +1045,7 @@
     "version": "1.1.2",
     "environment": "*",
     "file": "mods/current/mcw-trapdoors-1.1.2-mc1.20.1fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "mcwwindows": {
     "name": "Macaw's Windows",
@@ -1663,12 +1053,7 @@
     "version": "2.2.1",
     "environment": "*",
     "file": "mods/current/mcw-windows-2.2.1-mc1.20.1fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "mixintrace": {
     "name": "MixinTrace",
@@ -1676,10 +1061,7 @@
     "version": "1.1.1+1.17",
     "environment": "*",
     "file": "mods/current/mixintrace-1.1.1+1.17.jar",
-    "dependencies": {
-      "fabricloader": ">=0.12.0",
-      "minecraft": "*"
-    }
+    "dependencies": {}
   },
   "modelfix": {
     "name": "Model Gap Fix",
@@ -1687,10 +1069,7 @@
     "version": "1.14",
     "environment": "client",
     "file": "mods/current/modelfix-1.14-fabric.jar",
-    "dependencies": {
-      "fabric": "*",
-      "minecraft": ">=1.17"
-    }
+    "dependencies": {}
   },
   "mod-loading-screen": {
     "name": "Mod Loading Screen",
@@ -1698,9 +1077,7 @@
     "version": "1.0.4",
     "environment": "*",
     "file": "mods/current/mod-loading-screen-1.0.4.jar",
-    "dependencies": {
-      "fabricloader": ">=0.12.0"
-    }
+    "dependencies": {}
   },
   "modmenu": {
     "name": "Mod Menu",
@@ -1708,25 +1085,15 @@
     "version": "7.2.2",
     "environment": "client",
     "file": "mods/current/modmenu-7.2.2.jar",
-    "dependencies": {
-      "fabric-resource-loader-v0": "*",
-      "fabric-screen-api-v1": ">=1.0.4",
-      "fabric-key-binding-api-v1": "*",
-      "fabric-lifecycle-events-v1": "*",
-      "fabricloader": ">=0.12.13",
-      "minecraft": ">=1.19.4-"
-    }
+    "dependencies": {}
   },
   "moonlight": {
     "name": "Moonlight",
     "description": "Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more",
-    "version": "1.20-2.9.7",
+    "version": "1.20-2.10.11",
     "environment": "*",
-    "file": "mods/current/moonlight-1.20-2.9.7-fabric.jar",
-    "dependencies": {
-      "fabric": ">=0.86.0",
-      "minecraft": "1.20.1"
-    }
+    "file": "mods/current/moonlight-1.20-2.10.11-fabric.jar",
+    "dependencies": {}
   },
   "mousetweaks": {
     "name": "Mouse Tweaks",
@@ -1734,12 +1101,7 @@
     "version": "2.25",
     "environment": "client",
     "file": "mods/current/MouseTweaks-fabric-mc1.20-2.25.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "~1.20",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "netherportalfix": {
     "name": "NetherPortalFix",
@@ -1747,13 +1109,7 @@
     "version": "13.0.1",
     "environment": "*",
     "file": "mods/current/netherportalfix-fabric-1.20-13.0.1.jar",
-    "dependencies": {
-      "balm-fabric": ">=7.0.0",
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": ">=1.20",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "nethersdelight": {
     "name": "Nether's Delight",
@@ -1761,26 +1117,15 @@
     "version": "1.0.0",
     "environment": "*",
     "file": "mods/current/NethersDelight-1.0.0.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.22",
-      "fabric": "*",
-      "minecraft": "~1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "niftycarts": {
     "name": "NiftyCarts",
     "description": "A Fabric Port of the AstikorCarts Minecraft mod. It adds carts for travel, shipping and farming.",
-    "version": "3.0.0+1.20.1",
+    "version": "3.0.1+1.20.1",
     "environment": "*",
-    "file": "mods/current/niftycarts-3.0.0+1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*",
-      "forgeconfigapiport": ">=8.0.0"
-    }
+    "file": "mods/current/niftycarts-3.0.1+1.20.1.jar",
+    "dependencies": {}
   },
   "nochatreports": {
     "name": "No Chat Reports",
@@ -1788,17 +1133,7 @@
     "version": "1.20.1-v2.2.2",
     "environment": "*",
     "file": "mods/current/NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.6",
-      "fabric-networking-api-v1": "*",
-      "fabric-screen-api-v1": "*",
-      "fabric-rendering-v1": "*",
-      "fabric-resource-loader-v0": "*",
-      "minecraft": [
-        ">=1.20"
-      ],
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "nyfsspiders": {
     "name": "Nyf's Spiders",
@@ -1806,12 +1141,7 @@
     "version": "2.1.1",
     "environment": "*",
     "file": "mods/current/nyfsspiders-fabric-1.20.1-2.1.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "oceansdelight": {
     "name": "Ocean's Delight",
@@ -1819,13 +1149,7 @@
     "version": "fabric-1.0.2-1.20",
     "environment": "*",
     "file": "mods/current/oceansdelight-fabric-1.0.2-1.20.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.9",
-      "fabric-api": "*",
-      "minecraft": "~1.20",
-      "java": ">=17",
-      "farmersdelight": ">=1.4.1-1.20-1.20.1"
-    }
+    "dependencies": {}
   },
   "owo": {
     "name": "oo",
@@ -1833,11 +1157,7 @@
     "version": "0.11.2+1.20",
     "environment": "*",
     "file": "mods/current/owo-lib-0.11.2+1.20.jar",
-    "dependencies": {
-      "fabricloader": "*",
-      "fabric": ">=0.76",
-      "minecraft": ">=1.19"
-    }
+    "dependencies": {}
   },
   "oxidized": {
     "name": "Oxidized",
@@ -1845,12 +1165,7 @@
     "version": "1.8.2",
     "environment": "*",
     "file": "mods/current/oxidized-1.8.2.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.12",
-      "fabric": "*",
-      "minecraft": "1.20.x",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "paladins": {
     "name": "Paladins & Priests (RPG Series)",
@@ -1858,14 +1173,7 @@
     "version": "1.0.5+1.20.1",
     "environment": "*",
     "file": "mods/current/paladins-1.0.5+1.20.1.jar",
-    "dependencies": {
-      "minecraft": ">=1.20.1",
-      "fabricloader": ">=0.14.0",
-      "azurelibarmor": "*",
-      "spell_engine": ">=0.12.0+1.20.1",
-      "spell_power": "*",
-      "runes": ">=0.9.10+1.20.1"
-    }
+    "dependencies": {}
   },
   "passablefoliage": {
     "name": "Passable Foliage",
@@ -1873,12 +1181,7 @@
     "version": "1.20.1-fabric-8.2.1",
     "environment": "*",
     "file": "mods/current/PassableFoliage-1.20.1-fabric-8.2.1.jar",
-    "dependencies": {
-      "fabric-api": "*",
-      "minecraft": ">=1.20",
-      "kiwi": ">=11.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "pehkui": {
     "name": "Pehkui",
@@ -1886,11 +1189,7 @@
     "version": "3.7.12+1.14.4-1.20.4",
     "environment": "*",
     "file": "mods/current/Pehkui-3.7.12+1.14.4-1.20.4.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.24",
-      "fabric-api-base": "*",
-      "kanos_config": ">=0.4.1"
-    }
+    "dependencies": {}
   },
   "pickupnotifier": {
     "name": "Pick Up Notifier",
@@ -1898,13 +1197,7 @@
     "version": "8.0.0",
     "environment": "*",
     "file": "mods/current/PickUpNotifier-v8.0.0-1.20.1-Fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": ">=0.83.0",
-      "puzzleslib": ">=8.0.0",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "player-animator": {
     "name": "Player Animator",
@@ -1912,10 +1205,7 @@
     "version": "1.0.2-rc1+1.20",
     "environment": "*",
     "file": "mods/current/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
-    "dependencies": {
-      "minecraft": "~1.20",
-      "fabric-resource-loader-v0": "*"
-    }
+    "dependencies": {}
   },
   "polylib": {
     "name": "PolyLib",
@@ -1923,12 +1213,7 @@
     "version": "2000.0.3-build.97",
     "environment": "*",
     "file": "mods/current/polylib-fabric-2000.0.3-build.97.jar",
-    "dependencies": {
-      "fabric": "*",
-      "minecraft": ">=1.20",
-      "architectury": ">=7.1.78",
-      "team_reborn_energy": ">=2.2.0"
-    }
+    "dependencies": {}
   },
   "polymorph": {
     "name": "Polymorph",
@@ -1936,10 +1221,7 @@
     "version": "0.49.1+1.20.1",
     "environment": "*\"  }",
     "file": "mods/current/polymorph-quilt-0.49.1+1.20.1.jar",
-    "dependencies": {
-      "id": "quilt_loader",
-      "version": "*"
-    }
+    "dependencies": {}
   },
   "presencefootsteps": {
     "name": "Presence Footsteps",
@@ -1947,14 +1229,7 @@
     "version": "1.9.1",
     "environment": "client",
     "file": "mods/current/PresenceFootsteps-1.9.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.12.0",
-      "java": ">=17",
-      "fabric-api-base": ">=0.1.0",
-      "fabric-lifecycle-events-v1": ">=0.1.0",
-      "fabric-resource-loader-v0": ">=0.1.0",
-      "kirin": "*"
-    }
+    "dependencies": {}
   },
   "prism": {
     "name": "Prism",
@@ -1962,12 +1237,7 @@
     "version": "1.0.5",
     "environment": "client",
     "file": "mods/current/Prism-1.20.1-fabric-1.0.5.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "~1.20",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "projectile_damage": {
     "name": "Projectile Damage Attribute",
@@ -1975,38 +1245,23 @@
     "version": "3.2.2+1.20.1",
     "environment": "*",
     "file": "mods/current/projectile_damage-fabric-3.2.2+1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": ">=1.20.0"
-    }
+    "dependencies": {}
   },
   "puffish_skills": {
     "name": "Pufferfish's Skills",
     "description": "Adds a fully configurable skill system to the game.",
-    "version": "0.10.0",
+    "version": "0.11.3",
     "environment": "*",
-    "file": "mods/current/puffish_skills-0.10.0-1.20-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": "*",
-      "minecraft": "~1.20",
-      "java": ">=17"
-    }
+    "file": "mods/current/puffish_skills-0.11.3-1.20-fabric.jar",
+    "dependencies": {}
   },
   "puzzleslib": {
     "name": "Puzzles Lib",
     "description": "Why's it called Puzzles you ask? That's the puzzle!",
-    "version": "8.1.16",
+    "version": "8.1.17",
     "environment": "*",
-    "file": "mods/current/PuzzlesLib-v8.1.16-1.20.1-Fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": ">=0.86.0",
-      "forgeconfigapiport": "*",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
+    "file": "mods/current/PuzzlesLib-v8.1.17-1.20.1-Fabric.jar",
+    "dependencies": {}
   },
   "quilted_fabric_api": {
     "name": "Quilted Fabric API",
@@ -2014,10 +1269,7 @@
     "version": "7.5.0+0.91.0-1.20.1",
     "environment": "*",
     "file": "mods/current/qfapi-7.5.0_qsl-6.1.2_fapi-0.91.0_mc-1.20.1.jar",
-    "dependencies": {
-      "id": "quilt_loader",
-      "versions": ">=0.19.2"
-    }
+    "dependencies": {}
   },
   "qualitysounds": {
     "name": "Quality Sounds",
@@ -2025,12 +1277,7 @@
     "version": "1.0.0-1.20.1",
     "environment": "*",
     "file": "mods/current/qualitysounds-1.0.0-1.20.1.jar",
-    "dependencies": {
-      "fabricloader": "*",
-      "fabric": "*",
-      "minecraft": "*",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "quilt_loading_screen": {
     "name": "Quilt Loading Screen",
@@ -2038,11 +1285,7 @@
     "version": "6.0.0+1.20.1",
     "environment": "client\"  },  \"modmenu\": {    \"links\": {      \"quilt_loading_screen.support\": \"https://github.com/sponsors/triphora",
     "file": "mods/current/quilt_loading_screen-6.0.0+1.20.1.jar",
-    "dependencies": {
-      "id": "midnightlib",
-      "version": ">=1.1.0",
-      "reason": "Config library"
-    }
+    "dependencies": {}
   },
   "qkl": {
     "name": "Quilt Kotlin Libraries",
@@ -2050,10 +1293,7 @@
     "version": "2.1.3",
     "environment": "*",
     "file": "mods/current/quilt-kotlin-libraries-2.1.3+kt.1.9.10+flk.1.10.10.jar",
-    "dependencies": {
-      "id": "quilt_loader",
-      "versions": ">=0.18.1"
-    }
+    "dependencies": {}
   },
   "resourcefulconfig": {
     "name": "Resourcefulconfig",
@@ -2061,21 +1301,15 @@
     "version": "2.1.2",
     "environment": "*",
     "file": "mods/current/resourcefulconfig-fabric-1.20.1-2.1.2.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": ">=1.20"
-    }
+    "dependencies": {}
   },
   "resourcefullib": {
     "name": "Resourceful Lib",
     "description": "Library Mod by Team Resourceful",
-    "version": "2.1.21",
+    "version": "2.1.23",
     "environment": "*",
-    "file": "mods/current/resourcefullib-fabric-1.20.1-2.1.21.jar",
-    "dependencies": {
-      "fabric": "*",
-      "minecraft": ">=1.20"
-    }
+    "file": "mods/current/resourcefullib-fabric-1.20.1-2.1.23.jar",
+    "dependencies": {}
   },
   "respitecreators": {
     "name": "Respite Creators",
@@ -2083,12 +1317,7 @@
     "version": "1.2.0",
     "environment": "*",
     "file": "mods/current/respite-creators-1.2.0.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "dependencies": {}
   },
   "rotten_flesh_to_leather": {
     "name": "Rotten Flesh to Leather",
@@ -2096,12 +1325,7 @@
     "version": "1.0.0",
     "environment": "*",
     "file": "mods/current/rottenflesh-to-leather_1-20-x.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "~1.20",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "roughlyenoughitems": {
     "name": "Roughly Enough Items",
@@ -2109,9 +1333,7 @@
     "version": "12.0.684",
     "environment": "*",
     "file": "mods/current/RoughlyEnoughItems-12.0.684-fabric.jar",
-    "dependencies": {
-      "minecraft": "~1.20-"
-    }
+    "dependencies": {}
   },
   "runes": {
     "name": "Runes",
@@ -2119,10 +1341,7 @@
     "version": "0.9.11+1.20.1",
     "environment": "*",
     "file": "mods/current/runes-fabric-0.9.11+1.20.1.jar",
-    "dependencies": {
-      "minecraft": ">=1.20.0",
-      "fabricloader": ">=0.14.0"
-    }
+    "dependencies": {}
   },
   "seamless_loading_screen": {
     "name": "Seamless Loading Screen",
@@ -2130,11 +1349,7 @@
     "version": "2.0.3+1.20.1",
     "environment": "client",
     "file": "mods/current/seamless-loading-screen-2.0.3+1.20.1-fabric.jar",
-    "dependencies": {
-      "fabricloader": "*",
-      "fabric": "*",
-      "minecraft": "~1.20"
-    }
+    "dependencies": {}
   },
   "searchables": {
     "name": "Searchables",
@@ -2142,27 +1357,15 @@
     "version": "1.0.2",
     "environment": "client",
     "file": "mods/current/Searchables-fabric-1.20.1-1.0.2.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14",
-      "java": ">=17",
-      "minecraft": "1.20.1"
-    }
+    "dependencies": {}
   },
   "simplyskills": {
     "name": "SimplySkills",
     "description": "A comprehensive skill tree mod with a focus on combat specialisations.",
-    "version": "1.0.0+1.20.1",
+    "version": "1.0.2+1.20.1",
     "environment": "*",
-    "file": "mods/current/simplyskills-1.0.0+1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.22",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "spell_power": ">=0.9.16+1.20.1",
-      "spell_engine": ">=0.12.0+1.20.1 <0.13.0+1.20.1",
-      "cloth-config": ">=11.1.106",
-      "puffish_skills": ">=0.10.0 <=0.10.0"
-    }
+    "file": "mods/current/simplyskills-1.0.2+1.20.1.jar",
+    "dependencies": {}
   },
   "sliceanddice": {
     "name": "Create Slice & Dice",
@@ -2170,14 +1373,7 @@
     "version": "3.0.0",
     "environment": "*",
     "file": "mods/current/sliceanddice-fabric-3.0.0.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "java": ">=17",
-      "fabric-language-kotlin": "^1.9.0",
-      "create": "*"
-    }
+    "dependencies": {}
   },
   "smoothparticles": {
     "name": "Smooth Particles",
@@ -2185,12 +1381,7 @@
     "version": "1.2.0-1.21",
     "environment": "*",
     "file": "mods/current/smoothparticles-1.2.0-1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.9",
-      "fabric-api": "*",
-      "minecraft": "~1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "smoothswapping": {
     "name": "Smooth Swapping",
@@ -2198,23 +1389,15 @@
     "version": "0.9.3.1",
     "environment": "client",
     "file": "mods/current/smoothswapping-0.9.3.1-1.20.2-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20"
-    }
+    "dependencies": {}
   },
   "sodium": {
     "name": "Sodium",
     "description": "Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.",
-    "version": "0.5.3",
+    "version": "0.5.8+mc1.20.1",
     "environment": "client",
-    "file": "mods/current/sodium-fabric-mc1.20.1-0.5.3.jar",
-    "dependencies": {
-      "minecraft": "1.20.1",
-      "fabricloader": ">=0.12.0",
-      "fabric-rendering-data-attachment-v1": ">=0.1",
-      "fabric-rendering-fluids-v1": ">=0.1"
-    }
+    "file": "mods/current/sodium-fabric-0.5.8+mc1.20.1.jar",
+    "dependencies": {}
   },
   "sound_physics_remastered": {
     "name": "Sound Physics Remastered",
@@ -2222,11 +1405,7 @@
     "version": "1.20.1-1.3.1",
     "environment": "*",
     "file": "mods/current/sound-physics-remastered-fabric-1.20.1-1.3.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "spawn": {
     "name": "Spawn",
@@ -2234,12 +1413,7 @@
     "version": "1.0.3-fabric",
     "environment": "*",
     "file": "mods/current/spawn-1.0.3-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.24",
-      "fabric-api": "*",
-      "minecraft": "~1.20",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "spell_engine": {
     "name": "Spell Engine",
@@ -2247,15 +1421,7 @@
     "version": "0.12.5+1.20.1",
     "environment": "*",
     "file": "mods/current/spell_engine-0.12.5+1.20.1.jar",
-    "dependencies": {
-      "minecraft": ">=1.20.0",
-      "fabricloader": ">=0.14.10",
-      "fabric": ">=0.87.0+1.20.1",
-      "cloth-config": ">=11.1.106",
-      "player-animator": ">=0.9.9",
-      "spell_power": ">=0.9.18+1.20.1",
-      "trinkets": "*"
-    }
+    "dependencies": {}
   },
   "spell_power": {
     "name": "Spell Power Attribute",
@@ -2263,10 +1429,7 @@
     "version": "0.9.19+1.20.1",
     "environment": "*",
     "file": "mods/current/spell_power-fabric-0.9.19+1.20.1.jar",
-    "dependencies": {
-      "minecraft": ">=1.20.0",
-      "fabricloader": ">=0.14.0"
-    }
+    "dependencies": {}
   },
   "spiceoffabric": {
     "name": "Spice of Fabric",
@@ -2274,9 +1437,7 @@
     "version": "1.6.2+mc1.20.1",
     "environment": "*",
     "file": "mods/current/spiceoffabric-1.6.2+mc1.20.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.4.0"
-    }
+    "dependencies": {}
   },
   "stackdeobfuscator": {
     "name": "StackDeobfuscator",
@@ -2284,23 +1445,15 @@
     "version": "1.4.2+bf1fc22",
     "environment": "*",
     "file": "mods/current/StackDeobfuscatorFabric-1.4.2+bf1fc22.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.11",
-      "minecraft": ">=1.14-alpha.18.49.a",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "supplementaries": {
     "name": "Supplementaries",
     "description": "Many functional and useful Vanilla+ blocks",
-    "version": "1.20-2.7.32",
+    "version": "1.20-2.8.6",
     "environment": "*",
-    "file": "mods/current/supplementaries-1.20-2.7.32-fabric.jar",
-    "dependencies": {
-      "fabric": "*",
-      "minecraft": ">=1.20",
-      "moonlight": ">=1.20-2.9.0"
-    }
+    "file": "mods/current/supplementaries-1.20-2.8.6-fabric.jar",
+    "dependencies": {}
   },
   "terralith": {
     "name": "Terralith",
@@ -2308,22 +1461,15 @@
     "version": "2.4.11",
     "environment": "*",
     "file": "mods/current/Terralith_1.20.4_v2.4.11.jar",
-    "dependencies": {
-      "fabricloader": ">=0.12.7",
-      "fabric-api-base": "*",
-      "minecraft": ">=1.20"
-    }
+    "dependencies": {}
   },
   "thaumon": {
     "name": "Thaumon [BETA]",
     "description": "Thaumcraft-inspired decoration blocks for modern Minecraft",
-    "version": "2.1.0",
+    "version": "2.2.0+1.20.1",
     "environment": "*",
-    "file": "mods/current/thaumon-fabric-2.1.0+1.20.1.jar",
-    "dependencies": {
-      "fabric-api": "*",
-      "minecraft": ">=1.20.1"
-    }
+    "file": "mods/current/thaumon-fabric-2.2.0+1.20.1.jar",
+    "dependencies": {}
   },
   "things": {
     "name": "Things",
@@ -2331,15 +1477,7 @@
     "version": "0.3.3+1.20",
     "environment": "*",
     "file": "mods/current/things-0.3.3+1.20.jar",
-    "dependencies": {
-      "fabricloader": "*",
-      "fabric": "*",
-      "minecraft": ">=1.19.3",
-      "trinkets": ">=3.3.0",
-      "owo": ">=0.5.4+1.18",
-      "reach-entity-attributes": "*",
-      "lavender": ">=0.1.0-pre.6"
-    }
+    "dependencies": {}
   },
   "tia": {
     "name": "Tiny Item Animations",
@@ -2347,37 +1485,23 @@
     "version": "1.20-1.1",
     "environment": "client",
     "file": "mods/current/tia-1.20-1.1-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "timecontrol": {
     "name": "TimeControl",
     "description": "Take control over Minecraft's day-night cycle",
-    "version": "1.4.1",
+    "version": "1.6.0",
     "environment": "*",
-    "file": "mods/current/timecontrol-1.20.1-1.4.1.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "fabric-api": "*"
-    }
+    "file": "mods/current/timecontrol-1.20.1-1.6.0.jar",
+    "dependencies": {}
   },
   "tipsmod": {
     "name": "Tips",
     "description": "Adds useful tips to various loading screens in game.",
-    "version": "12.0.4",
+    "version": "12.0.5",
     "environment": "client",
-    "file": "mods/current/Tips-Fabric-1.20.1-12.0.4.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric": "*",
-      "minecraft": "1.20.1",
-      "java": ">=17",
-      "bookshelf": ">=20"
-    }
+    "file": "mods/current/Tips-Fabric-1.20.1-12.0.5.jar",
+    "dependencies": {}
   },
   "toofast": {
     "name": "TooFast",
@@ -2385,12 +1509,7 @@
     "version": "1.2.0",
     "environment": "*",
     "file": "mods/current/toofast-fabric-1.20-1.2.0.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14",
-      "fabric": "*",
-      "minecraft": "1.20.x",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "travelersbackpack": {
     "name": "Traveler's Backpack",
@@ -2398,15 +1517,7 @@
     "version": "1.20.1-9.1.9",
     "environment": "*",
     "file": "mods/current/travelers-backpack-1.20.1-9.1.9.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.6",
-      "fabric": "*",
-      "minecraft": "~1.20.1",
-      "java": ">=17",
-      "cardinal-components-base": "*",
-      "cardinal-components-entity": "*",
-      "cloth-config2": "*"
-    }
+    "dependencies": {}
   },
   "trinkets": {
     "name": "Trinkets",
@@ -2414,13 +1525,7 @@
     "version": "3.7.1",
     "environment": "*",
     "file": "mods/current/trinkets-3.7.1.jar",
-    "dependencies": {
-      "minecraft": ">1.18",
-      "fabricloader": ">=0.7.0",
-      "cardinal-components-base": ">=3.0.0-0",
-      "cardinal-components-entity": ">=3.0.0-0",
-      "fabric": ">=0.51.2"
-    }
+    "dependencies": {}
   },
   "twigs": {
     "name": "Twigs",
@@ -2428,12 +1533,7 @@
     "version": "3.1.0",
     "environment": "*",
     "file": "mods/current/twigs-3.1.0-fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": "*",
-      "minecraft": "~1.20",
-      "java": ">=17"
-    }
+    "dependencies": {}
   },
   "visuality": {
     "name": "Visuality",
@@ -2441,26 +1541,6 @@
     "version": "0.7.1+1.20",
     "environment": "client",
     "file": "mods/current/visuality-0.7.1+1.20.jar",
-    "dependencies": {
-      "fabricloader": "*",
-      "fabric-api": "*",
-      "cloth-config": "*",
-      "minecraft": ">=1.20-beta.4 <1.21",
-      "java": ">=17"
-    }
-  },
-  "visualworkbench": {
-    "name": "Visual Workbench",
-    "description": "Items stay inside crafting tables and are also rendered on top. It's really fancy!",
-    "version": "8.0.0",
-    "environment": "*",
-    "file": "mods/current/VisualWorkbench-v8.0.0-1.20.1-Fabric.jar",
-    "dependencies": {
-      "fabricloader": ">=0.14.21",
-      "fabric-api": ">=0.83.0",
-      "puzzleslib": ">=8.0.0",
-      "minecraft": "1.20.1",
-      "java": ">=17"
-    }
+    "dependencies": {}
   }
 }

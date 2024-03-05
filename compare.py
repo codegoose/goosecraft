@@ -46,7 +46,8 @@ def scan_collection_dir(dir: str):
     version = get_key_value('version', data)
     environment = get_key_value('environment', data)
     if environment is None: environment = '*'
-    dependencies = get_key_dict('depends', data)
+    # dependencies = get_key_dict('depends', data)
+    dependencies = None
     name = get_key_value('name', data)
     description = get_key_value('description', data)
     if description is not None: description = description.replace('\\n', '. ')
@@ -102,7 +103,7 @@ def compare_lists(old_list, new_list):
   removed_entries = old_set - new_set
   return new_entries, removed_entries
 
-old_mods = scan_collection_dir('mods/v6-1-5')
+old_mods = scan_collection_dir('mods/v6-1-6')
 new_mods = scan_collection_dir('mods/current')
 
 open('mods-old.json', 'w+').write(json.dumps(old_mods, indent=2))
