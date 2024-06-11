@@ -1,14 +1,13 @@
 # Goosecraft
 Build Docker image:
 ```
-docker build -t goosecraft:6.1.7 -f server.docker .
+docker build -t goosecraft:6.1.9 -f server.docker .
 ```
 Example Compose file:
 ```yml
-version: "3"
 services:
   pub:
-    image: goosecraft:6.1.7
+    image: goosecraft:6.1.9
     stop_grace_period: 1m
     ports:
       - "25575:25565/tcp"
@@ -46,6 +45,114 @@ agrpdir() {
   done
 }
 ```
+# v6.1.9
+## Technicals
+* Updated Quilt to v26
+## Mods
+### Added
+  * **Lithium**: Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.
+  * **Cubes Without Borders**: A mod that allows you to play Minecraft in a borderless fullscreen window.
+  * **Better chunk loading mod**: Improves chunk loading
+  * **Boids**: 
+  * **Neruina**: This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds.
+  * **Create: Storage**: A Storage System for Create by FoxyNoTail
+  * **Collective**: Collective is a shared library with common code for all of Serilum's mods.
+  * **Pufferfish's Attributes**: Adds more attributes to the game.
+  * **Krypton**: A Fabric mod that optimizes the Minecraft networking stack and entity tracker.
+  * **Smooth chunk save Mod**: Spreads out chunk saves equally and saves them after a configured delay
+  * **World Border**: Allows the creation of a configurable world border for each dimension, limiting the world size.
+  * **Chunksending Mod**: Optimized chunk packets
+  * **Crate Delight**: An addon mod for Farmer's Delight that adds more crates and bags to the base mod.
+  * **Distant Horizons**: This mod generates and renders simplified terrain beyond the normal view distance at a low performance cost. Allowing you to see much farther without turning your game into a slideshow.
+  * **RangedWeaponAPI**: Allows creating bows and crossbows, with just a few line of code
+  * **Immersive Weathering**: An abundance of new natural systems to make your world feel more alive than ever.
+### Updated
+  * **What Are They Up To**: Lets you see if players are typing, in a GUI, idle, with cool ingame visuals **(1.20.1-1.1.0 to 1.20.1-1.1.1)**
+  * **Wizards (RPG Series)**: Destroy your enemies with Arcane, Fire and Frost magic. **(1.0.5+1.20.1 to 1.2.0+1.20.1)**
+  * **Xaero's Minimap**: The most vanilla-looking minimap for Minecraft. **(23.9.7 to 24.2.0)**
+  * **Xaero's World Map**: A self-writing fullscreen map which also works as an add-on to Xaero's Minimap. **(1.37.8 to 1.38.8)**
+  * **YetAnotherConfigLib**: YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft. **(3.2.2+1.20 to 3.4.4+1.20.1-fabric)**
+  * **YUNG's API**: API Library for YUNG's minecraft mods. **(1.20-Fabric-4.0.4 to 1.20-Fabric-4.0.5)**
+  * **YUNG's Better Dungeons**: A complete redesign of Minecraft's dungeons **(1.20-Fabric-4.0.3 to 1.20-Fabric-4.0.4)**
+  * **YUNG's Better Jungle Temples**: A complete redesign of Minecraft's Jungle Temples! **(1.20-Fabric-2.0.4 to 1.20-Fabric-2.0.5)**
+  * **YUNG's Better Nether Fortresses**: A complete redesign of Minecraft's Nether Fortresses! **(1.20-Fabric-2.0.5 to 1.20-Fabric-2.0.6)**
+  * **Amendments**: Many tweaks to Vanilla Blocks **(1.20-1.1.6 to 1.20-1.2.4)**
+  * **Archers (RPG Series)**: Draw, Release, Conquer - Master the art of Archery! **(1.0.7+1.20.1 to 1.2.1+1.20.1)**
+  * **Artifacts**: Adds various new powerful uncraftable items to make exploration a bit more interesting **(9.3.0 to 9.5.10)**
+  * **Balm**: Abstraction Layer (but not really)TM for Blay's multiplatform mods **(7.2.2 to 7.3.4)**
+  * **Beautify**: Beautify adds lots of vanilla-styled ways to spice up your builds with custom models that'll fit right in to your houses etc. **(1.1.0+1.20 to 1.2.0+1.20.1)**
+  * **Better Archeology**: Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration! **(1.1.6-1.20.1 to 1.1.9-1.20.1)**
+  * **Better Combat**: Easy, spectacular and fun melee combat system from Minecraft Dungeons. **(1.8.4+1.20.1 to 1.8.5+1.20.1)**
+  * **Bookshelf**: A library for building other mods. **(20.1.9 to 20.2.12)**
+  * **BotanyPots**: Pots for growing different types of plants. **(13.0.24 to 13.0.33)**
+  * **Brewin And Chewin**: This is an example description! Tell everyone what your mod is about! **(fabric-2.3.1+1.20.1 to 3.0.3+1.20.1)**
+  * **Chat Heads**: See who are you chatting with!. This mod adds player heads next to their chat messages. **(0.10.31 to 0.12.2)**
+  * **ChickensShed**: Chickens shed their feathers occasionally. **(1.5.0+1.20.1 to 1.6.0+mc1.20.1)**
+  * **Create Enchantment Industry**: An add-on for Create, providing enchanting & experience related automation. **(1.2.14 to 1.2.16)**
+  * **Create Deco**: Decorative options for your Create factory **(2.0.1-1.20.1-fabric to 2.0.2-1.20.1-fabric)**
+  * **Create**: Technology that empowers the player. **(0.5.1-d-build.1161+mc1.20.1 to 0.5.1-f-build.1417+mc1.20.1)**
+  * **Create Ore Excavation**: Extract resources using machines powered by Rotational Force **(1.4.3 to 1.4.6)**
+  * **cupboard**:  **(1.20.1-2.5 to 1.20.1-2.6)**
+  * **End's Delight**: An addon mod for Farmer's Delight based around adding culinary content to the end! **(1.0.1 to refabricated-1.20.1-alpha-1.0)**
+  * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.6.35 to 1.20-2.6.60)**
+  * **Expanded Delight**: An addon mod for Farmer's Delight that adds many more crops and functionality to the base mod. **(0.3.0.2 to 0.3.1)**
+  * **Explorify**: A collection of new dungeons and structures **(v1.3.0-mc1.20 to v1.4.0)**
+  * **Falling Leaves**: \"How the gentle wind . beckons through the leaves . as autumn colors fall,. dancing in a swirl . of golden memories:. the loveliest lies of all.\" **(1.15.4 to 1.15.6)**
+  * **Farmer's Delight**: A cozy expansion to farming and cooking! **(1.20.1-1.4.3 to 1.20.1-2.1.1+refabricated)**
+  * **Farmer's Respite**: An addon created by Umpaz, HoboJoe, and SoyTutta for the Farmer's Delight mod by vectorwing. Attempts to add tea and ways to brew it, as well as some other foods! **(2.3.4 to 3.0.2)**
+  * **GeckoLib 4**: GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more. **(4.4.2 to 4.4.4)**
+  * **Illager Invasion**: The illagers are back! Be ready to fight new foes. A port of Illager Expansion. **(8.0.4 to 8.0.5)**
+  * **Immersive Aircraft**: A bunch of rustic aircraft to travel, transport, and explore!.  **(0.7.4+1.20.1 to 1.0.1+1.20.1)**
+  * **Indium**: Sodium addon providing support for the Fabric Rendering API, based on Indigo **(1.0.30+mc1.20.4 to 1.0.31+mc1.20.4)**
+  * **Iris**: A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs **(1.6.17 to 1.7.0+mc1.20.1)**
+  * **Jade**: Minecraft mod shows what you are looking at. (Hwyla fork) **(11.8.0 to 11.9.2+fabric)**
+  * **Jade Addons**: Jade's additional mod supports for Fabric. **(5.2.3 to 5.2.5)**
+  * **Kiwi Library**: Minecraft modding library **(11.5.5 to 11.6.2)**
+  * **[Let's Do] API**: This is an API for the Let's do mods **(1.2.8 to 1.2.13)**
+  * **[Let's Do] Vinery**: In Vino Veritas - it's time for wine! Build your own vineyard, produce wine, and establish your own winery. **(1.4.10 to 1.4.22)**
+  * **Lootr**: A mod that makes it so nobody misses out on Loot! **(0.7.30.77 to 0.7.33.81)**
+  * **Macaw's Bridges**: A simple mod that adds a lot of bridges! **(2.1.0 to 3.0.0)**
+  * **Macaw's Paths and Pavings**: Adds new vanila styled paths and pavings! **(1.0.4 to 1.0.5)**
+  * **Macaw's Trapdoors**: Adds vanila trapdoors in every plank variation, and some new trapdoors too! **(1.1.2 to 1.1.3)**
+  * **Model Gap Fix**: Fixes those annoying gaps that appear in item and block models **(1.14 to 1.15)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.10.11 to 1.20-2.11.33)**
+  * **Mouse Tweaks**: A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. **(2.25 to 2.26)**
+  * **NiftyCarts**: A Fabric Port of the AstikorCarts Minecraft mod. It adds carts for travel, shipping and farming. **(3.0.1+1.20.1 to 3.0.2+1.20.1)**
+  * **Ocean's Delight**: This is a mod that adds food based on the creatures in the ocean **(fabric-1.0.2-1.20 to fdrf-fabric-1.0.2-1.20)**
+  * **Paladins & Priests (RPG Series)**: Protect and heal your friends as a Paladin or a Priest. **(1.0.5+1.20.1 to 1.2.0+1.20.1)**
+  * **Pehkui**: Allows resizing of most entities. **(3.7.12+1.14.4-1.20.4 to 3.8.2+1.14.4-1.20.6)**
+  * **PolyLib**:  **(2000.0.3-build.97 to 2000.0.3-build.143)**
+  * **Polymorph**: No more recipe conflicts! Adds an option to choose the crafting result if more than one is available. **(0.49.1+1.20.1 to 0.49.5+1.20.1)**
+  * **Presence Footsteps**: An overly complicated sound mod. **(1.9.1 to 1.9.4+1.20.1)**
+  * **Projectile Damage Attribute**: Adds generic projectile damage attribute, so ranged weapon damage can be changed. **(3.2.2+1.20.1 to 3.2.3+1.20.1)**
+  * **Pufferfish's Skills**: Adds a fully configurable skill system to the game. **(0.11.3 to 0.12.2)**
+  * **Puzzles Lib**: Why's it called Puzzles you ask? That's the puzzle! **(8.1.17 to 8.1.20)**
+  * **Quilt Loading Screen**: Makes the Minecraft loading screen have QuiltMC patches **(6.0.0+1.20.1 to 6.1.0+1.20.1)**
+  * **Traveler's Backpack**: Unique and upgradeable backpacks with customisation, Trinkets integration and more! **(1.20.1-9.1.9 to fabric-1.20.1-9.1.13)**
+  * **Trinkets**: Adds a data-driven accessory system to Minecraft **(3.7.1 to 3.7.2)**
+  * **Resourceful Lib**: Library Mod by Team Resourceful **(2.1.23 to 2.1.25)**
+  * **Roughly Enough Items**: Clean and Customizable. **(12.0.684 to 12.1.725)**
+  * **Searchables**: A library mod to facilitate adding search bars with auto complete and search types. **(1.0.2 to 1.0.3)**
+  * **SimplySkills**: A comprehensive skill tree mod with a focus on combat specialisations. **(1.0.2+1.20.1 to 1.4.1+1.20.1)**
+  * **Create Slice & Dice**: Making automation for Farmers Delight more sensible **(3.0.0 to 3.2.1)**
+  * **Spell Engine**: Data driven magic library. **(0.12.5+1.20.1 to 0.14.3+1.20.1)**
+  * **Spell Power Attribute**: Spell Power entity attributes with related status effects and enchantments. **(0.9.19+1.20.1 to 0.10.2+1.20.1)**
+  * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-2.8.6 to 1.20-2.8.14)**
+  * **Terralith**: Explore almost 100 new biomes consisting of both realism and light fantasy, using just Vanilla blocks. Complete with several immersive structures to compliment the overhauled terrain. **(2.4.11 to 2.5.1)**
+### Removed
+  * **CreateFabric&REIBugFix**: Fix CreateFabric Recipe display on REI issues. Code from Create's Delight by Phoupraw.
+  * **Fabric Seasons: Delight Compat**: Farmer's Delight compatibility for Fabric Seasons
+  * **CC: Tweaked**: CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft.
+  * **Frights Delight**: Frights Delight is an add-on mod for Farmers Delight Fabric that adds food made from mob drops. Dishes are created with a Horror theme, consume with caution.
+  * **Sound Physics Remastered**: Provides realistic sound attenuation, reverberation, and absorption through blocks.
+  * **Nether's Delight**: Nether's Delight is an addon mod for Farmer's Delight based around adding culinary content to the nether!  
+  * **Fabric Seasons: Terralith Compat**: Terralith compatibility for Fabric Seasons
+  * **Nether Vinery**: Welcome to Nether Vinery! New grapes, new decor - all in the style of the Nether.
+  * **Fabric Seasons**: A simple mod that adds seasons to the game, dynamically changing biomes as you play.
+  * **Fabric Seasons: Extras**: Custom blocks and items to make your Fabric Seasons experience better.
+  * **CC:C Bridge**: This mod adds compatibility between the ComputerCraft and Create mod!Copyright 2023 Sammy L. Koch
+  * **Iris Flywheel Compat**: Allow Flywheel instancing optimization to be enabled when using iris.
+  * **Beneath the Wetlands**: Enhances the atmosphere of the swamps by adding new structures, blocks, items and mobs
 # v6.1.7
 ## Technicals
 * Updated Quilt to v24

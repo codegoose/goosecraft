@@ -15,8 +15,10 @@ if (entityId < 50064) {
             } else {
                 if (entityId == 50008) { // Item Frame, Glow Item Frame
                     noSmoothLighting = true;
-                } else /*if (entityId == 50012)*/ { //
+                } else /*if (entityId == 50012)*/ { // Iron Golem
+                    #include "/lib/materials/specificMaterials/terrain/ironBlock.glsl"
 
+                    smoothnessD *= 0.6;
                 }
             }
         } else {
@@ -52,7 +54,7 @@ if (entityId < 50064) {
                     if (atlasSize.x < 900) {
                         if (CheckForColor(color.rgb, vec3(143, 241, 215)) ||
                             CheckForColor(color.rgb, vec3( 49, 173, 183)) ||
-                            CheckForColor(color.rgb, vec3(101, 224, 221))) emission = 3.0;
+                            CheckForColor(color.rgb, vec3(101, 224, 221))) emission = 2.5;
                     }
                 }
             }
@@ -60,7 +62,7 @@ if (entityId < 50064) {
     } else {
         if (entityId < 50048) {
             if (entityId < 50040) {
-                if (entityId == 50032) { // Guardian        
+                if (entityId == 50032) { // Guardian
                     vec3 absDif = abs(vec3(color.r - color.g, color.g - color.b, color.r - color.b));
                     float maxDif = max(absDif.r, max(absDif.g, absDif.b));
                     if (maxDif < 0.1 && color.b > 0.5 && color.b < 0.88) {
@@ -97,7 +99,7 @@ if (entityId < 50064) {
             } else {
                 if (entityId == 50056) { // Stray
                     if (CheckForColor(color.rgb, vec3(230, 242, 246)) && texCoord.y > 0.35)
-                        emission = 3.7;
+                        emission = 2.5;
                 } else /*if (entityId == 50060)*/ { // Vex
                     lmCoordM = vec2(0.0);
                     emission = pow2(pow2(color.r)) * 3.5 + 0.5;
@@ -135,8 +137,8 @@ if (entityId < 50064) {
                     } else {
                         lmCoordM.x = 0.8;
                     }
-                } else /*if (entityId == 50084)*/ { // Slime
-                    //only slime code is in Vertex Shader for now
+                } else /*if (entityId == 50084)*/ { // Slime, Chicken
+                    //only code is in Vertex Shader for now
                 }
             } else {
                 if (entityId == 50088) { // Entity Flame (Iris Feature)
@@ -152,28 +154,33 @@ if (entityId < 50064) {
     } else {
         if (entityId < 50112) {
             if (entityId < 50104) {
-                if (entityId == 50096) { // 
-                
-                } else /*if (entityId == 50100)*/ { //
+                if (entityId == 50096) { // Minecart++
+                    if (atlasSize.x < 900 && color.r * color.g * color.b + color.b > 0.3) {
+                        #include "/lib/materials/specificMaterials/terrain/ironBlock.glsl"
 
+                        smoothnessD *= 0.6;
+                    }
+                } else /*if (entityId == 50100)*/ { // Bogged
+                    if (CheckForColor(color.rgb, vec3(239, 254, 194)))
+                        emission = 2.5;
                 }
             } else {
-                if (entityId == 50104) { // 
-                
+                if (entityId == 50104) { //
+
                 } else /*if (entityId == 50108)*/ { //
 
                 }
             }
         } else {
             if (entityId < 50120) {
-                if (entityId == 50112) { // 
-                
+                if (entityId == 50112) { //
+
                 } else /*if (entityId == 50116)*/ { //
 
                 }
             } else {
-                if (entityId == 50120) { // 
-                
+                if (entityId == 50120) { //
+
                 } else /*if (entityId == 50124)*/ { //
 
                 }

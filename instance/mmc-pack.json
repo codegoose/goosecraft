@@ -2,11 +2,11 @@
     "components": [
         {
             "cachedName": "LWJGL 3",
-            "cachedVersion": "3.3.2",
+            "cachedVersion": "3.3.3",
             "cachedVolatile": true,
             "dependencyOnly": true,
             "uid": "org.lwjgl3",
-            "version": "3.3.2"
+            "version": "3.3.3"
         },
         {
             "cachedName": "Minecraft",
@@ -42,9 +42,9 @@
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
-            "cachedVersion": "0.24.0",
+            "cachedVersion": "0.26.0",
             "uid": "org.quiltmc.quilt-loader",
-            "version": "0.24.0"
+            "version": "0.26.0"
         }
     ],
     "formatVersion": 1

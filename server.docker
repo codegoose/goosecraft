@@ -1,17 +1,26 @@
-FROM archlinux:latest
+from fedora:latest
 
-RUN pacman -Sy --noconfirm && \
-    pacman -S --noconfirm supervisor jre17-openjdk-headless && \
-    pacman -Scc --noconfirm
+run yum install wget java-17-openjdk-headless -y
 
-COPY server /server
-COPY quilt/. server/.
-RUN mkdir /server/mods
-COPY mods/current /server/mods
-WORKDIR /server
+run yum install -y python310 && \
+    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
+    python3.10 get-pip.py && \
+    python3.10 -m pip install supervisor && \
+    rm -f get-pip.py
 
-COPY config/both /server/config
-COPY config/server /server/config
-COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+run wget -O /quilt-installer.jar https://maven.quiltmc.org/repository/release/org/quiltmc/quilt-installer/0.9.1/quilt-installer-0.9.1.jar
+run java -jar /quilt-installer.jar install server 1.20.1 --download-server
 
-CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+copy server /server
+run mkdir /server/mods
+copy mods/current /server/mods
+run rm /server/mods/DistantHorizons-*.jar
+
+workdir /server
+
+copy supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+
+copy config/both /server/config
+copy config/server /server/config
+
+cmd ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]

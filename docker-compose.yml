@@ -1,7 +1,6 @@
-version: "3"
 services:
   pub:
-    image: goosecraft:6.1.7
+    image: goosecraft:6.1.9
     stop_grace_period: 1m
     ports:
       - "25575:25565/tcp"
@@ -16,17 +15,13 @@ services:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
   dev:
-    image: goosecraft:6.1.7
+    image: goosecraft:6.1.9
     stop_grace_period: 1m
     ports:
       - "25576:25565/tcp"
     restart: unless-stopped
     volumes:
-      - /mnt/md2/pnd/mc/live/dev/world:/server/world
-      - /mnt/md2/pnd/mc/live/dev/schematics:/server/schematics
       - /mnt/md2/pnd/mc/live/dev/logs:/server/logs
       - /mnt/md2/pnd/mc/live/dev/crash:/server/crash-reports
-      - /mnt/md2/pnd/mc/live/dev/backups:/server/backups
-      - /mnt/md2/pnd/mc/live/dev/cache:/server/.cache
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
