@@ -1,0 +1,134 @@
+_version = 2
+[client]
+	optionsButton = true
+	[client.advanced]
+		[client.advanced.buffers]
+			gpuUploadMethod = "AUTO"
+			gpuUploadAsync = true
+			gpuUploadPerMegabyteInMilliseconds = 0
+		[client.advanced.lodBuilding]
+			worldCompression = "VISUALLY_EQUAL"
+			onlyUseDhLightingEngine = false
+			showMigrationChatWarning = true
+			dataCompression = "LZ4"
+			minTimeBetweenChunkUpdatesInSeconds = 1
+		[client.advanced.autoUpdater]
+			updateBranch = "STABLE"
+			enableAutoUpdater = true
+			enableSilentUpdates = false
+		[client.advanced.multiThreading]
+			numberOfLodBuilderThreads = 4
+			enableLodBuilderThreadLimiting = true
+			runTimeRatioForWorldGenerationThreads = "0.75"
+			runTimeRatioForLodBuilderThreads = "0.75"
+			runTimeRatioForFileHandlerThreads = "1.0"
+			runTimeRatioForUpdatePropagatorThreads = "0.75"
+			numberOfFileHandlerThreads = 4
+			numberOfUpdatePropagatorThreads = 4
+			numberOfWorldGenerationThreads = 4
+		[client.advanced.logging]
+			logRendererGLEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+			logWorldGenPerformance = "LOG_WARNING_TO_CHAT_AND_FILE"
+			logFileSubDimEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+			logFileReadWriteEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+			logNetworkEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+			logRendererBufferEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+			logLodBuilderEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+			logWorldGenEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+			logWorldGenLoadEvent = "LOG_WARNING_TO_CHAT_AND_FILE"
+		[client.advanced.debugging]
+			lodOnlyMode = false
+			enableWhiteWorld = false
+			rendererMode = "DEFAULT"
+			renderWireframe = false
+			enableDebugKeybindings = false
+			showOverlappingQuadErrors = false
+			debugRendering = "OFF"
+			[client.advanced.debugging.debugWireframe]
+				showRenderSectionStatus = false
+				showFullDataUpdateStatus = false
+				showWorldGenQueue = false
+				showQuadTreeRenderStatus = false
+				enableRendering = false
+			[client.advanced.debugging.openGl]
+				overrideVanillaGLLogger = false
+				glProfileMode = "CORE"
+				glErrorHandlingMode = "IGNORE"
+				enableGlForwardCompatibilityMode = true
+				glContextMajorVersion = 0
+				enableGlDebugContext = false
+				glContextMinorVersion = 0
+			[client.advanced.debugging.exampleConfigScreen]
+				shortTest = "69"
+				mapTest = "{}"
+				byteTest = "8"
+				longTest = "42069"
+				listTest = ["option 1", "option 2", "option 3"]
+				boolTest = false
+				doubleTest = "420.69"
+				floatTest = "0.42069"
+				linkableTest = 420
+				intTest = 69420
+				stringTest = "Test input box"
+		[client.advanced.graphics]
+			[client.advanced.graphics.ssao]
+				sampleCount = 6
+				strength = "0.2"
+				blurRadius = 2
+				bias = "0.02"
+				minLight = "0.25"
+				radius = "4.0"
+				enabled = true
+			[client.advanced.graphics.advancedGraphics]
+				lodBias = "0.0"
+				grassSideRendering = "FADE_TO_DIRT"
+				overdrawPrevention = "0.4"
+				brightnessMultiplier = "1.0"
+				enableCaveCulling = true
+				disableShadowPassFrustumCulling = false
+				caveCullingHeight = 40
+				lodShading = "AUTO"
+				saturationMultiplier = "1.0"
+				earthCurveRatio = 0
+				disableFrustumCulling = false
+			[client.advanced.graphics.quality]
+				maxHorizontalResolution = "BLOCK"
+				lodChunkRenderDistanceRadius = 64
+				tintWithAvoidedBlocks = true
+				horizontalQuality = "MEDIUM"
+				transparency = "COMPLETE"
+				verticalQuality = "MEDIUM"
+				blocksToIgnore = "NON_COLLIDING"
+			[client.advanced.graphics.fog]
+				drawMode = "FOG_ENABLED"
+				colorMode = "USE_WORLD_FOG_COLOR"
+				disableVanillaFog = true
+				[client.advanced.graphics.fog.advancedFog]
+					farFogMax = "1.0"
+					farFogStart = "0.0"
+					farFogMin = "0.0"
+					farFogFalloff = "EXPONENTIAL_SQUARED"
+					farFogDensity = "2.5"
+					farFogEnd = "1.0"
+					[client.advanced.graphics.fog.advancedFog.heightFog]
+						heightFogMin = "0.0"
+						heightFogMode = "ABOVE_AND_BELOW_CAMERA"
+						heightFogBaseHeight = "70.0"
+						heightFogMax = "1.0"
+						heightFogFalloff = "EXPONENTIAL_SQUARED"
+						heightFogDensity = "2.5"
+						heightFogMixMode = "BASIC"
+						heightFogStart = "0.0"
+						heightFogEnd = "1.0"
+			[client.advanced.graphics.noiseTextureSettings]
+				noiseDropoff = 1024
+				noiseSteps = 4
+				noiseEnabled = true
+				noiseIntensity = "5.0"
+		[client.advanced.worldGenerator]
+			distantGeneratorMode = "PRE_EXISTING_ONLY"
+			worldGenerationTimeoutLengthInSeconds = 60
+			enableDistantGeneration = true
+		[client.advanced.multiplayer]
+			multiverseSimilarityRequiredPercent = "0.0"
+			serverFolderNameMode = "NAME_ONLY"
