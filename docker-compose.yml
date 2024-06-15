@@ -6,12 +6,12 @@ services:
       - "25575:25565/tcp"
     restart: unless-stopped
     volumes:
-      - /mnt/md2/pnd/mc/live/pub/world:/server/world
-      - /mnt/md2/pnd/mc/live/pub/schematics:/server/schematics
-      - /mnt/md2/pnd/mc/live/pub/logs:/server/logs
-      - /mnt/md2/pnd/mc/live/pub/crash:/server/crash-reports
-      - /mnt/md2/pnd/mc/live/pub/backups:/server/backups
-      - /mnt/md2/pnd/mc/live/pub/cache:/server/.cache
+      - pub-world:/server/world
+      - pub-schematics:/server/schematics
+      - pub-logs:/server/logs
+      - pub-crash-reports:/server/crash-reports
+      - pub-backups:/server/backups
+      - pub-cache:/server/.cache
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
   dev:
@@ -21,11 +21,24 @@ services:
       - "25576:25565/tcp"
     restart: unless-stopped
     volumes:
-      - /mnt/md2/pnd/mc/live/dev/world:/server/world
-      - /mnt/md2/pnd/mc/live/dev/schematics:/server/schematics
-      - /mnt/md2/pnd/mc/live/dev/logs:/server/logs
-      - /mnt/md2/pnd/mc/live/dev/crash:/server/crash-reports
-      - /mnt/md2/pnd/mc/live/dev/backups:/server/backups
-      - /mnt/md2/pnd/mc/live/dev/cache:/server/.cache
+      - dev-world:/server/world
+      - dev-schematics:/server/schematics
+      - dev-logs:/server/logs
+      - dev-crash-reports:/server/crash-reports
+      - dev-backups:/server/backups
+      - dev-cache:/server/.cache
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
+volumes:
+  pub-world:
+  pub-schematics:
+  pub-logs:
+  pub-crash-reports:
+  pub-backups:
+  pub-cache:
+  dev-world:
+  dev-schematics:
+  dev-logs:
+  dev-crash-reports:
+  dev-backups:
+  dev-cache:
