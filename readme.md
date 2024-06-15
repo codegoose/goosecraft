@@ -48,6 +48,7 @@ agrpdir() {
 # v6.1.9
 ## Technicals
 * Updated Quilt to v26
+* Manually edited Indium, Sodium dependency from 0.5.8 to 0.5.10 because it appears to be compatible anyway.
 ## Mods
 ### Added
   * **World Border**: Allows the creation of a configurable world border for each dimension, limiting the world size.
