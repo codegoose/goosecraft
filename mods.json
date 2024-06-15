@@ -1,4 +1,20 @@
 {
+  "trinkets": {
+    "name": "Trinkets",
+    "description": "Adds a data-driven accessory system to Minecraft",
+    "version": "3.7.2",
+    "environment": "*",
+    "file": "mods/current/trinkets-3.7.2.jar",
+    "dependencies": {}
+  },
+  "twigs": {
+    "name": "Twigs",
+    "description": "A Minecraft mod all about building, adding new and interesting materials, as well as new renditions of current vanilla blocks.",
+    "version": "3.1.0",
+    "environment": "*",
+    "file": "mods/current/twigs-3.1.0-fabric.jar",
+    "dependencies": {}
+  },
   "visuality": {
     "name": "Visuality",
     "description": "Little visual improvements by adding a bunch of new particles.",
@@ -82,9 +98,9 @@
   "yet_another_config_lib_v3": {
     "name": "YetAnotherConfigLib",
     "description": "YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.",
-    "version": "3.4.4+1.20.1-fabric",
+    "version": "3.5.0+1.20.1-fabric",
     "environment": "*",
-    "file": "mods/current/YetAnotherConfigLib-3.4.4+1.20.1-fabric.jar",
+    "file": "mods/current/YetAnotherConfigLib-3.5.0+1.20.1-fabric.jar",
     "dependencies": {}
   },
   "yungsapi": {
@@ -167,6 +183,14 @@
     "file": "mods/current/YungsExtras-1.20-Fabric-4.0.3.jar",
     "dependencies": {}
   },
+  "indium": {
+    "name": "Indium",
+    "description": "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
+    "version": "1.0.31+mc1.20.4",
+    "environment": "client",
+    "file": "mods/current/indium-1.0.31+mc1.20.4.jar",
+    "dependencies": {}
+  },
   "amendments": {
     "name": "Amendments",
     "description": "Many tweaks to Vanilla Blocks",
@@ -210,9 +234,9 @@
   "artifacts": {
     "name": "Artifacts",
     "description": "Adds various new powerful uncraftable items to make exploration a bit more interesting",
-    "version": "9.5.10",
+    "version": "9.5.12",
     "environment": "*",
-    "file": "mods/current/artifacts-fabric-9.5.10.jar",
+    "file": "mods/current/artifacts-fabric-9.5.12.jar",
     "dependencies": {}
   },
   "autotag-convention": {
@@ -271,14 +295,6 @@
     "file": "mods/current/betterarcheology-1.1.9-1.20.1.jar",
     "dependencies": {}
   },
-  "betterchunkloading": {
-    "name": "Better chunk loading mod",
-    "description": "Improves chunk loading",
-    "version": "1.20.1-4.3",
-    "environment": "*",
-    "file": "mods/current/betterchunkloading-fabric-1.20.1-4.3.jar",
-    "dependencies": {}
-  },
   "bettercombat": {
     "name": "Better Combat",
     "description": "Easy, spectacular and fun melee combat system from Minecraft Dungeons.",
@@ -330,9 +346,9 @@
   "bookshelf": {
     "name": "Bookshelf",
     "description": "A library for building other mods.",
-    "version": "20.2.12",
+    "version": "20.2.13",
     "environment": "*",
-    "file": "mods/current/Bookshelf-Fabric-1.20.1-20.2.12.jar",
+    "file": "mods/current/Bookshelf-Fabric-1.20.1-20.2.13.jar",
     "dependencies": {}
   },
   "botanypots": {
@@ -394,9 +410,9 @@
   "chat_heads": {
     "name": "Chat Heads",
     "description": "See who are you chatting with!. This mod adds player heads next to their chat messages.",
-    "version": "0.12.2",
+    "version": "0.12.3",
     "environment": "client",
-    "file": "mods/current/chat_heads-0.12.2-fabric-1.20.jar",
+    "file": "mods/current/chat_heads-0.12.3-fabric-1.20.jar",
     "dependencies": {}
   },
   "chefsdelight": {
@@ -477,6 +493,14 @@
     "version": "1.20.1-1.3.7",
     "environment": "*",
     "file": "mods/current/coroutil-fabric-1.20.1-1.3.7.jar",
+    "dependencies": {}
+  },
+  "cratedelight": {
+    "name": "Crate Delight",
+    "description": "An addon mod for Farmer's Delight that adds more crates and bags to the base mod.",
+    "version": "2024.05.05-1.20-fabric",
+    "environment": "*",
+    "file": "mods/current/cratedelight-2024.05.05-1.20-fabric.jar",
     "dependencies": {}
   },
   "create_enchantment_industry": {
@@ -623,6 +647,14 @@
     "file": "mods/current/Emojiful-Fabric-1.20.1-4.2.0.jar",
     "dependencies": {}
   },
+  "euphonium": {
+    "name": "Euphonium",
+    "description": "Ambient sounds suitable for vanilla minecraft",
+    "version": "1.0.1+1.20",
+    "environment": "*",
+    "file": "mods/current/euphonium-1.0.1+1.20.jar",
+    "dependencies": {}
+  },
   "endermanoverhaul": {
     "name": "Enderman Overhaul",
     "description": "Enderman overhaul adds biome-specific Enderman!",
@@ -639,20 +671,12 @@
     "file": "mods/current/ends_delight-refabricated-1.20.1-alpha-1.0.jar",
     "dependencies": {}
   },
-  "euphonium": {
-    "name": "Euphonium",
-    "description": "Ambient sounds suitable for vanilla minecraft",
-    "version": "1.0.1+1.20",
-    "environment": "*",
-    "file": "mods/current/euphonium-1.0.1+1.20.jar",
-    "dependencies": {}
-  },
   "everycomp": {
     "name": "Every Compat",
     "description": "Ultimate Wood Compat Mod",
-    "version": "1.20-2.6.60",
+    "version": "1.20-2.6.61",
     "environment": "*",
-    "file": "mods/current/everycomp-1.20-2.6.60-fabric.jar",
+    "file": "mods/current/everycomp-1.20-2.6.61-fabric.jar",
     "dependencies": {}
   },
   "expandeddelight": {
@@ -719,12 +743,28 @@
     "file": "mods/current/ferritecore-6.0.1-fabric.jar",
     "dependencies": {}
   },
+  "frightsdelight": {
+    "name": "Frights Delight",
+    "description": "Frights Delight is an add-on mod for Farmers Delight Fabric that adds food made from mob drops. Dishes are created with a Horror theme, consume with caution.",
+    "version": "fabric-1.20.1-1.0.4",
+    "environment": "*",
+    "file": "mods/current/frightsdelight-fabric-1.20.1-1.0.4.jar",
+    "dependencies": {}
+  },
   "ftbbackups2": {
     "name": "FTB Backups 2",
     "description": "Backup all the things",
     "version": "1.0.23",
     "environment": "*",
     "file": "mods/current/ftbbackups2-fabric-1.20-1.0.23.jar",
+    "dependencies": {}
+  },
+  "fxntstorage": {
+    "name": "Create: Storage",
+    "description": "A Storage System for Create by FoxyNoTail",
+    "version": "0.8-1.20.1-FABRIC+1.20.1",
+    "environment": "*",
+    "file": "mods/current/fxntstorage-0.8-1.20.1-FABRIC+1.20.1.jar",
     "dependencies": {}
   },
   "geckolib": {
@@ -746,9 +786,9 @@
   "geophilic": {
     "name": "Geophilic",
     "description": "A subtle overhaul of Overworld biomes",
-    "version": "v2.2.0-mc1.20u1.20.2",
+    "version": "v2.4.0",
     "environment": "*",
-    "file": "mods/current/geophilic-v2.2.0-mc1.20u1.20.2.jar",
+    "file": "mods/current/Geophilic v2.4.0 f15-48.jar",
     "dependencies": {}
   },
   "hamsters": {
@@ -799,14 +839,6 @@
     "file": "mods/current/immersive_weathering-1.20.1-2.0.2-fabric.jar",
     "dependencies": {}
   },
-  "indium": {
-    "name": "Indium",
-    "description": "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
-    "version": "1.0.31+mc1.20.4",
-    "environment": "client",
-    "file": "mods/current/indium-1.0.31+mc1.20.4.jar",
-    "dependencies": {}
-  },
   "inventorysorter": {
     "name": "Inventory Sorter",
     "description": "Quickly and easily sort inventorys",
@@ -826,9 +858,9 @@
   "iris": {
     "name": "Iris",
     "description": "A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs",
-    "version": "1.7.0+mc1.20.1",
+    "version": "1.7.1+mc1.20.1",
     "environment": "client",
-    "file": "mods/current/iris-1.7.0+mc1.20.1.jar",
+    "file": "mods/current/iris-1.7.1+mc1.20.1.jar",
     "dependencies": {}
   },
   "itemborders": {
@@ -1090,9 +1122,9 @@
   "moonlight": {
     "name": "Moonlight",
     "description": "Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more",
-    "version": "1.20-2.11.33",
+    "version": "1.20-2.11.37",
     "environment": "*",
-    "file": "mods/current/moonlight-1.20-2.11.33-fabric.jar",
+    "file": "mods/current/moonlight-1.20-2.11.37-fabric.jar",
     "dependencies": {}
   },
   "mousetweaks": {
@@ -1186,9 +1218,9 @@
   "pehkui": {
     "name": "Pehkui",
     "description": "Allows resizing of most entities.",
-    "version": "3.8.2+1.14.4-1.20.6",
+    "version": "3.8.3+1.14.4-1.21",
     "environment": "*",
-    "file": "mods/current/Pehkui-3.8.2+1.14.4-1.20.6.jar",
+    "file": "mods/current/Pehkui-3.8.3+1.14.4-1.21.jar",
     "dependencies": {}
   },
   "pickupnotifier": {
@@ -1274,9 +1306,9 @@
   "quilted_fabric_api": {
     "name": "Quilted Fabric API",
     "description": "A reimplementation of Fabric API on top of Quilt Standard Libraries.",
-    "version": "7.5.0+0.91.0-1.20.1",
+    "version": "7.5.0+0.92.2-1.20.1",
     "environment": "*",
-    "file": "mods/current/qfapi-7.5.0_qsl-6.1.2_fapi-0.91.0_mc-1.20.1.jar",
+    "file": "mods/current/qfapi-7.5.0_qsl-6.1.2_fapi-0.92.2_mc-1.20.1.jar",
     "dependencies": {}
   },
   "qualitysounds": {
@@ -1309,54 +1341,6 @@
     "version": "1.1.1+1.20.1",
     "environment": "*",
     "file": "mods/current/ranged_weapon_api-1.1.1+1.20.1.jar",
-    "dependencies": {}
-  },
-  "toofast": {
-    "name": "TooFast",
-    "description": "Disables 'moved too quickly' for recent versions of Minecraft.",
-    "version": "1.2.0",
-    "environment": "*",
-    "file": "mods/current/toofast-fabric-1.20-1.2.0.jar",
-    "dependencies": {}
-  },
-  "travelersbackpack": {
-    "name": "Traveler's Backpack",
-    "description": "Unique and upgradeable backpacks with customisation, Trinkets integration and more!",
-    "version": "fabric-1.20.1-9.1.13",
-    "environment": "*",
-    "file": "mods/current/travelersbackpack-fabric-1.20.1-9.1.13.jar",
-    "dependencies": {}
-  },
-  "trinkets": {
-    "name": "Trinkets",
-    "description": "Adds a data-driven accessory system to Minecraft",
-    "version": "3.7.2",
-    "environment": "*",
-    "file": "mods/current/trinkets-3.7.2.jar",
-    "dependencies": {}
-  },
-  "twigs": {
-    "name": "Twigs",
-    "description": "A Minecraft mod all about building, adding new and interesting materials, as well as new renditions of current vanilla blocks.",
-    "version": "3.1.0",
-    "environment": "*",
-    "file": "mods/current/twigs-3.1.0-fabric.jar",
-    "dependencies": {}
-  },
-  "cratedelight": {
-    "name": "Crate Delight",
-    "description": "An addon mod for Farmer's Delight that adds more crates and bags to the base mod.",
-    "version": "2024.05.05-1.20-fabric",
-    "environment": "*",
-    "file": "mods/current/cratedelight-2024.05.05-1.20-fabric.jar",
-    "dependencies": {}
-  },
-  "fxntstorage": {
-    "name": "Create: Storage",
-    "description": "A Storage System for Create by FoxyNoTail",
-    "version": "0.8-1.20.1-FABRIC+1.20.1",
-    "environment": "*",
-    "file": "mods/current/fxntstorage-0.8-1.20.1-FABRIC+1.20.1.jar",
     "dependencies": {}
   },
   "resourcefulconfig": {
@@ -1434,9 +1418,9 @@
   "sliceanddice": {
     "name": "Create Slice & Dice",
     "description": "Making automation for Farmers Delight more sensible",
-    "version": "3.2.1",
+    "version": "3.2.2",
     "environment": "*",
-    "file": "mods/current/sliceanddice-fabric-3.2.1.jar",
+    "file": "mods/current/sliceanddice-fabric-3.2.2.jar",
     "dependencies": {}
   },
   "smoothchunk": {
@@ -1466,9 +1450,9 @@
   "sodium": {
     "name": "Sodium",
     "description": "Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.",
-    "version": "0.5.8+mc1.20.1",
+    "version": "0.5.10+mc1.20.1",
     "environment": "client",
-    "file": "mods/current/sodium-fabric-0.5.8+mc1.20.1.jar",
+    "file": "mods/current/sodium-fabric-0.5.10+mc1.20.1.jar",
     "dependencies": {}
   },
   "spawn": {
@@ -1514,9 +1498,9 @@
   "supplementaries": {
     "name": "Supplementaries",
     "description": "Many functional and useful Vanilla+ blocks",
-    "version": "1.20-2.8.14",
+    "version": "1.20-2.8.15",
     "environment": "*",
-    "file": "mods/current/supplementaries-1.20-2.8.14-fabric.jar",
+    "file": "mods/current/supplementaries-1.20-2.8.15-fabric.jar",
     "dependencies": {}
   },
   "terralith": {
@@ -1565,6 +1549,14 @@
     "version": "12.0.5",
     "environment": "client",
     "file": "mods/current/Tips-Fabric-1.20.1-12.0.5.jar",
+    "dependencies": {}
+  },
+  "toofast": {
+    "name": "TooFast",
+    "description": "Disables 'moved too quickly' for recent versions of Minecraft.",
+    "version": "1.2.0",
+    "environment": "*",
+    "file": "mods/current/toofast-fabric-1.20-1.2.0.jar",
     "dependencies": {}
   }
 }
