@@ -1,13 +1,13 @@
 # Goosecraft
 Build Docker image:
 ```
-docker build -t goosecraft:6.1.9 -f server.docker .
+docker build -t goosecraft:6.2.0 -f server.docker .
 ```
 Example Compose file:
 ```yml
 services:
   pub:
-    image: goosecraft:6.1.9
+    image: goosecraft:6.2.0
     stop_grace_period: 1m
     ports:
       - "25575:25565/tcp"
@@ -45,7 +45,7 @@ agrpdir() {
   done
 }
 ```
-# v6.1.9
+# v6.2.0
 ## Technicals
 * Updated Quilt to v26
 * Manually edited Indium, Sodium dependency from 0.5.8 to 0.5.10 because it appears to be compatible anyway.
