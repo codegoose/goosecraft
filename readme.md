@@ -49,23 +49,24 @@ agrpdir() {
 ## Technicals
 * Updated Quilt to v26
 * Manually edited Indium, Sodium dependency from 0.5.8 to 0.5.10 because it appears to be compatible anyway.
+* Farmer's Respite and Brewin and Chewin sourced from [Adlumia7](https://github.com/Adlumia7) to fix breaking bugs that original author isn't able to maintain.
 ## Mods
 ### Added
-  * **World Border**: Allows the creation of a configurable world border for each dimension, limiting the world size.
-  * **Krypton**: A Fabric mod that optimizes the Minecraft networking stack and entity tracker.
-  * **Create: Storage**: A Storage System for Create by FoxyNoTail
-  * **RangedWeaponAPI**: Allows creating bows and crossbows, with just a few line of code
-  * **Distant Horizons**: This mod generates and renders simplified terrain beyond the normal view distance at a low performance cost. Allowing you to see much farther without turning your game into a slideshow.
-  * **Collective**: Collective is a shared library with common code for all of Serilum's mods.
-  * **Crate Delight**: An addon mod for Farmer's Delight that adds more crates and bags to the base mod.
-  * **Smooth chunk save Mod**: Spreads out chunk saves equally and saves them after a configured delay
-  * **Chunksending Mod**: Optimized chunk packets
-  * **Boids**: 
   * **Immersive Weathering**: An abundance of new natural systems to make your world feel more alive than ever.
   * **Lithium**: Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.
   * **Pufferfish's Attributes**: Adds more attributes to the game.
-  * **Neruina**: This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds.
+  * **Chunksending Mod**: Optimized chunk packets
+  * **Boids**: 
+  * **Collective**: Collective is a shared library with common code for all of Serilum's mods.
+  * **Create: Storage**: A Storage System for Create by FoxyNoTail
+  * **Crate Delight**: An addon mod for Farmer's Delight that adds more crates and bags to the base mod.
   * **Cubes Without Borders**: A mod that allows you to play Minecraft in a borderless fullscreen window.
+  * **Distant Horizons**: This mod generates and renders simplified terrain beyond the normal view distance at a low performance cost. Allowing you to see much farther without turning your game into a slideshow.
+  * **World Border**: Allows the creation of a configurable world border for each dimension, limiting the world size.
+  * **Smooth chunk save Mod**: Spreads out chunk saves equally and saves them after a configured delay
+  * **Neruina**: This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds.
+  * **RangedWeaponAPI**: Allows creating bows and crossbows, with just a few line of code
+  * **Krypton**: A Fabric mod that optimizes the Minecraft networking stack and entity tracker.
 ### Updated
   * **Trinkets**: Adds a data-driven accessory system to Minecraft **(3.7.1 to 3.7.2)**
   * **What Are They Up To**: Lets you see if players are typing, in a GUI, idle, with cool ingame visuals **(1.20.1-1.1.0 to 1.20.1-1.1.1)**
@@ -87,7 +88,7 @@ agrpdir() {
   * **Better Combat**: Easy, spectacular and fun melee combat system from Minecraft Dungeons. **(1.8.4+1.20.1 to 1.8.5+1.20.1)**
   * **Bookshelf**: A library for building other mods. **(20.1.9 to 20.2.13)**
   * **BotanyPots**: Pots for growing different types of plants. **(13.0.24 to 13.0.33)**
-  * **Brewin And Chewin**: This is an example description! Tell everyone what your mod is about! **(fabric-2.3.1+1.20.1 to 3.0.3+1.20.1)**
+  * **Farmer's Respite**: An addon created by Umpaz, HoboJoe, and SoyTutta for the Farmer's Delight mod by vectorwing. Attempts to add tea and ways to brew it, as well as some other foods! **(2.3.4 to 3.0.8)**
   * **Chat Heads**: See who are you chatting with!. This mod adds player heads next to their chat messages. **(0.10.31 to 0.12.3)**
   * **ChickensShed**: Chickens shed their feathers occasionally. **(1.5.0+1.20.1 to 1.6.0+mc1.20.1)**
   * **Create Enchantment Industry**: An add-on for Create, providing enchanting & experience related automation. **(1.2.14 to 1.2.16)**
@@ -101,7 +102,6 @@ agrpdir() {
   * **Explorify**: A collection of new dungeons and structures **(v1.3.0-mc1.20 to v1.4.0)**
   * **Falling Leaves**: \"How the gentle wind . beckons through the leaves . as autumn colors fall,. dancing in a swirl . of golden memories:. the loveliest lies of all.\" **(1.15.4 to 1.15.6)**
   * **Farmer's Delight**: A cozy expansion to farming and cooking! **(1.20.1-1.4.3 to 1.20.1-2.1.1+refabricated)**
-  * **Farmer's Respite**: An addon created by Umpaz, HoboJoe, and SoyTutta for the Farmer's Delight mod by vectorwing. Attempts to add tea and ways to brew it, as well as some other foods! **(2.3.4 to 3.0.2)**
   * **Frights Delight**: Frights Delight is an add-on mod for Farmers Delight Fabric that adds food made from mob drops. Dishes are created with a Horror theme, consume with caution. **(1.20.1-1.0.1 to fabric-1.20.1-1.0.4)**
   * **GeckoLib 4**: GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more. **(4.4.2 to 4.4.4)**
   * **Geophilic**: A subtle overhaul of Overworld biomes **(v2.2.0-mc1.20u1.20.2 to v2.4.0)**
@@ -142,6 +142,7 @@ agrpdir() {
   * **Spell Power Attribute**: Spell Power entity attributes with related status effects and enchantments. **(0.9.19+1.20.1 to 0.10.2+1.20.1)**
   * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-2.8.6 to 1.20-2.8.15)**
   * **Terralith**: Explore almost 100 new biomes consisting of both realism and light fantasy, using just Vanilla blocks. Complete with several immersive structures to compliment the overhauled terrain. **(2.4.11 to 2.5.1)**
+  * **Brewin And Chewin**: This is an example description! Tell everyone what your mod is about! **(fabric-2.3.1+1.20.1 to 3.0.6+1.20.1)**
 ### Removed
   * **CC: Tweaked**: CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft.
   * **Fabric Seasons: Terralith Compat**: Terralith compatibility for Fabric Seasons

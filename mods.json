@@ -375,12 +375,12 @@
     "file": "mods/current/Bountiful-6.0.3+1.20.1-fabric.jar",
     "dependencies": {}
   },
-  "brewinandchewin": {
-    "name": "Brewin And Chewin",
-    "description": "This is an example description! Tell everyone what your mod is about!",
-    "version": "3.0.3+1.20.1",
+  "farmersrespite": {
+    "name": "Farmer's Respite",
+    "description": "An addon created by Umpaz, HoboJoe, and SoyTutta for the Farmer's Delight mod by vectorwing. Attempts to add tea and ways to brew it, as well as some other foods!",
+    "version": "3.0.8",
     "environment": "*",
-    "file": "mods/current/brewinandchewin-3.0.3+1.20.1.jar",
+    "file": "mods/current/Farmersrespite-Fabric-3.0.8.jar",
     "dependencies": {}
   },
   "cardinal-components": {
@@ -717,14 +717,6 @@
     "version": "1.20.1-2.1.1+refabricated",
     "environment": "*",
     "file": "mods/current/FarmersDelight-1.20.1-2.1.1+refabricated.jar",
-    "dependencies": {}
-  },
-  "farmersrespite": {
-    "name": "Farmer's Respite",
-    "description": "An addon created by Umpaz, HoboJoe, and SoyTutta for the Farmer's Delight mod by vectorwing. Attempts to add tea and ways to brew it, as well as some other foods!",
-    "version": "3.0.2",
-    "environment": "*",
-    "file": "mods/current/Farmersrespite-Fabric-3.0.2.jar",
     "dependencies": {}
   },
   "fastipping": {
@@ -1557,6 +1549,14 @@
     "version": "1.2.0",
     "environment": "*",
     "file": "mods/current/toofast-fabric-1.20-1.2.0.jar",
+    "dependencies": {}
+  },
+  "brewinandchewin": {
+    "name": "Brewin And Chewin",
+    "description": "This is an example description! Tell everyone what your mod is about!",
+    "version": "3.0.6+1.20.1",
+    "environment": "*",
+    "file": "mods/current/brewinandchewin-3.0.6+1.20.1.jar",
     "dependencies": {}
   }
 }
