@@ -1,0 +1,22 @@
+{
+    "enableCustomOverworldBorder": true,
+    "enableCustomNetherBorder": false,
+    "enableCustomEndBorder": true,
+    "shouldLoopToOppositeBorder": false,
+    "distanceTeleportedBack": 10,
+    "nearBorderMessage": "You're getting close to the world border!",
+    "hitBorderMessage": "You've hit the world border, and were teleported inside!",
+    "loopBorderMessage": "You've hit the world border, and have looped around the world!",
+    "overworldBorderPositiveX": 5000,
+    "overworldBorderNegativeX": -5000,
+    "overworldBorderPositiveZ": 5000,
+    "overworldBorderNegativeZ": -5000,
+    "netherBorderPositiveX": 625,
+    "netherBorderNegativeX": -625,
+    "netherBorderPositiveZ": 625,
+    "netherBorderNegativeZ": -625,
+    "endBorderPositiveX": 5000,
+    "endBorderNegativeX": -5000,
+    "endBorderPositiveZ": 5000,
+    "endBorderNegativeZ": -5000
+}
