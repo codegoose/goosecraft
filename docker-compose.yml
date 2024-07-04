@@ -1,7 +1,7 @@
 services:
   pub:
     image: goosecraft:6.2.1
-    stop_grace_period: 1m
+    stop_grace_period: 2m
     ports:
       - "25575:25565/tcp"
     restart: unless-stopped
@@ -16,7 +16,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
   dev:
     image: goosecraft:6.2.1
-    stop_grace_period: 1m
+    stop_grace_period: 2m
     ports:
       - "25576:25565/tcp"
     restart: unless-stopped
