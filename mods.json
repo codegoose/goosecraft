@@ -1,36 +1,4 @@
 {
-  "trinkets": {
-    "name": "Trinkets",
-    "description": "Adds a data-driven accessory system to Minecraft",
-    "version": "3.7.2",
-    "environment": "*",
-    "file": "mods/current/trinkets-3.7.2.jar",
-    "dependencies": {}
-  },
-  "twigs": {
-    "name": "Twigs",
-    "description": "A Minecraft mod all about building, adding new and interesting materials, as well as new renditions of current vanilla blocks.",
-    "version": "3.1.0",
-    "environment": "*",
-    "file": "mods/current/twigs-3.1.0-fabric.jar",
-    "dependencies": {}
-  },
-  "visuality": {
-    "name": "Visuality",
-    "description": "Little visual improvements by adding a bunch of new particles.",
-    "version": "0.7.1+1.20",
-    "environment": "client",
-    "file": "mods/current/visuality-0.7.1+1.20.jar",
-    "dependencies": {}
-  },
-  "visualworkbench": {
-    "name": "Visual Workbench",
-    "description": "Items stay inside crafting tables and are also rendered on top. It's really fancy!",
-    "version": "8.0.0",
-    "environment": "*",
-    "file": "mods/current/VisualWorkbench-v8.0.0-1.20.1-Fabric.jar",
-    "dependencies": {}
-  },
   "wandering_collector": {
     "name": "Wandering Collector",
     "description": "Wandering Traders trade lost items back to the player.. The initial idea for this feature was suggested by SimplySarc in one of his videos.",
@@ -50,9 +18,9 @@
   "wizards": {
     "name": "Wizards (RPG Series)",
     "description": "Destroy your enemies with Arcane, Fire and Frost magic.",
-    "version": "1.2.0+1.20.1",
+    "version": "1.2.2+1.20.1",
     "environment": "*",
-    "file": "mods/current/wizards-1.2.0+1.20.1.jar",
+    "file": "mods/current/wizards-1.2.2+1.20.1.jar",
     "dependencies": {}
   },
   "worldborder": {
@@ -183,20 +151,12 @@
     "file": "mods/current/YungsExtras-1.20-Fabric-4.0.3.jar",
     "dependencies": {}
   },
-  "indium": {
-    "name": "Indium",
-    "description": "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
-    "version": "1.0.31+mc1.20.4",
-    "environment": "client",
-    "file": "mods/current/indium-1.0.31+mc1.20.4.jar",
-    "dependencies": {}
-  },
   "amendments": {
     "name": "Amendments",
     "description": "Many tweaks to Vanilla Blocks",
-    "version": "1.20-1.2.4",
+    "version": "1.20-1.2.8",
     "environment": "*",
-    "file": "mods/current/amendments-1.20-1.2.4-fabric.jar",
+    "file": "mods/current/amendments-1.20-1.2.8-fabric.jar",
     "dependencies": {}
   },
   "another_furniture": {
@@ -218,9 +178,9 @@
   "archers": {
     "name": "Archers (RPG Series)",
     "description": "Draw, Release, Conquer - Master the art of Archery!",
-    "version": "1.2.1+1.20.1",
+    "version": "1.2.4+1.20.1",
     "environment": "*",
-    "file": "mods/current/archers-1.2.1+1.20.1.jar",
+    "file": "mods/current/archers-1.2.4+1.20.1.jar",
     "dependencies": {}
   },
   "architectury": {
@@ -250,17 +210,17 @@
   "azurelibarmor": {
     "name": "AzureLib Armor",
     "description": "A striped down Azurelib just for Armor!",
-    "version": "2.0.3",
+    "version": "2.0.5",
     "environment": "*",
-    "file": "mods/current/azurelibarmor-fabric-1.20.1-2.0.3.jar",
+    "file": "mods/current/azurelibarmor-fabric-1.20.1-2.0.5.jar",
     "dependencies": {}
   },
   "balm-fabric": {
     "name": "Balm",
     "description": "Abstraction Layer (but not really)TM for Blay's multiplatform mods",
-    "version": "7.3.4",
+    "version": "7.3.6",
     "environment": "*",
-    "file": "mods/current/balm-fabric-1.20.1-7.3.4.jar",
+    "file": "mods/current/balm-fabric-1.20.1-7.3.6.jar",
     "dependencies": {}
   },
   "bclib": {
@@ -354,9 +314,9 @@
   "botanypots": {
     "name": "BotanyPots",
     "description": "Pots for growing different types of plants.",
-    "version": "13.0.33",
+    "version": "13.0.35",
     "environment": "*",
-    "file": "mods/current/BotanyPots-Fabric-1.20.1-13.0.33.jar",
+    "file": "mods/current/BotanyPots-Fabric-1.20.1-13.0.35.jar",
     "dependencies": {}
   },
   "botanytrees": {
@@ -375,12 +335,12 @@
     "file": "mods/current/Bountiful-6.0.3+1.20.1-fabric.jar",
     "dependencies": {}
   },
-  "farmersrespite": {
-    "name": "Farmer's Respite",
-    "description": "An addon created by Umpaz, HoboJoe, and SoyTutta for the Farmer's Delight mod by vectorwing. Attempts to add tea and ways to brew it, as well as some other foods!",
-    "version": "3.0.8",
+  "brewinandchewin": {
+    "name": "Brewin And Chewin",
+    "description": "This is an example description! Tell everyone what your mod is about!",
+    "version": "3.0.6+1.20.1",
     "environment": "*",
-    "file": "mods/current/Farmersrespite-Fabric-3.0.8.jar",
+    "file": "mods/current/brewinandchewin-3.0.6+1.20.1.jar",
     "dependencies": {}
   },
   "cardinal-components": {
@@ -410,9 +370,9 @@
   "chat_heads": {
     "name": "Chat Heads",
     "description": "See who are you chatting with!. This mod adds player heads next to their chat messages.",
-    "version": "0.12.3",
+    "version": "0.12.6",
     "environment": "client",
-    "file": "mods/current/chat_heads-0.12.3-fabric-1.20.jar",
+    "file": "mods/current/chat_heads-0.12.6-fabric-1.20.jar",
     "dependencies": {}
   },
   "chefsdelight": {
@@ -466,9 +426,9 @@
   "collective": {
     "name": "Collective",
     "description": "Collective is a shared library with common code for all of Serilum's mods.",
-    "version": "7.61",
+    "version": "7.70",
     "environment": "*",
-    "file": "mods/current/collective-1.20.1-7.61.jar",
+    "file": "mods/current/collective-1.20.1-7.70.jar",
     "dependencies": {}
   },
   "connectiblechains": {
@@ -498,9 +458,9 @@
   "cratedelight": {
     "name": "Crate Delight",
     "description": "An addon mod for Farmer's Delight that adds more crates and bags to the base mod.",
-    "version": "2024.05.05-1.20-fabric",
+    "version": "2024.06.21-1.20-fabric",
     "environment": "*",
-    "file": "mods/current/cratedelight-2024.05.05-1.20-fabric.jar",
+    "file": "mods/current/cratedelight-2024.06.21-1.20-fabric.jar",
     "dependencies": {}
   },
   "create_enchantment_industry": {
@@ -527,14 +487,6 @@
     "file": "mods/current/create-fabric-0.5.1-f-build.1417+mc1.20.1.jar",
     "dependencies": {}
   },
-  "createoreexcavation": {
-    "name": "Create Ore Excavation",
-    "description": "Extract resources using machines powered by Rotational Force",
-    "version": "1.4.6",
-    "environment": "*",
-    "file": "mods/current/createoreexcavation-fabric-1.20-1.4.6.jar",
-    "dependencies": {}
-  },
   "create_structures": {
     "name": "Create: Structures",
     "description": "Add-on for Create that implements naturally generating structures containing early-game Create contraptions and items.",
@@ -551,20 +503,12 @@
     "file": "mods/current/creeperoverhaul-3.0.2-fabric.jar",
     "dependencies": {}
   },
-  "cubes-without-borders": {
-    "name": "Cubes Without Borders",
-    "description": "A mod that allows you to play Minecraft in a borderless fullscreen window.",
-    "version": "1.1.0+1.20",
-    "environment": "client",
-    "file": "mods/current/cubes-without-borders-1.1.0+1.20.jar",
-    "dependencies": {}
-  },
   "cupboard": {
     "name": "cupboard",
     "description": "",
-    "version": "1.20.1-2.6",
+    "version": "1.20.1-2.7",
     "environment": "*",
-    "file": "mods/current/cupboard-fabric-1.20.1-2.6.jar",
+    "file": "mods/current/cupboard-fabric-1.20.1-2.7.jar",
     "dependencies": {}
   },
   "dark-loading-screen": {
@@ -581,6 +525,14 @@
     "version": "17.0.4",
     "environment": "*",
     "file": "mods/current/DarkPaintings-Fabric-1.20.1-17.0.4.jar",
+    "dependencies": {}
+  },
+  "debugify": {
+    "name": "Debugify",
+    "description": "Fixes Minecraft bugs found on the bug tracker. . License stuff:. j-Tai's TieFix - Code used licensed under LGPLv3. FlashyReese's Sodium Extra - Code used licensed under LGPLv3. Ampflower's 2x2 Surrounded Saplings Fix - Code used licensed under Zlib",
+    "version": "1.20.1+2.0",
+    "environment": "*",
+    "file": "mods/current/Debugify-1.20.1+2.0.jar",
     "dependencies": {}
   },
   "decorative_blocks": {
@@ -610,9 +562,9 @@
   "distanthorizons": {
     "name": "Distant Horizons",
     "description": "This mod generates and renders simplified terrain beyond the normal view distance at a low performance cost. Allowing you to see much farther without turning your game into a slideshow.",
-    "version": "2.1.0-a",
+    "version": "2.1.2-a",
     "environment": "*",
-    "file": "mods/current/DistantHorizons-2.1.0-a-1.20.1.jar",
+    "file": "mods/current/DistantHorizons-2.1.2-a-1.20.1.jar",
     "dependencies": {}
   },
   "easyanvils": {
@@ -647,14 +599,6 @@
     "file": "mods/current/Emojiful-Fabric-1.20.1-4.2.0.jar",
     "dependencies": {}
   },
-  "euphonium": {
-    "name": "Euphonium",
-    "description": "Ambient sounds suitable for vanilla minecraft",
-    "version": "1.0.1+1.20",
-    "environment": "*",
-    "file": "mods/current/euphonium-1.0.1+1.20.jar",
-    "dependencies": {}
-  },
   "endermanoverhaul": {
     "name": "Enderman Overhaul",
     "description": "Enderman overhaul adds biome-specific Enderman!",
@@ -666,17 +610,25 @@
   "ends_delight": {
     "name": "End's Delight",
     "description": "An addon mod for Farmer's Delight based around adding culinary content to the end!",
-    "version": "refabricated-1.20.1-alpha-1.0",
+    "version": "2.0",
     "environment": "*",
-    "file": "mods/current/ends_delight-refabricated-1.20.1-alpha-1.0.jar",
+    "file": "mods/current/ends_delight-fabric-1.20.1-2.0.jar",
+    "dependencies": {}
+  },
+  "euphonium": {
+    "name": "Euphonium",
+    "description": "Ambient sounds suitable for vanilla minecraft",
+    "version": "1.0.1+1.20",
+    "environment": "*",
+    "file": "mods/current/euphonium-1.0.1+1.20.jar",
     "dependencies": {}
   },
   "everycomp": {
     "name": "Every Compat",
     "description": "Ultimate Wood Compat Mod",
-    "version": "1.20-2.6.61",
+    "version": "1.20-2.6.65",
     "environment": "*",
-    "file": "mods/current/everycomp-1.20-2.6.61-fabric.jar",
+    "file": "mods/current/everycomp-1.20-2.6.65-fabric.jar",
     "dependencies": {}
   },
   "expandeddelight": {
@@ -689,10 +641,10 @@
   },
   "explorify": {
     "name": "Explorify",
-    "description": "A collection of new dungeons and structures",
-    "version": "v1.4.0",
+    "description": "A simplistic, vanilla-friendly collection of new structures.",
+    "version": "1.6.1",
     "environment": "*",
-    "file": "mods/current/explorify-v1.4.0.jar",
+    "file": "mods/current/Explorify v1.6.1 f10-48.jar",
     "dependencies": {}
   },
   "chunkpregen": {
@@ -719,12 +671,20 @@
     "file": "mods/current/FarmersDelight-1.20.1-2.1.1+refabricated.jar",
     "dependencies": {}
   },
+  "farmersrespite": {
+    "name": "Farmer's Respite",
+    "description": "An addon created by Umpaz, HoboJoe, and SoyTutta for the Farmer's Delight mod by vectorwing. Attempts to add tea and ways to brew it, as well as some other foods!",
+    "version": "3.0.8",
+    "environment": "*",
+    "file": "mods/current/Farmersrespite-Fabric-3.0.8.jar",
+    "dependencies": {}
+  },
   "fastipping": {
     "name": "Fast IP Ping",
     "description": "Yeet the laggy reversed DNS lookup for pure IP server addresses",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "environment": "client",
-    "file": "mods/current/fast-ip-ping-mc1.20.4-fabric-v1.0.1.jar",
+    "file": "mods/current/fast-ip-ping-mc1.20.4-fabric-v1.0.3.jar",
     "dependencies": {}
   },
   "ferritecore": {
@@ -754,17 +714,17 @@
   "fxntstorage": {
     "name": "Create: Storage",
     "description": "A Storage System for Create by FoxyNoTail",
-    "version": "0.8-1.20.1-FABRIC+1.20.1",
+    "version": "0.12-1.20.1-FABRIC+1.20.1",
     "environment": "*",
-    "file": "mods/current/fxntstorage-0.8-1.20.1-FABRIC+1.20.1.jar",
+    "file": "mods/current/fxntstorage-0.12-1.20.1-FABRIC+1.20.1.jar",
     "dependencies": {}
   },
   "geckolib": {
     "name": "GeckoLib 4",
     "description": "GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more.",
-    "version": "4.4.4",
+    "version": "4.4.7",
     "environment": "*",
-    "file": "mods/current/geckolib-fabric-1.20.1-4.4.4.jar",
+    "file": "mods/current/geckolib-fabric-1.20.1-4.4.7.jar",
     "dependencies": {}
   },
   "geckoanimfix": {
@@ -777,10 +737,10 @@
   },
   "geophilic": {
     "name": "Geophilic",
-    "description": "A subtle overhaul of Overworld biomes",
-    "version": "v2.4.0",
+    "description": "A subtle overhaul of vanilla Overworld biomes.",
+    "version": "2.4.2",
     "environment": "*",
-    "file": "mods/current/Geophilic v2.4.0 f15-48.jar",
+    "file": "mods/current/Geophilic v2.4.2 f15-48.jar",
     "dependencies": {}
   },
   "hamsters": {
@@ -815,6 +775,14 @@
     "file": "mods/current/IllagerInvasion-v8.0.5-1.20.1-Fabric.jar",
     "dependencies": {}
   },
+  "immediatelyfast": {
+    "name": "ImmediatelyFast",
+    "description": "Speed up and optimize immediate mode rendering in Minecraft",
+    "version": "1.2.18+1.20.4",
+    "environment": "client",
+    "file": "mods/current/ImmediatelyFast-Fabric-1.2.18+1.20.4.jar",
+    "dependencies": {}
+  },
   "immersive_aircraft": {
     "name": "Immersive Aircraft",
     "description": "A bunch of rustic aircraft to travel, transport, and explore!. ",
@@ -831,6 +799,22 @@
     "file": "mods/current/immersive_weathering-1.20.1-2.0.2-fabric.jar",
     "dependencies": {}
   },
+  "indium": {
+    "name": "Indium",
+    "description": "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
+    "version": "1.0.31+mc1.20.4",
+    "environment": "client",
+    "file": "mods/current/indium-1.0.31+mc1.20.4.jar",
+    "dependencies": {}
+  },
+  "inventoryhud": {
+    "name": "Inventory HUD +",
+    "description": "This mod will show you your inventory while playing. Enjoy!",
+    "version": "3.4.22",
+    "environment": "client",
+    "file": "mods/current/inventoryhud.fabric.1.20.1-3.4.22.jar",
+    "dependencies": {}
+  },
   "inventorysorter": {
     "name": "Inventory Sorter",
     "description": "Quickly and easily sort inventorys",
@@ -839,20 +823,20 @@
     "file": "mods/current/InventorySorter-1.9.0-1.20.jar",
     "dependencies": {}
   },
-  "inventoryhud": {
-    "name": "Inventory HUD +",
-    "description": "This mod will show you your inventory while playing. Enjoy!",
-    "version": "3.4.18",
-    "environment": "client",
-    "file": "mods/current/invhud.fabric.1.20-3.4.18.jar",
-    "dependencies": {}
-  },
   "iris": {
     "name": "Iris",
     "description": "A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs",
-    "version": "1.7.1+mc1.20.1",
+    "version": "1.7.2+mc1.20.1",
     "environment": "client",
-    "file": "mods/current/iris-1.7.1+mc1.20.1.jar",
+    "file": "mods/current/iris-1.7.2+mc1.20.1.jar",
+    "dependencies": {}
+  },
+  "irisflw": {
+    "name": "Iris Flywheel Compat",
+    "description": "Allow Flywheel instancing optimization to be enabled when using iris.",
+    "version": "0.2.5",
+    "environment": "client",
+    "file": "mods/current/iris-flywheel-compat-1.20.1-0.2.5.jar",
     "dependencies": {}
   },
   "itemborders": {
@@ -946,17 +930,17 @@
   "doapi": {
     "name": "[Let's Do] API",
     "description": "This is an API for the Let's do mods",
-    "version": "1.2.13",
+    "version": "1.2.15",
     "environment": "*",
-    "file": "mods/current/letsdo-API-fabric-1.2.13-fabric.jar",
+    "file": "mods/current/letsdo-API-fabric-1.2.15-fabric.jar",
     "dependencies": {}
   },
   "vinery": {
     "name": "[Let's Do] Vinery",
     "description": "In Vino Veritas - it's time for wine! Build your own vineyard, produce wine, and establish your own winery.",
-    "version": "1.4.22",
+    "version": "1.4.25",
     "environment": "*",
-    "file": "mods/current/letsdo-vinery-fabric-1.4.22.jar",
+    "file": "mods/current/letsdo-vinery-fabric-1.4.25.jar",
     "dependencies": {}
   },
   "lithium": {
@@ -1002,17 +986,17 @@
   "mcwdoors": {
     "name": "Macaw's Doors",
     "description": "Adds a lot of new Doors! With vanila and unique styles.",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "environment": "*",
-    "file": "mods/current/mcw-doors-1.1.0fabric-mc1.20.1.jar",
+    "file": "mods/current/mcw-doors-1.1.1fabric-mc1.20.1.jar",
     "dependencies": {}
   },
   "mcwfences": {
     "name": "Macaw's Fences and Walls",
     "description": "Adds new vanila styled fences, walls and gates!",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "environment": "*",
-    "file": "mods/current/mcw-fences-1.1.1-mc1.20.1fabric.jar",
+    "file": "mods/current/mcw-fences-1.1.2-mc1.20.1fabric.jar",
     "dependencies": {}
   },
   "mcwfurnitures": {
@@ -1034,9 +1018,9 @@
   "mcwlights": {
     "name": "Macaw's Lights and Lamps",
     "description": "Adds vanila styled lights, lamps, torches, street lamp posts... Make your worlds brighter!",
-    "version": "1.0.6",
+    "version": "1.1.1",
     "environment": "*",
-    "file": "mods/current/mcw-lights-1.0.6-mc1.20.1fabric.jar",
+    "file": "mods/current/mcw-lights-1.1.1-mc1.20.1fabric.jar",
     "dependencies": {}
   },
   "mcwpaintings": {
@@ -1095,6 +1079,14 @@
     "file": "mods/current/modelfix-1.15-fabric.jar",
     "dependencies": {}
   },
+  "modernfix": {
+    "name": "ModernFix",
+    "description": "Egregious, yet effective performance improvements for modern Minecraft",
+    "version": "5.18.1+mc1.20.1",
+    "environment": "*",
+    "file": "mods/current/modernfix-fabric-5.18.1+mc1.20.1.jar",
+    "dependencies": {}
+  },
   "mod-loading-screen": {
     "name": "Mod Loading Screen",
     "description": "An advanced loading screen with the loading progress of mods",
@@ -1111,12 +1103,20 @@
     "file": "mods/current/modmenu-7.2.2.jar",
     "dependencies": {}
   },
+  "monsters_in_the_closet": {
+    "name": "Monsters in the Closet",
+    "description": "Highlights the mobs that are preventing you from sleeping",
+    "version": "1.0.3+1.20",
+    "environment": "*",
+    "file": "mods/current/monsters-in-the-closet-1.0.3+1.20.jar",
+    "dependencies": {}
+  },
   "moonlight": {
     "name": "Moonlight",
     "description": "Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more",
-    "version": "1.20-2.11.37",
+    "version": "1.20-2.12.6",
     "environment": "*",
-    "file": "mods/current/moonlight-1.20-2.11.37-fabric.jar",
+    "file": "mods/current/moonlight-1.20-2.12.6-fabric.jar",
     "dependencies": {}
   },
   "mousetweaks": {
@@ -1130,9 +1130,9 @@
   "neruina": {
     "name": "Neruina",
     "description": "This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds.",
-    "version": "2.0.0-beta.10",
+    "version": "2.1.0",
     "environment": "*",
-    "file": "mods/current/neruina-fabric-2.0.0-beta.10+1.20.1.jar",
+    "file": "mods/current/Neruina-2.1.0-fabric+1.20.1.jar",
     "dependencies": {}
   },
   "netherportalfix": {
@@ -1194,9 +1194,9 @@
   "paladins": {
     "name": "Paladins & Priests (RPG Series)",
     "description": "Protect and heal your friends as a Paladin or a Priest.",
-    "version": "1.2.0+1.20.1",
+    "version": "1.2.6+1.20.1",
     "environment": "*",
-    "file": "mods/current/paladins-1.2.0+1.20.1.jar",
+    "file": "mods/current/paladins-1.2.6+1.20.1.jar",
     "dependencies": {}
   },
   "passablefoliage": {
@@ -1274,9 +1274,9 @@
   "puffish_attributes": {
     "name": "Pufferfish's Attributes",
     "description": "Adds more attributes to the game.",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "environment": "*",
-    "file": "mods/current/puffish_attributes-0.3.0-1.20-fabric.jar",
+    "file": "mods/current/puffish_attributes-0.4.0-1.20-fabric.jar",
     "dependencies": {}
   },
   "puffish_skills": {
@@ -1290,9 +1290,9 @@
   "puzzleslib": {
     "name": "Puzzles Lib",
     "description": "Why's it called Puzzles you ask? That's the puzzle!",
-    "version": "8.1.20",
+    "version": "8.1.21",
     "environment": "*",
-    "file": "mods/current/PuzzlesLib-v8.1.20-1.20.1-Fabric.jar",
+    "file": "mods/current/PuzzlesLib-v8.1.21-1.20.1-Fabric.jar",
     "dependencies": {}
   },
   "quilted_fabric_api": {
@@ -1309,6 +1309,14 @@
     "version": "1.0.0-1.20.1",
     "environment": "*",
     "file": "mods/current/qualitysounds-1.0.0-1.20.1.jar",
+    "dependencies": {}
+  },
+  "trinkets": {
+    "name": "Trinkets",
+    "description": "Adds a data-driven accessory system to Minecraft",
+    "version": "3.7.2",
+    "environment": "*",
+    "file": "mods/current/trinkets-3.7.2.jar",
     "dependencies": {}
   },
   "quilt_loading_screen": {
@@ -1330,9 +1338,9 @@
   "ranged_weapon_api": {
     "name": "RangedWeaponAPI",
     "description": "Allows creating bows and crossbows, with just a few line of code",
-    "version": "1.1.1+1.20.1",
+    "version": "1.1.2+1.20.1",
     "environment": "*",
-    "file": "mods/current/ranged_weapon_api-1.1.1+1.20.1.jar",
+    "file": "mods/current/ranged_weapon_api-1.1.2+1.20.1.jar",
     "dependencies": {}
   },
   "resourcefulconfig": {
@@ -1378,9 +1386,9 @@
   "runes": {
     "name": "Runes",
     "description": "Craft runes to serve as ammo for spells.",
-    "version": "0.9.11+1.20.1",
+    "version": "0.9.13+1.20.1",
     "environment": "*",
-    "file": "mods/current/runes-fabric-0.9.11+1.20.1.jar",
+    "file": "mods/current/runes-0.9.13+1.20.1.jar",
     "dependencies": {}
   },
   "seamless_loading_screen": {
@@ -1402,9 +1410,9 @@
   "simplyskills": {
     "name": "SimplySkills",
     "description": "A comprehensive skill tree mod with a focus on combat specialisations.",
-    "version": "1.4.1+1.20.1",
+    "version": "1.5.0+1.20.1",
     "environment": "*",
-    "file": "mods/current/simplyskills-1.4.1+1.20.1.jar",
+    "file": "mods/current/simplyskills-1.5.0+1.20.1.jar",
     "dependencies": {}
   },
   "sliceanddice": {
@@ -1442,33 +1450,25 @@
   "sodium": {
     "name": "Sodium",
     "description": "Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.",
-    "version": "0.5.10+mc1.20.1",
+    "version": "0.5.11+mc1.20.1",
     "environment": "client",
-    "file": "mods/current/sodium-fabric-0.5.10+mc1.20.1.jar",
-    "dependencies": {}
-  },
-  "spawn": {
-    "name": "Spawn",
-    "description": "An animal mod that tries to add new animals with niches and personality to the Minecraft world",
-    "version": "1.0.3-fabric",
-    "environment": "*",
-    "file": "mods/current/spawn-1.0.3-fabric.jar",
+    "file": "mods/current/sodium-fabric-0.5.11+mc1.20.1.jar",
     "dependencies": {}
   },
   "spell_engine": {
     "name": "Spell Engine",
     "description": "Data driven magic library.",
-    "version": "0.14.3+1.20.1",
+    "version": "0.15.6+1.20.1",
     "environment": "*",
-    "file": "mods/current/spell_engine-0.14.3+1.20.1.jar",
+    "file": "mods/current/spell_engine-0.15.6+1.20.1.jar",
     "dependencies": {}
   },
   "spell_power": {
     "name": "Spell Power Attribute",
     "description": "Spell Power entity attributes with related status effects and enchantments.",
-    "version": "0.10.2+1.20.1",
+    "version": "0.11.0+1.20.1",
     "environment": "*",
-    "file": "mods/current/spell_power-0.10.2+1.20.1.jar",
+    "file": "mods/current/spell_power-0.11.0+1.20.1.jar",
     "dependencies": {}
   },
   "spiceoffabric": {
@@ -1490,9 +1490,9 @@
   "supplementaries": {
     "name": "Supplementaries",
     "description": "Many functional and useful Vanilla+ blocks",
-    "version": "1.20-2.8.15",
+    "version": "1.20-2.8.17",
     "environment": "*",
-    "file": "mods/current/supplementaries-1.20-2.8.15-fabric.jar",
+    "file": "mods/current/supplementaries-1.20-2.8.17-fabric.jar",
     "dependencies": {}
   },
   "terralith": {
@@ -1504,11 +1504,11 @@
     "dependencies": {}
   },
   "thaumon": {
-    "name": "Thaumon [BETA]",
+    "name": "Thaumon",
     "description": "Thaumcraft-inspired decoration blocks for modern Minecraft",
-    "version": "2.2.0+1.20.1",
+    "version": "2.3.0+1.20.1",
     "environment": "*",
-    "file": "mods/current/thaumon-fabric-2.2.0+1.20.1.jar",
+    "file": "mods/current/thaumon-fabric-2.3.0+1.20.1.jar",
     "dependencies": {}
   },
   "things": {
@@ -1551,12 +1551,28 @@
     "file": "mods/current/toofast-fabric-1.20-1.2.0.jar",
     "dependencies": {}
   },
-  "brewinandchewin": {
-    "name": "Brewin And Chewin",
-    "description": "This is an example description! Tell everyone what your mod is about!",
-    "version": "3.0.6+1.20.1",
+  "twigs": {
+    "name": "Twigs",
+    "description": "A Minecraft mod all about building, adding new and interesting materials, as well as new renditions of current vanilla blocks.",
+    "version": "3.1.0",
     "environment": "*",
-    "file": "mods/current/brewinandchewin-3.0.6+1.20.1.jar",
+    "file": "mods/current/twigs-3.1.0-fabric.jar",
+    "dependencies": {}
+  },
+  "visuality": {
+    "name": "Visuality",
+    "description": "Little visual improvements by adding a bunch of new particles.",
+    "version": "0.7.1+1.20",
+    "environment": "client",
+    "file": "mods/current/visuality-0.7.1+1.20.jar",
+    "dependencies": {}
+  },
+  "visualworkbench": {
+    "name": "Visual Workbench",
+    "description": "Items stay inside crafting tables and are also rendered on top. It's really fancy!",
+    "version": "8.0.0",
+    "environment": "*",
+    "file": "mods/current/VisualWorkbench-v8.0.0-1.20.1-Fabric.jar",
     "dependencies": {}
   }
 }
