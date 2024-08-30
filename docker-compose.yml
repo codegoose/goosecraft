@@ -1,6 +1,6 @@
 services:
   pub:
-    image: goosecraft:6.2.1
+    image: goosecraft:6.3.0
     stop_grace_period: 2m
     ports:
       - "25575:25565/tcp"
@@ -15,7 +15,7 @@ services:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
   dev:
-    image: goosecraft:6.2.1
+    image: goosecraft:6.3.0
     stop_grace_period: 2m
     ports:
       - "25576:25565/tcp"

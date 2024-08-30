@@ -2,13 +2,13 @@
 
 Build Docker image:
 ```
-docker build -t goosecraft:6.2.1 -f server.docker .
+docker build -t goosecraft:6.3.0 -f server.docker .
 ```
 Example Compose file:
 ```yml
 services:
   pub:
-    image: goosecraft:6.2.1
+    image: goosecraft:6.3.0
     stop_grace_period: 1m
     ports:
       - "25575:25565/tcp"

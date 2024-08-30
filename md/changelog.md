@@ -1,12 +1,85 @@
 # Changelog
-## v6.2.1
+## v6.3.0
 ### Mods
 #### Added
-  * **Monsters in the Closet**: Highlights the mobs that are preventing you from sleeping
-  * **Iris Flywheel Compat**: Allow Flywheel instancing optimization to be enabled when using iris.
   * **ImmediatelyFast**: Speed up and optimize immediate mode rendering in Minecraft
-  * **Debugify**: Fixes Minecraft bugs found on the bug tracker. . License stuff:. j-Tai's TieFix - Code used licensed under LGPLv3. FlashyReese's Sodium Extra - Code used licensed under LGPLv3. Ampflower's 2x2 Surrounded Saplings Fix - Code used licensed under Zlib
   * **ModernFix**: Egregious, yet effective performance improvements for modern Minecraft
+  * **Debugify**: Fixes Minecraft bugs found on the bug tracker. . License stuff:. j-Tai's TieFix - Code used licensed under LGPLv3. FlashyReese's Sodium Extra - Code used licensed under LGPLv3. Ampflower's 2x2 Surrounded Saplings Fix - Code used licensed under Zlib
+  * **Monsters in the Closet**: Highlights the mobs that are preventing you from sleeping
+  * **SuperMartijn642's Config Lib**: Config Lib makes dealing with config files just a bit easier.
+  * **Shield API**: Creating shields with custom models was never easier!
+#### Updated
+  * **Tips**: Adds useful tips to various loading screens in game. **(12.0.5 to 12.1.8)**
+  * **What Are They Up To**: Lets you see if players are typing, in a GUI, idle, with cool ingame visuals **(1.20.1-1.1.1 to 1.20.1-1.1.3)**
+  * **Wizards (RPG Series)**: Destroy your enemies with Arcane, Fire and Frost magic. **(1.2.0+1.20.1 to 1.3.0+1.20.1)**
+  * **World Border**: Allows the creation of a configurable world border for each dimension, limiting the world size. **(4.4 to 4.7)**
+  * **Xaero's Minimap**: The most vanilla-looking minimap for Minecraft. **(24.2.0 to 24.3.0)**
+  * **Xaero's World Map**: A self-writing fullscreen map which also works as an add-on to Xaero's Minimap. **(1.38.8 to 1.39.0)**
+  * **Amendments**: Many tweaks to Vanilla Blocks **(1.20-1.2.4 to 1.20-1.2.8)**
+  * **Archers (RPG Series)**: Draw, Release, Conquer - Master the art of Archery! **(1.2.1+1.20.1 to 1.2.5+1.20.1)**
+  * **AzureLib Armor**: A striped down Azurelib just for Armor! **(2.0.3 to 2.0.6)**
+  * **Balm**: Abstraction Layer (but not really)TM for Blay's multiplatform mods **(7.3.4 to 7.3.9)**
+  * **Better Archeology**: Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration! **(1.1.9-1.20.1 to 1.2.0-1.20.1)**
+  * **Better Combat**: Easy, spectacular and fun melee combat system from Minecraft Dungeons. **(1.8.5+1.20.1 to 1.8.6+1.20.1)**
+  * **BotanyPots**: Pots for growing different types of plants. **(13.0.33 to 13.0.38)**
+  * **BotanyTrees**: Allows Botany Pots to grow trees. **(9.0.11 to 9.0.15)**
+  * **Chat Heads**: See who are you chatting with!. This mod adds player heads next to their chat messages. **(0.12.3 to 0.12.13)**
+  * **Collective**: Collective is a shared library with common code for all of Serilum's mods. **(7.61 to 7.84)**
+  * **Crate Delight**: A mod that adds more crates and bags to the game. **(2024.05.05-1.20-fabric to 24.08.09-1.20-fabric)**
+  * **cupboard**:  **(1.20.1-2.6 to 1.20.1-2.7)**
+  * **Deeper and Darker**: A Minecraft mod which features more blocks, items, armors, and hidden mysteries to complement the Deep Dark biome. **(1.2.6 to 1.3.1)**
+  * **Delightful Creators**: Making automation between Farmer's Delight and Create **(1.1.8 to 1.3-1.20.x)**
+  * **Distant Horizons**: This mod generates and renders simplified terrain beyond the normal view distance at a low performance cost. Allowing you to see much farther without turning your game into a slideshow. **(2.1.0-a to 2.1.2-a)**
+  * **Euphonium**: Ambient sounds suitable for vanilla minecraft **(1.0.1+1.20 to 1.0.3+1.20)**
+  * **End's Delight**: An addon mod for Farmer's Delight based around adding culinary content to the end! **(refabricated-1.20.1-alpha-1.0 to 2.1)**
+  * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.6.61 to 1.20-2.6.73)**
+  * **Explorify**: A simplistic, vanilla-friendly collection of new structures. **(v1.4.0 to 1.6.1)**
+  * **Farmer's Delight**: A cozy expansion to farming and cooking! **(1.20.1-2.1.1+refabricated to 1.20.1-2.1.4+refabricated)**
+  * **Fast IP Ping**: Yeet the laggy reversed DNS lookup for pure IP server addresses **(1.0.1 to 1.0.4)**
+  * **Fright's Delight**: Fright's Delight is an add-on mod for Farmer's Delight Fabric that adds food made from mob drops. Dishes are created with a 'Horror' theme, consume with caution. **(fabric-1.20.1-1.0.4 to 1.1.0)**
+  * **Create: Storage**: A Storage System for Create by FoxyNoTail **(0.8-1.20.1-FABRIC+1.20.1 to 0.18-1.20.1-FABRIC+1.20.1)**
+  * **GeckoLib 4**: GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more. **(4.4.4 to 4.4.9)**
+  * **Geophilic**: A subtle-ish overhaul of vanilla Overworld biomes. **(v2.4.0 to 3.1.1)**
+  * **Inventory HUD +**: This mod will show you your inventory while playing. Enjoy! **(3.4.18 to 3.4.26)**
+  * **Iris**: A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs **(1.7.1+mc1.20.1 to 1.7.2+mc1.20.1)**
+  * **Jade**: Minecraft mod shows what you are looking at. (Hwyla fork) **(11.9.2+fabric to 11.11.0+fabric)**
+  * **Jade Addons**: Jade's additional mod supports for Fabric. **(5.2.5 to 5.3.1+fabric)**
+  * **Kiwi Library**: Minecraft modding library **(11.6.2 to 11.8.24+fabric)**
+  * **[Let's Do] API**: This is an API for the Let's do mods **(1.2.13 to 1.2.15)**
+  * **[Let's Do] Vinery**: In Vino Veritas - it's time for wine! Build your own vineyard, produce wine, and establish your own winery. **(1.4.22 to 1.4.28)**
+  * **Lootr**: A mod that makes it so nobody misses out on Loot! **(0.7.33.81 to 0.7.34.84)**
+  * **Macaw's Doors**: Adds a lot of new Doors! With vanila and unique styles. **(1.1.0 to 1.1.1)**
+  * **Macaw's Fences and Walls**: Adds new vanila styled fences, walls and gates! **(1.1.1 to 1.1.2)**
+  * **Macaw's Furniture**: Chairs, Wardrobes, Drawers, Tables, Desks and more..! **(3.2.2 to 3.3.0)**
+  * **Macaw's Lights and Lamps**: Adds vanila styled lights, lamps, torches, street lamp posts... Make your worlds brighter! **(1.0.6 to 1.1.1)**
+  * **Macaw's Roofs**: Builds roofs with actual roofs! **(2.3.0 to 2.3.1)**
+  * **Macaw's Windows**: Adds lots of Windows, Mosaic Glass, Blinds, Arrow Slits and more..! **(2.2.1 to 2.3.0)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.11.37 to 1.20-2.12.17)**
+  * **Neruina**: This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds. **(2.0.0-beta.10 to 2.1.2)**
+  * **Paladins & Priests (RPG Series)**: Protect and heal your friends as a Paladin or a Priest. **(1.2.0+1.20.1 to 1.3.1+1.20.1)**
+  * **Pufferfish's Attributes**: Adds more attributes to the game. **(0.3.0 to 0.5.0)**
+  * **Puzzles Lib**: Why's it called Puzzles you ask? That's the puzzle! **(8.1.20 to 8.1.22)**
+  * **Quilted Fabric API**: A reimplementation of Fabric API on top of Quilt Standard Libraries. **(7.5.0+0.92.2-1.20.1 to 7.6.0+0.92.2-1.20.1)**
+  * **RangedWeaponAPI**: Allows creating bows and crossbows, with just a few line of code **(1.1.1+1.20.1 to 1.1.4+1.20.1)**
+  * **Resourceful Lib**: Library Mod by Team Resourceful **(2.1.25 to 2.1.29)**
+  * **Respite Creators**: Making automation between Farmer's Respite and Create **(1.2.0 to 1.3.0)**
+  * **Roughly Enough Items**: Clean and Customizable. **(12.1.725 to 12.1.750)**
+  * **Runes**: Craft runes to serve as ammo for spells. **(0.9.11+1.20.1 to 0.9.13+1.20.1)**
+  * **SimplySkills**: A comprehensive skill tree mod with a focus on combat specialisations. **(1.4.1+1.20.1 to 1.6.0+1.20.1)**
+  * **Create Slice & Dice**: Making automation for Farmers Delight more sensible **(3.2.2 to 3.2.3)**
+  * **Sodium**: Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes. **(0.5.10+mc1.20.1 to 0.5.11+mc1.20.1)**
+  * **Spell Engine**: Data driven magic library. **(0.14.3+1.20.1 to 0.15.10+1.20.1)**
+  * **Spell Power Attribute**: Spell Power entity attributes with related status effects and enchantments. **(0.10.2+1.20.1 to 0.12.0+1.20.1)**
+  * **StackDeobfuscator**: Deobfuscates stacktraces to yarn/quilt/mojang mappings **(1.4.2+bf1fc22 to 1.4.3+08e71cc)**
+  * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-2.8.15 to 1.20-2.8.17)**
+  * **Terralith**: Explore almost 100 new biomes consisting of both realism and light fantasy, using just Vanilla blocks. Complete with several immersive structures to compliment the overhauled terrain. **(2.5.1 to 2.5.4)**
+  * **Thaumon**: Thaumcraft-inspired decoration blocks for modern Minecraft **(2.2.0+1.20.1 to 2.3.0+1.20.1)**
+#### Removed
+  * **Spawn**: An animal mod that tries to add new animals with niches and personality to the Minecraft world
+  * **Create Ore Excavation**: Extract resources using machines powered by Rotational Force
+  * **Cubes Without Borders**: A mod that allows you to play Minecraft in a borderless fullscreen window.
+## v6.2.1
+### Mods
 #### Updated
   * **Wizards (RPG Series)**: Destroy your enemies with Arcane, Fire and Frost magic. **(1.2.0+1.20.1 to 1.2.2+1.20.1)**
   * **Amendments**: Many tweaks to Vanilla Blocks **(1.20-1.2.4 to 1.20-1.2.8)**
