@@ -8,6 +8,7 @@
   * **Monsters in the Closet**: Highlights the mobs that are preventing you from sleeping
   * **SuperMartijn642's Config Lib**: Config Lib makes dealing with config files just a bit easier.
   * **Shield API**: Creating shields with custom models was never easier!
+  * **Handcrafted**: Epic Furniture mod!
 #### Updated
   * **Tips**: Adds useful tips to various loading screens in game. **(12.0.5 to 12.1.8)**
   * **What Are They Up To**: Lets you see if players are typing, in a GUI, idle, with cool ingame visuals **(1.20.1-1.1.1 to 1.20.1-1.1.3)**
