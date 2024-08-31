@@ -1,4 +1,332 @@
 {
+  "player-animator": {
+    "name": "Player Animator",
+    "description": "A lightweight library to easily animate the player",
+    "version": "1.0.2-rc1+1.20",
+    "environment": "*",
+    "file": "mods/current/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
+    "dependencies": {}
+  },
+  "polylib": {
+    "name": "PolyLib",
+    "description": "",
+    "version": "2000.0.3-build.143",
+    "environment": "*",
+    "file": "mods/current/polylib-fabric-2000.0.3-build.143.jar",
+    "dependencies": {}
+  },
+  "polymorph": {
+    "name": "Polymorph",
+    "description": "No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.",
+    "version": "0.49.5+1.20.1",
+    "environment": "*",
+    "file": "mods/current/polymorph-fabric-0.49.5+1.20.1.jar",
+    "dependencies": {}
+  },
+  "presencefootsteps": {
+    "name": "Presence Footsteps",
+    "description": "An overly complicated sound mod.",
+    "version": "1.9.4+1.20.1",
+    "environment": "client",
+    "file": "mods/current/PresenceFootsteps-1.9.4+1.20.1.jar",
+    "dependencies": {}
+  },
+  "prism": {
+    "name": "Prism",
+    "description": "A library all about color! Provides lots of color-related functionality for dependent mods.",
+    "version": "1.0.5",
+    "environment": "client",
+    "file": "mods/current/Prism-1.20.1-fabric-1.0.5.jar",
+    "dependencies": {}
+  },
+  "projectile_damage": {
+    "name": "Projectile Damage Attribute",
+    "description": "Adds generic projectile damage attribute, so ranged weapon damage can be changed.",
+    "version": "3.2.3+1.20.1",
+    "environment": "*",
+    "file": "mods/current/projectile_damage-fabric-3.2.3+1.20.1.jar",
+    "dependencies": {}
+  },
+  "puffish_attributes": {
+    "name": "Pufferfish's Attributes",
+    "description": "Adds more attributes to the game.",
+    "version": "0.5.0",
+    "environment": "*",
+    "file": "mods/current/puffish_attributes-0.5.0-1.20-fabric.jar",
+    "dependencies": {}
+  },
+  "puffish_skills": {
+    "name": "Pufferfish's Skills",
+    "description": "Adds a fully configurable skill system to the game.",
+    "version": "0.12.2",
+    "environment": "*",
+    "file": "mods/current/puffish_skills-0.12.2-1.20-fabric.jar",
+    "dependencies": {}
+  },
+  "puzzleslib": {
+    "name": "Puzzles Lib",
+    "description": "Why's it called Puzzles you ask? That's the puzzle!",
+    "version": "8.1.22",
+    "environment": "*",
+    "file": "mods/current/PuzzlesLib-v8.1.22-1.20.1-Fabric.jar",
+    "dependencies": {}
+  },
+  "quilted_fabric_api": {
+    "name": "Quilted Fabric API",
+    "description": "A reimplementation of Fabric API on top of Quilt Standard Libraries.",
+    "version": "7.6.0+0.92.2-1.20.1",
+    "environment": "*",
+    "file": "mods/current/qfapi-7.6.0_qsl-6.2.0_fapi-0.92.2_mc-1.20.1.jar",
+    "dependencies": {}
+  },
+  "qualitysounds": {
+    "name": "Quality Sounds",
+    "description": "A mod for satisfying block sounds",
+    "version": "1.0.0-1.20.1",
+    "environment": "*",
+    "file": "mods/current/qualitysounds-1.0.0-1.20.1.jar",
+    "dependencies": {}
+  },
+  "quilt_loading_screen": {
+    "name": "Quilt Loading Screen",
+    "description": "Makes the Minecraft loading screen have QuiltMC patches",
+    "version": "6.1.0+1.20.1",
+    "environment": "client\"  },  \"modmenu\": {    \"links\": {      \"modmenu.modrinth\": \"https://modrinth.com/mod/quilt-loading-screen\"    }  }",
+    "file": "mods/current/quilt_loading_screen-6.1.0+1.20.1.jar",
+    "dependencies": {}
+  },
+  "qkl": {
+    "name": "Quilt Kotlin Libraries",
+    "description": "Quilt's official Kotlin libraries",
+    "version": "2.1.3",
+    "environment": "*",
+    "file": "mods/current/quilt-kotlin-libraries-2.1.3+kt.1.9.10+flk.1.10.10.jar",
+    "dependencies": {}
+  },
+  "ranged_weapon_api": {
+    "name": "RangedWeaponAPI",
+    "description": "Allows creating bows and crossbows, with just a few line of code",
+    "version": "1.1.4+1.20.1",
+    "environment": "*",
+    "file": "mods/current/ranged_weapon_api-1.1.4+1.20.1.jar",
+    "dependencies": {}
+  },
+  "resourcefulconfig": {
+    "name": "Resourcefulconfig",
+    "description": "",
+    "version": "2.1.2",
+    "environment": "*",
+    "file": "mods/current/resourcefulconfig-fabric-1.20.1-2.1.2.jar",
+    "dependencies": {}
+  },
+  "resourcefullib": {
+    "name": "Resourceful Lib",
+    "description": "Library Mod by Team Resourceful",
+    "version": "2.1.29",
+    "environment": "*",
+    "file": "mods/current/resourcefullib-fabric-1.20.1-2.1.29.jar",
+    "dependencies": {}
+  },
+  "respitecreators": {
+    "name": "Respite Creators",
+    "description": "Making automation between Farmer's Respite and Create",
+    "version": "1.3.0",
+    "environment": "*",
+    "file": "mods/current/respite-creators-1.3.0.jar",
+    "dependencies": {}
+  },
+  "rotten_flesh_to_leather": {
+    "name": "Rotten Flesh to Leather",
+    "description": "A simple mod that makes rotten flesh less useless by allowing smelting into leather",
+    "version": "1.0.0",
+    "environment": "*",
+    "file": "mods/current/rottenflesh-to-leather_1-20-x.jar",
+    "dependencies": {}
+  },
+  "roughlyenoughitems": {
+    "name": "Roughly Enough Items",
+    "description": "Clean and Customizable.",
+    "version": "12.1.750",
+    "environment": "*",
+    "file": "mods/current/RoughlyEnoughItems-12.1.750-fabric.jar",
+    "dependencies": {}
+  },
+  "runes": {
+    "name": "Runes",
+    "description": "Craft runes to serve as ammo for spells.",
+    "version": "0.9.13+1.20.1",
+    "environment": "*",
+    "file": "mods/current/runes-0.9.13+1.20.1.jar",
+    "dependencies": {}
+  },
+  "seamless_loading_screen": {
+    "name": "Seamless Loading Screen",
+    "description": "Takes a screenshot of the game when you leave a world or server, and displays it when you rejoin it",
+    "version": "2.0.3+1.20.1",
+    "environment": "client",
+    "file": "mods/current/seamless-loading-screen-2.0.3+1.20.1-fabric.jar",
+    "dependencies": {}
+  },
+  "searchables": {
+    "name": "Searchables",
+    "description": "A library mod to facilitate adding search bars with auto complete and search types.",
+    "version": "1.0.3",
+    "environment": "client",
+    "file": "mods/current/Searchables-fabric-1.20.1-1.0.3.jar",
+    "dependencies": {}
+  },
+  "shield_api": {
+    "name": "Shield API",
+    "description": "Creating shields with custom models was never easier!",
+    "version": "1.0.1+1.20.1",
+    "environment": "*",
+    "file": "mods/current/ShieldAPI-1.0.1+1.20.1.jar",
+    "dependencies": {}
+  },
+  "simplyskills": {
+    "name": "SimplySkills",
+    "description": "A comprehensive skill tree mod with a focus on combat specialisations.",
+    "version": "1.6.0+1.20.1",
+    "environment": "*",
+    "file": "mods/current/simplyskills-1.6.0+1.20.1.jar",
+    "dependencies": {}
+  },
+  "sliceanddice": {
+    "name": "Create Slice & Dice",
+    "description": "Making automation for Farmers Delight more sensible",
+    "version": "3.2.3",
+    "environment": "*",
+    "file": "mods/current/sliceanddice-fabric-3.2.3.jar",
+    "dependencies": {}
+  },
+  "smoothchunk": {
+    "name": "Smooth chunk save Mod",
+    "description": "Spreads out chunk saves equally and saves them after a configured delay",
+    "version": "1.20.1-3.6",
+    "environment": "*",
+    "file": "mods/current/smoothchunk-fabric-1.20.1-3.6.jar",
+    "dependencies": {}
+  },
+  "smoothparticles": {
+    "name": "Smooth Particles",
+    "description": "Adds block placement particles",
+    "version": "1.2.0-1.21",
+    "environment": "*",
+    "file": "mods/current/smoothparticles-1.2.0-1.20.1.jar",
+    "dependencies": {}
+  },
+  "smoothswapping": {
+    "name": "Smooth Swapping",
+    "description": "Moves the items in an inventory smoothly instead of instantly",
+    "version": "0.9.3.1",
+    "environment": "client",
+    "file": "mods/current/smoothswapping-0.9.3.1-1.20.2-fabric.jar",
+    "dependencies": {}
+  },
+  "sodium": {
+    "name": "Sodium",
+    "description": "Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.",
+    "version": "0.5.11+mc1.20.1",
+    "environment": "client",
+    "file": "mods/current/sodium-fabric-0.5.11+mc1.20.1.jar",
+    "dependencies": {}
+  },
+  "sound_physics_remastered": {
+    "name": "Sound Physics Remastered",
+    "description": "Provides realistic sound attenuation, reverberation, and absorption through blocks.",
+    "version": "1.20.1-1.4.5",
+    "environment": "*",
+    "file": "mods/current/sound-physics-remastered-fabric-1.20.1-1.4.5.jar",
+    "dependencies": {}
+  },
+  "spell_engine": {
+    "name": "Spell Engine",
+    "description": "Data driven magic library.",
+    "version": "0.15.10+1.20.1",
+    "environment": "*",
+    "file": "mods/current/spell_engine-0.15.10+1.20.1.jar",
+    "dependencies": {}
+  },
+  "spell_power": {
+    "name": "Spell Power Attribute",
+    "description": "Spell Power entity attributes with related status effects and enchantments.",
+    "version": "0.12.0+1.20.1",
+    "environment": "*",
+    "file": "mods/current/spell_power-0.12.0+1.20.1.jar",
+    "dependencies": {}
+  },
+  "spiceoffabric": {
+    "name": "Spice of Fabric",
+    "description": "A new iteration on the good ol' \\\"Spice of life\\\".. . This mod embeds exp4j (https://github.com/fasseg/exp4j), licensed as Apache 2.0.",
+    "version": "1.6.2+mc1.20.1",
+    "environment": "*",
+    "file": "mods/current/spiceoffabric-1.6.2+mc1.20.1.jar",
+    "dependencies": {}
+  },
+  "stackdeobfuscator": {
+    "name": "StackDeobfuscator",
+    "description": "Deobfuscates stacktraces to yarn/quilt/mojang mappings",
+    "version": "1.4.3+08e71cc",
+    "environment": "*",
+    "file": "mods/current/StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
+    "dependencies": {}
+  },
+  "supermartijn642configlib": {
+    "name": "SuperMartijn642's Config Lib",
+    "description": "Config Lib makes dealing with config files just a bit easier.",
+    "version": "1.1.8+a",
+    "environment": "*",
+    "file": "mods/current/supermartijn642configlib-1.1.8a-fabric-mc1.20.jar",
+    "dependencies": {}
+  },
+  "supplementaries": {
+    "name": "Supplementaries",
+    "description": "Many functional and useful Vanilla+ blocks",
+    "version": "1.20-2.8.17",
+    "environment": "*",
+    "file": "mods/current/supplementaries-1.20-2.8.17-fabric.jar",
+    "dependencies": {}
+  },
+  "terralith": {
+    "name": "Terralith",
+    "description": "Explore almost 100 new biomes consisting of both realism and light fantasy, using just Vanilla blocks. Complete with several immersive structures to compliment the overhauled terrain.",
+    "version": "2.5.4",
+    "environment": "*",
+    "file": "mods/current/Terralith_1.20.x_v2.5.4.jar",
+    "dependencies": {}
+  },
+  "thaumon": {
+    "name": "Thaumon",
+    "description": "Thaumcraft-inspired decoration blocks for modern Minecraft",
+    "version": "2.3.0+1.20.1",
+    "environment": "*",
+    "file": "mods/current/thaumon-fabric-2.3.0+1.20.1.jar",
+    "dependencies": {}
+  },
+  "things": {
+    "name": "Things",
+    "description": "Trinkets and other utilities",
+    "version": "0.3.3+1.20",
+    "environment": "*",
+    "file": "mods/current/things-0.3.3+1.20.jar",
+    "dependencies": {}
+  },
+  "tia": {
+    "name": "Tiny Item Animations",
+    "description": "Adds a cute little animation when picking up items with your mouse.",
+    "version": "1.20-1.1",
+    "environment": "client",
+    "file": "mods/current/tia-1.20-1.1-fabric.jar",
+    "dependencies": {}
+  },
+  "timecontrol": {
+    "name": "TimeControl",
+    "description": "Take control over Minecraft's day-night cycle",
+    "version": "1.6.0",
+    "environment": "*",
+    "file": "mods/current/timecontrol-1.20.1-1.6.0.jar",
+    "dependencies": {}
+  },
   "tipsmod": {
     "name": "Tips",
     "description": "Adds useful tips to various loading screens in game.",
@@ -103,6 +431,14 @@
     "file": "mods/current/Xaeros_Minimap_24.3.0_Fabric_1.20.jar",
     "dependencies": {}
   },
+  "xaeroworldmap": {
+    "name": "Xaero's World Map",
+    "description": "A self-writing fullscreen map which also works as an add-on to Xaero's Minimap.",
+    "version": "1.39.0",
+    "environment": "*",
+    "file": "mods/current/XaerosWorldMap_1.39.0_Fabric_1.20.jar",
+    "dependencies": {}
+  },
   "yet_another_config_lib_v3": {
     "name": "YetAnotherConfigLib",
     "description": "YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.",
@@ -189,14 +525,6 @@
     "version": "1.20-Fabric-4.0.3",
     "environment": "*",
     "file": "mods/current/YungsExtras-1.20-Fabric-4.0.3.jar",
-    "dependencies": {}
-  },
-  "xaeroworldmap": {
-    "name": "Xaero's World Map",
-    "description": "A self-writing fullscreen map which also works as an add-on to Xaero's Minimap.",
-    "version": "1.39.0",
-    "environment": "*",
-    "file": "mods/current/XaerosWorldMap_1.39.0_Fabric_1.20.jar",
     "dependencies": {}
   },
   "amendments": {
@@ -647,14 +975,6 @@
     "file": "mods/current/Emojiful-Fabric-1.20.1-4.2.0.jar",
     "dependencies": {}
   },
-  "euphonium": {
-    "name": "Euphonium",
-    "description": "Ambient sounds suitable for vanilla minecraft",
-    "version": "1.0.3+1.20",
-    "environment": "*",
-    "file": "mods/current/euphonium-1.0.3+1.20.jar",
-    "dependencies": {}
-  },
   "endermanoverhaul": {
     "name": "Enderman Overhaul",
     "description": "Enderman overhaul adds biome-specific Enderman!",
@@ -669,6 +989,14 @@
     "version": "2.1",
     "environment": "*",
     "file": "mods/current/ends_delight-fabric-1.20.1-2.1.jar",
+    "dependencies": {}
+  },
+  "euphonium": {
+    "name": "Euphonium",
+    "description": "Ambient sounds suitable for vanilla minecraft",
+    "version": "1.0.3+1.20",
+    "environment": "*",
+    "file": "mods/current/euphonium-1.0.3+1.20.jar",
     "dependencies": {}
   },
   "everycomp": {
@@ -799,6 +1127,14 @@
     "file": "mods/current/hamsters-fabric-1.0.3-1.20.1.jar",
     "dependencies": {}
   },
+  "handcrafted": {
+    "name": "Handcrafted",
+    "description": "Epic Furniture mod!",
+    "version": "3.0.6",
+    "environment": "*",
+    "file": "mods/current/handcrafted-fabric-1.20.1-3.0.6.jar",
+    "dependencies": {}
+  },
   "highlighter": {
     "name": "Highlighter",
     "description": "Highlights newly picked-up items in your inventory.",
@@ -879,6 +1215,14 @@
     "file": "mods/current/iris-1.7.2+mc1.20.1.jar",
     "dependencies": {}
   },
+  "irisflw": {
+    "name": "Iris Flywheel Compat",
+    "description": "Allow Flywheel instancing optimization to be enabled when using iris.",
+    "version": "1.1.3a",
+    "environment": "client",
+    "file": "mods/current/iris-flywheel-compat-fabric1.20.1+1.1.3a.jar",
+    "dependencies": {}
+  },
   "itemborders": {
     "name": "Item Borders",
     "description": "Adds colored borders around items to indicate rarity.",
@@ -951,6 +1295,14 @@
     "file": "mods/current/krypton-0.2.3.jar",
     "dependencies": {}
   },
+  "lootbeams": {
+    "name": "LootBeams",
+    "description": "Renders highly configurable colored beams on dropped items!",
+    "version": "1.0.3",
+    "environment": "client",
+    "file": "mods/current/lootbeams-1.0.3.jar",
+    "dependencies": {}
+  },
   "leavesbegone": {
     "name": "Leaves Be Gone",
     "description": "Quick leaf decay from cutting down trees. Built for great performance and mod compat!",
@@ -989,14 +1341,6 @@
     "version": "0.11.2",
     "environment": "*",
     "file": "mods/current/lithium-fabric-mc1.20.1-0.11.2.jar",
-    "dependencies": {}
-  },
-  "lootbeams": {
-    "name": "LootBeams",
-    "description": "Renders highly configurable colored beams on dropped items!",
-    "version": "1.0.3",
-    "environment": "client",
-    "file": "mods/current/lootbeams-1.0.3.jar",
     "dependencies": {}
   },
   "lootr": {
@@ -1261,326 +1605,6 @@
     "version": "8.0.0",
     "environment": "*",
     "file": "mods/current/PickUpNotifier-v8.0.0-1.20.1-Fabric.jar",
-    "dependencies": {}
-  },
-  "player-animator": {
-    "name": "Player Animator",
-    "description": "A lightweight library to easily animate the player",
-    "version": "1.0.2-rc1+1.20",
-    "environment": "*",
-    "file": "mods/current/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
-    "dependencies": {}
-  },
-  "polylib": {
-    "name": "PolyLib",
-    "description": "",
-    "version": "2000.0.3-build.143",
-    "environment": "*",
-    "file": "mods/current/polylib-fabric-2000.0.3-build.143.jar",
-    "dependencies": {}
-  },
-  "polymorph": {
-    "name": "Polymorph",
-    "description": "No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.",
-    "version": "0.49.5+1.20.1",
-    "environment": "*",
-    "file": "mods/current/polymorph-fabric-0.49.5+1.20.1.jar",
-    "dependencies": {}
-  },
-  "presencefootsteps": {
-    "name": "Presence Footsteps",
-    "description": "An overly complicated sound mod.",
-    "version": "1.9.4+1.20.1",
-    "environment": "client",
-    "file": "mods/current/PresenceFootsteps-1.9.4+1.20.1.jar",
-    "dependencies": {}
-  },
-  "prism": {
-    "name": "Prism",
-    "description": "A library all about color! Provides lots of color-related functionality for dependent mods.",
-    "version": "1.0.5",
-    "environment": "client",
-    "file": "mods/current/Prism-1.20.1-fabric-1.0.5.jar",
-    "dependencies": {}
-  },
-  "projectile_damage": {
-    "name": "Projectile Damage Attribute",
-    "description": "Adds generic projectile damage attribute, so ranged weapon damage can be changed.",
-    "version": "3.2.3+1.20.1",
-    "environment": "*",
-    "file": "mods/current/projectile_damage-fabric-3.2.3+1.20.1.jar",
-    "dependencies": {}
-  },
-  "puffish_attributes": {
-    "name": "Pufferfish's Attributes",
-    "description": "Adds more attributes to the game.",
-    "version": "0.5.0",
-    "environment": "*",
-    "file": "mods/current/puffish_attributes-0.5.0-1.20-fabric.jar",
-    "dependencies": {}
-  },
-  "puffish_skills": {
-    "name": "Pufferfish's Skills",
-    "description": "Adds a fully configurable skill system to the game.",
-    "version": "0.12.2",
-    "environment": "*",
-    "file": "mods/current/puffish_skills-0.12.2-1.20-fabric.jar",
-    "dependencies": {}
-  },
-  "puzzleslib": {
-    "name": "Puzzles Lib",
-    "description": "Why's it called Puzzles you ask? That's the puzzle!",
-    "version": "8.1.22",
-    "environment": "*",
-    "file": "mods/current/PuzzlesLib-v8.1.22-1.20.1-Fabric.jar",
-    "dependencies": {}
-  },
-  "quilted_fabric_api": {
-    "name": "Quilted Fabric API",
-    "description": "A reimplementation of Fabric API on top of Quilt Standard Libraries.",
-    "version": "7.6.0+0.92.2-1.20.1",
-    "environment": "*",
-    "file": "mods/current/qfapi-7.6.0_qsl-6.2.0_fapi-0.92.2_mc-1.20.1.jar",
-    "dependencies": {}
-  },
-  "qualitysounds": {
-    "name": "Quality Sounds",
-    "description": "A mod for satisfying block sounds",
-    "version": "1.0.0-1.20.1",
-    "environment": "*",
-    "file": "mods/current/qualitysounds-1.0.0-1.20.1.jar",
-    "dependencies": {}
-  },
-  "quilt_loading_screen": {
-    "name": "Quilt Loading Screen",
-    "description": "Makes the Minecraft loading screen have QuiltMC patches",
-    "version": "6.1.0+1.20.1",
-    "environment": "client\"  },  \"modmenu\": {    \"links\": {      \"modmenu.modrinth\": \"https://modrinth.com/mod/quilt-loading-screen\"    }  }",
-    "file": "mods/current/quilt_loading_screen-6.1.0+1.20.1.jar",
-    "dependencies": {}
-  },
-  "qkl": {
-    "name": "Quilt Kotlin Libraries",
-    "description": "Quilt's official Kotlin libraries",
-    "version": "2.1.3",
-    "environment": "*",
-    "file": "mods/current/quilt-kotlin-libraries-2.1.3+kt.1.9.10+flk.1.10.10.jar",
-    "dependencies": {}
-  },
-  "ranged_weapon_api": {
-    "name": "RangedWeaponAPI",
-    "description": "Allows creating bows and crossbows, with just a few line of code",
-    "version": "1.1.4+1.20.1",
-    "environment": "*",
-    "file": "mods/current/ranged_weapon_api-1.1.4+1.20.1.jar",
-    "dependencies": {}
-  },
-  "resourcefulconfig": {
-    "name": "Resourcefulconfig",
-    "description": "",
-    "version": "2.1.2",
-    "environment": "*",
-    "file": "mods/current/resourcefulconfig-fabric-1.20.1-2.1.2.jar",
-    "dependencies": {}
-  },
-  "resourcefullib": {
-    "name": "Resourceful Lib",
-    "description": "Library Mod by Team Resourceful",
-    "version": "2.1.29",
-    "environment": "*",
-    "file": "mods/current/resourcefullib-fabric-1.20.1-2.1.29.jar",
-    "dependencies": {}
-  },
-  "respitecreators": {
-    "name": "Respite Creators",
-    "description": "Making automation between Farmer's Respite and Create",
-    "version": "1.3.0",
-    "environment": "*",
-    "file": "mods/current/respite-creators-1.3.0.jar",
-    "dependencies": {}
-  },
-  "rotten_flesh_to_leather": {
-    "name": "Rotten Flesh to Leather",
-    "description": "A simple mod that makes rotten flesh less useless by allowing smelting into leather",
-    "version": "1.0.0",
-    "environment": "*",
-    "file": "mods/current/rottenflesh-to-leather_1-20-x.jar",
-    "dependencies": {}
-  },
-  "roughlyenoughitems": {
-    "name": "Roughly Enough Items",
-    "description": "Clean and Customizable.",
-    "version": "12.1.750",
-    "environment": "*",
-    "file": "mods/current/RoughlyEnoughItems-12.1.750-fabric.jar",
-    "dependencies": {}
-  },
-  "runes": {
-    "name": "Runes",
-    "description": "Craft runes to serve as ammo for spells.",
-    "version": "0.9.13+1.20.1",
-    "environment": "*",
-    "file": "mods/current/runes-0.9.13+1.20.1.jar",
-    "dependencies": {}
-  },
-  "seamless_loading_screen": {
-    "name": "Seamless Loading Screen",
-    "description": "Takes a screenshot of the game when you leave a world or server, and displays it when you rejoin it",
-    "version": "2.0.3+1.20.1",
-    "environment": "client",
-    "file": "mods/current/seamless-loading-screen-2.0.3+1.20.1-fabric.jar",
-    "dependencies": {}
-  },
-  "searchables": {
-    "name": "Searchables",
-    "description": "A library mod to facilitate adding search bars with auto complete and search types.",
-    "version": "1.0.3",
-    "environment": "client",
-    "file": "mods/current/Searchables-fabric-1.20.1-1.0.3.jar",
-    "dependencies": {}
-  },
-  "shield_api": {
-    "name": "Shield API",
-    "description": "Creating shields with custom models was never easier!",
-    "version": "1.0.1+1.20.1",
-    "environment": "*",
-    "file": "mods/current/ShieldAPI-1.0.1+1.20.1.jar",
-    "dependencies": {}
-  },
-  "simplyskills": {
-    "name": "SimplySkills",
-    "description": "A comprehensive skill tree mod with a focus on combat specialisations.",
-    "version": "1.6.0+1.20.1",
-    "environment": "*",
-    "file": "mods/current/simplyskills-1.6.0+1.20.1.jar",
-    "dependencies": {}
-  },
-  "sliceanddice": {
-    "name": "Create Slice & Dice",
-    "description": "Making automation for Farmers Delight more sensible",
-    "version": "3.2.3",
-    "environment": "*",
-    "file": "mods/current/sliceanddice-fabric-3.2.3.jar",
-    "dependencies": {}
-  },
-  "smoothchunk": {
-    "name": "Smooth chunk save Mod",
-    "description": "Spreads out chunk saves equally and saves them after a configured delay",
-    "version": "1.20.1-3.6",
-    "environment": "*",
-    "file": "mods/current/smoothchunk-fabric-1.20.1-3.6.jar",
-    "dependencies": {}
-  },
-  "smoothparticles": {
-    "name": "Smooth Particles",
-    "description": "Adds block placement particles",
-    "version": "1.2.0-1.21",
-    "environment": "*",
-    "file": "mods/current/smoothparticles-1.2.0-1.20.1.jar",
-    "dependencies": {}
-  },
-  "smoothswapping": {
-    "name": "Smooth Swapping",
-    "description": "Moves the items in an inventory smoothly instead of instantly",
-    "version": "0.9.3.1",
-    "environment": "client",
-    "file": "mods/current/smoothswapping-0.9.3.1-1.20.2-fabric.jar",
-    "dependencies": {}
-  },
-  "sodium": {
-    "name": "Sodium",
-    "description": "Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.",
-    "version": "0.5.11+mc1.20.1",
-    "environment": "client",
-    "file": "mods/current/sodium-fabric-0.5.11+mc1.20.1.jar",
-    "dependencies": {}
-  },
-  "spell_engine": {
-    "name": "Spell Engine",
-    "description": "Data driven magic library.",
-    "version": "0.15.10+1.20.1",
-    "environment": "*",
-    "file": "mods/current/spell_engine-0.15.10+1.20.1.jar",
-    "dependencies": {}
-  },
-  "spell_power": {
-    "name": "Spell Power Attribute",
-    "description": "Spell Power entity attributes with related status effects and enchantments.",
-    "version": "0.12.0+1.20.1",
-    "environment": "*",
-    "file": "mods/current/spell_power-0.12.0+1.20.1.jar",
-    "dependencies": {}
-  },
-  "spiceoffabric": {
-    "name": "Spice of Fabric",
-    "description": "A new iteration on the good ol' \\\"Spice of life\\\".. . This mod embeds exp4j (https://github.com/fasseg/exp4j), licensed as Apache 2.0.",
-    "version": "1.6.2+mc1.20.1",
-    "environment": "*",
-    "file": "mods/current/spiceoffabric-1.6.2+mc1.20.1.jar",
-    "dependencies": {}
-  },
-  "stackdeobfuscator": {
-    "name": "StackDeobfuscator",
-    "description": "Deobfuscates stacktraces to yarn/quilt/mojang mappings",
-    "version": "1.4.3+08e71cc",
-    "environment": "*",
-    "file": "mods/current/StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
-    "dependencies": {}
-  },
-  "supermartijn642configlib": {
-    "name": "SuperMartijn642's Config Lib",
-    "description": "Config Lib makes dealing with config files just a bit easier.",
-    "version": "1.1.8+a",
-    "environment": "*",
-    "file": "mods/current/supermartijn642configlib-1.1.8a-fabric-mc1.20.jar",
-    "dependencies": {}
-  },
-  "supplementaries": {
-    "name": "Supplementaries",
-    "description": "Many functional and useful Vanilla+ blocks",
-    "version": "1.20-2.8.17",
-    "environment": "*",
-    "file": "mods/current/supplementaries-1.20-2.8.17-fabric.jar",
-    "dependencies": {}
-  },
-  "terralith": {
-    "name": "Terralith",
-    "description": "Explore almost 100 new biomes consisting of both realism and light fantasy, using just Vanilla blocks. Complete with several immersive structures to compliment the overhauled terrain.",
-    "version": "2.5.4",
-    "environment": "*",
-    "file": "mods/current/Terralith_1.20.x_v2.5.4.jar",
-    "dependencies": {}
-  },
-  "thaumon": {
-    "name": "Thaumon",
-    "description": "Thaumcraft-inspired decoration blocks for modern Minecraft",
-    "version": "2.3.0+1.20.1",
-    "environment": "*",
-    "file": "mods/current/thaumon-fabric-2.3.0+1.20.1.jar",
-    "dependencies": {}
-  },
-  "things": {
-    "name": "Things",
-    "description": "Trinkets and other utilities",
-    "version": "0.3.3+1.20",
-    "environment": "*",
-    "file": "mods/current/things-0.3.3+1.20.jar",
-    "dependencies": {}
-  },
-  "tia": {
-    "name": "Tiny Item Animations",
-    "description": "Adds a cute little animation when picking up items with your mouse.",
-    "version": "1.20-1.1",
-    "environment": "client",
-    "file": "mods/current/tia-1.20-1.1-fabric.jar",
-    "dependencies": {}
-  },
-  "timecontrol": {
-    "name": "TimeControl",
-    "description": "Take control over Minecraft's day-night cycle",
-    "version": "1.6.0",
-    "environment": "*",
-    "file": "mods/current/timecontrol-1.20.1-1.6.0.jar",
     "dependencies": {}
   }
 }
