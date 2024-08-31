@@ -14,7 +14,7 @@ _version = 2
 			minTimeBetweenChunkUpdatesInSeconds = 1
 		[client.advanced.autoUpdater]
 			updateBranch = "STABLE"
-			enableAutoUpdater = true
+			enableAutoUpdater = false
 			enableSilentUpdates = false
 		[client.advanced.multiThreading]
 			numberOfLodBuilderThreads = 4
