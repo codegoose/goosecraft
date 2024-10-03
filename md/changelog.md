@@ -1,4 +1,43 @@
 # Changelog
+## v6.4.0
+### Technicals
+* Updated Quilt to v26.4
+### Mods
+#### Updated
+  * **YUNG's API**: API Library for YUNG's minecraft mods. **(1.20-Fabric-4.0.5 to 1.20-Fabric-4.0.6)**
+  * **Xaero's Minimap**: The most vanilla-looking minimap for Minecraft. **(24.3.0 to 24.5.0)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.12.17 to 1.20-2.13.2)**
+  * **Jade**: Minecraft mod shows what you are looking at. (Hwyla fork) **(11.11.0+fabric to 11.12.0+fabric)**
+  * **Chat Heads**: See who are you chatting with!. This mod adds player heads next to their chat messages. **(0.12.13 to 0.13.3)**
+  * **Spell Engine**: Data driven magic library. **(0.15.10+1.20.1 to 0.15.11+1.20.1)**
+  * **SimplySkills**: A comprehensive skill tree mod with a focus on combat specialisations. **(1.6.0+1.20.1 to 1.7.1+1.20.1)**
+  * **Roughly Enough Items**: Clean and Customizable. **(12.1.750 to 12.1.780)**
+  * **Polymorph**: No more recipe conflicts! Adds an option to choose the crafting result if more than one is available. **(0.49.5+1.20.1 to 0.49.7+1.20.1)**
+  * **Immersive Weathering**: An abundance of new natural systems to make your world feel more alive than ever. **(1.20.1-2.0.2 to 1.20.1-2.0.3)**
+  * **Geophilic**: A subtle-ish overhaul of vanilla Overworld biomes. **(3.1.1 to 3.1.3)**
+  * **Fast IP Ping**: Yeet the laggy reversed DNS lookup for literal IP server addresses **(1.0.4 to 1.0.5)**
+  * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.6.73 to 1.20-2.6.76)**
+  * **Create Slice & Dice**: Making automation for Farmers Delight more sensible **(3.2.3 to 3.3.1)**
+  * **Cloth Config v11**: An API for config screens. **(11.1.118 to 11.1.136)**
+  * **AzureLib Armor**: A striped down Azurelib just for Armor! **(2.0.6 to 2.0.10)**
+  * **Immersive Aircraft**: A bunch of rustic aircraft to travel, transport, and explore!.  **(1.0.1+1.20.1 to 1.1.2+1.20.1)**
+  * **Explorify**: A simplistic, vanilla-friendly collection of new structures. **(1.6.1 to 1.6.2)**
+  * **Deeper and Darker**: A Minecraft mod which features more blocks, items, armors, and hidden mysteries to complement the Deep Dark biome. **(1.3.1 to 1.3.2.1)**
+  * **BotanyTrees**: Allows Botany Pots to grow trees. **(9.0.15 to 9.0.17)**
+  * **BotanyPots**: Pots for growing different types of plants. **(13.0.38 to 13.0.39)**
+  * **Respite Creators**: Making automation between Farmer's Respite and Create **(1.3.0 to 1.3.0-FDR)**
+  * **Puzzles Lib**: Why's it called Puzzles you ask? That's the puzzle! **(8.1.22 to 8.1.23)**
+  * **NiftyCarts**: A Fabric Port of the AstikorCarts Minecraft mod. It adds carts for travel, shipping and farming. **(3.0.2+1.20.1 to 20.1.3)**
+  * **Illager Invasion**: The illagers are back! Be ready to fight new foes. A port of Illager Expansion. **(8.0.5 to 8.0.6)**
+  * **Expanded Delight**: An addon mod for Farmer's Delight that adds many more crops and functionality to the base mod. **(0.3.1 to 0.3.2)**
+  * **Delightful Creators**: Making automation between Farmer's Delight and Create **(1.3-1.20.x to 1.3-1.20.x-FDR-support)**
+  * **Create: Storage**: A Storage System for Create by FoxyNoTail **(0.18-1.20.1-FABRIC+1.20.1 to 0.20-1.20.1-FABRIC+1.20.1)**
+  * **Better Archeology**: Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration! **(1.2.0-1.20.1 to 1.2.1-1.20.1)**
+  * **Amendments**: Many tweaks to Vanilla Blocks **(1.20-1.2.8 to 1.20-1.2.11)**
+  * **Farmer's Delight**: A cozy expansion to farming and cooking! **(1.20.1-2.1.4+refabricated to 1.20.1-2.1.6+refabricated)**
+  * **Crate Delight**: A mod that adds more crates and bags to the game. **(24.08.09-1.20-fabric to 24.09.03-1.20-fabric)**
+  * **Artifacts**: Adds various new powerful uncraftable items to make exploration a bit more interesting **(9.5.12 to 9.5.13)**
+  * **Pufferfish's Skills**: Adds a fully configurable skill system to the game. **(0.12.2 to 0.13.2)**
 ## v6.3.0
 ### Mods
 #### Added
