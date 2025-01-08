@@ -1,10 +1,10 @@
 #! /bin/bash
 
-rsync -avz --delete .temp/ root@ssh.codegoose.dev:/cache/payload
+rsync -avz --delete .temp/ root@10.144.147.83:/cache/payload
 
 SERVER_USER="root"
-SERVER_HOST="ssh.codegoose.dev"
-PAYLOAD="goosecraft_v6-4-0.zip"
+SERVER_HOST="10.144.147.83"
+PAYLOAD="goosecraft_v6-5-0.zip"
 REMOTE_PATH="/swag/www/minecraft/"$PAYLOAD
 
 ssh $SERVER_USER@$SERVER_HOST "rm -fv $REMOTE_PATH"
