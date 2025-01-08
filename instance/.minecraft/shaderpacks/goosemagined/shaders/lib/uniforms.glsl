@@ -30,6 +30,7 @@ uniform float aspectRatio;
 uniform float blindness;
 uniform float darknessFactor;
 uniform float darknessLightFactor;
+uniform float maxBlindnessDarkness;
 uniform float eyeAltitude;
 uniform float frameTime;
 uniform float frameTimeCounter;
@@ -66,6 +67,7 @@ uniform mat4 shadowProjection;
 uniform mat4 shadowProjectionInverse;
 
 uniform sampler2D colortex0;
+uniform sampler2D colortex1;
 uniform sampler2D colortex2;
 uniform sampler2D colortex3;
 uniform sampler2D colortex4;
@@ -118,7 +120,7 @@ uniform vec3 previousCameraPositionFract;
     uniform sampler2D dhDepthTex1;
 #endif
 
-#if COLORED_LIGHTING > 0
+#if COLORED_LIGHTING_INTERNAL > 0
     uniform usampler3D voxel_sampler;
     uniform sampler3D floodfill_sampler;
     uniform sampler3D floodfill_sampler_copy;

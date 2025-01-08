@@ -36,7 +36,7 @@ in vec4 glColorRaw;
 #endif
 
 //Pipeline Constants//
-#if COLORED_LIGHTING > 0
+#if COLORED_LIGHTING_INTERNAL > 0
     const float voxelDistance = 32.0;
 #endif
 
@@ -68,7 +68,7 @@ vec4 glColor = glColorRaw;
 #endif
 
 //Common Functions//
-void DoFoliageColorTweaks(inout vec3 color, inout vec3 shadowMult, inout float snowMinNdotU, float lViewPos) {
+void DoFoliageColorTweaks(inout vec3 color, inout vec3 shadowMult, inout float snowMinNdotU, vec3 viewPos, vec3 nViewPos, float lViewPos, float dither) {
     #ifdef DREAM_TWEAKED_LIGHTING
         return;
     #endif
@@ -78,11 +78,35 @@ void DoFoliageColorTweaks(inout vec3 color, inout vec3 shadowMult, inout float s
     if (signMidCoordPos.x < 0.0) color.rgb *= 1.08;
     else color.rgb *= 0.93;
 
+    #ifdef FOLIAGE_ALT_SUBSURFACE
+        float edgeSize = 0.12;
+        float edgeEffectFactor = 0.75;
+
+        edgeEffectFactor *= (sqrt1(abs(dot(nViewPos, normal))) - 0.1) * 1.111;
+
+        vec2 texCoordM = texCoord;
+             texCoordM.y -= edgeSize * pow2(dither) * absMidCoordPos.y;
+             texCoordM.y = max(texCoordM.y, midCoord.y - absMidCoordPos.y);
+        vec4 colorSample = texture2DLod(tex, texCoordM, 0);
+
+        if (colorSample.a < 0.5) {
+            float edgeFactor = dot(nViewPos, lightVec);
+            shadowMult *= 1.0 + edgeEffectFactor * (1.0 + edgeFactor);
+        }
+
+        shadowMult *= 1.0 + 0.2333 * edgeEffectFactor * (dot(normal, lightVec) - 1.0);
+    #endif
+
     #ifdef SNOWY_WORLD
         if (glColor.g - glColor.b > 0.01)
             snowMinNdotU = min(pow2(pow2(max0(color.g * 2.0 - color.r - color.b))) * 5.0, 0.1);
         else
             snowMinNdotU = min(pow2(pow2(max0(color.g * 2.0 - color.r - color.b))) * 3.0, 0.1) * 0.25;
+
+        #ifdef DISTANT_HORIZONS
+            // DH chunks don't have foliage. The border looks too noticeable without this tweak
+            snowMinNdotU = mix(snowMinNdotU, 0.09, smoothstep(far * 0.5, far, lViewPos));
+        #endif
     #endif
 }
 
@@ -99,12 +123,13 @@ void DoOceanBlockTweaks(inout float smoothnessD) {
 //Includes//
 #include "/lib/util/spaceConversion.glsl"
 #include "/lib/lighting/mainLighting.glsl"
+#include "/lib/util/dither.glsl"
 
 #ifdef TAA
     #include "/lib/antialiasing/jitter.glsl"
 #endif
 
-#if defined GENERATED_NORMALS || defined COATED_TEXTURES
+#if defined GENERATED_NORMALS || defined COATED_TEXTURES || ANISOTROPIC_FILTER > 0 || defined DISTANT_LIGHT_BOKEH
     #include "/lib/util/miplevel.glsl"
 #endif
 
@@ -114,6 +139,10 @@ void DoOceanBlockTweaks(inout float smoothnessD) {
 
 #ifdef COATED_TEXTURES
     #include "/lib/materials/materialMethods/coatedTextures.glsl"
+#endif
+
+#if IPBR_EMISSIVE_MODE != 1
+    #include "/lib/materials/materialMethods/customEmission.glsl"
 #endif
 
 #ifdef CUSTOM_PBR
@@ -130,6 +159,14 @@ void DoOceanBlockTweaks(inout float smoothnessD) {
 
 #ifdef PUDDLE_VOXELIZATION
     #include "/lib/misc/puddleVoxelization.glsl"
+#endif
+
+#ifdef SNOWY_WORLD
+    #include "/lib/materials/materialMethods/snowyWorld.glsl"
+#endif
+
+#ifdef DISTANT_LIGHT_BOKEH
+    #include "/lib/misc/distantLightBokeh.glsl"
 #endif
 
 //Program//
@@ -156,11 +193,17 @@ void main() {
         vec3 viewPos = ScreenToView(screenPos);
     #endif
     float lViewPos = length(viewPos);
+    vec3 nViewPos = normalize(viewPos);
     vec3 playerPos = ViewToPlayer(viewPos);
+
+    float dither = Bayer64(gl_FragCoord.xy);
+    #ifdef TAA
+        dither = fract(dither + goldenRatio * mod(float(frameCounter), 3600.0));
+    #endif
 
     int subsurfaceMode = 0;
     bool noSmoothLighting = false, noDirectionalShading = false, noVanillaAO = false, centerShadowBias = false, noGeneratedNormals = false, doTileRandomisation = true;
-    float smoothnessG = 0.0, highlightMult = 1.0, emission = 0.0, noiseFactor = 1.0, snowMinNdotU = 0.0, snowFactor = 1.0, noPuddles = 0.0;
+    float smoothnessG = 0.0, highlightMult = 1.0, emission = 0.0, noiseFactor = 1.0, snowFactor = 1.0, snowMinNdotU = 0.0, noPuddles = 0.0;
     vec2 lmCoordM = lmCoord;
     vec3 normalM = normal, geoNormal = normal, shadowMult = vec3(1.0);
     vec3 worldGeoNormal = normalize(ViewToPlayer(geoNormal * 10000.0));
@@ -176,6 +219,10 @@ void main() {
         #ifdef COATED_TEXTURES
             CoatTextures(color.rgb, noiseFactor, playerPos, doTileRandomisation);
         #endif
+
+        #if IPBR_EMISSIVE_MODE != 1
+            emission = GetCustomEmissionForIPBR(color, emission);
+        #endif
     #else
         #ifdef CUSTOM_PBR
             GetCustomMaterials(color, normalM, lmCoordM, NdotU, shadowMult, smoothnessG, smoothnessD, highlightMult, emission, materialMask, viewPos, lViewPos);
@@ -185,7 +232,7 @@ void main() {
             noDirectionalShading = true;
         } else if (mat == 10005) { // Grounded Waving Foliage
             subsurfaceMode = 1, noSmoothLighting = true, noDirectionalShading = true;
-            DoFoliageColorTweaks(color.rgb, shadowMult, snowMinNdotU, lViewPos);
+            DoFoliageColorTweaks(color.rgb, shadowMult, snowMinNdotU, viewPos, nViewPos, lViewPos, dither);
         } else if (mat == 10009) { // Leaves
             #include "/lib/materials/specificMaterials/terrain/leaves.glsl"
         } else if (mat == 10013) { // Vine
@@ -194,7 +241,7 @@ void main() {
             subsurfaceMode = 1, noSmoothLighting = true, noDirectionalShading = true;
         } else if (mat == 10021) { // Upper Waving Foliage
             subsurfaceMode = 1, noSmoothLighting = true, noDirectionalShading = true;
-            DoFoliageColorTweaks(color.rgb, shadowMult, snowMinNdotU, lViewPos);
+            DoFoliageColorTweaks(color.rgb, shadowMult, snowMinNdotU, viewPos, nViewPos, lViewPos, dither);
         } else if (mat == 10028) { // Modded Light Sources
             noSmoothLighting = true; noDirectionalShading = true;
             emission = GetLuminance(color.rgb) * 2.5;
@@ -213,21 +260,8 @@ void main() {
     #endif
 
     #ifdef SNOWY_WORLD
-        snowFactor *= 1000.0 * max(NdotU - 0.9, snowMinNdotU) * max0(lmCoord.y - 0.9) * (0.9 - clamp(lmCoord.x, 0.8, 0.9));
-        if (snowFactor > 0.0001) {
-            const float packSizeSW = 16.0;
-            vec3 worldPos = playerPos + cameraPosition;
-            vec2 noiseCoord = floor(packSizeSW * worldPos.xz + 0.001) / packSizeSW;
-                    noiseCoord += floor(packSizeSW * worldPos.y + 0.001) / packSizeSW;
-            float noiseTexture = dot(vec2(0.25, 0.75), texture2D(noisetex, noiseCoord * 0.45).rg);
-            vec3 snowColor = mix(vec3(0.65, 0.8, 0.85), vec3(1.0, 1.0, 1.0), noiseTexture * 0.75 + 0.125);
-
-            color.rgb = mix(color.rgb, snowColor + color.rgb * emission * 0.2, snowFactor);
-            smoothnessG = mix(smoothnessG, 0.25 + 0.25 * noiseTexture, snowFactor);
-            highlightMult = mix(highlightMult, 2.0 - subsurfaceMode * 0.666, snowFactor);
-            smoothnessD = mix(smoothnessD, 0.0, snowFactor);
-            emission *= 1.0 - snowFactor * 0.85;
-        }
+        DoSnowyWorld(color, smoothnessG, highlightMult, smoothnessD, emission,
+                     playerPos, lmCoord, snowFactor, snowMinNdotU, NdotU, subsurfaceMode);
     #endif
 
     #if RAIN_PUDDLES >= 1
@@ -395,6 +429,10 @@ void main() {
     absMidCoordPos  = abs(texMinMidCoord);
 
     mat = int(mc_Entity.x + 0.5);
+
+    #if ANISOTROPIC_FILTER > 0
+        if (mc_Entity.y > 0.5 && dot(normal, upVec) < 0.999) absMidCoordPos = vec2(0.0); // Fix257062
+    #endif
 
     #ifdef WAVING_ANYTHING_TERRAIN
         vec4 position = gbufferModelViewInverse * gl_ModelViewMatrix * gl_Vertex;
