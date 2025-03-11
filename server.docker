@@ -14,7 +14,6 @@ run java -jar /quilt-installer.jar install server 1.20.1 --download-server
 copy server /server
 run mkdir /server/mods
 copy mods/current /server/mods
-run rm /server/mods/DistantHorizons-*.jar
 
 workdir /server
 

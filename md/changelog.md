@@ -1,4 +1,53 @@
 # Changelog
+## v6.6.0
+### Prominence
+This update contains updates to Distant Horizons that enable clients to request LOD data from the server for chunks that are outside of the server render distance. This means that you will be able to distant chunks without first having to traverse to them. The server will also generate yet-to-be-generated chunks on-demand as the LOD data is being requested. Additionally, Iris, Sodium and the Complementary shader pack have been updated to increase performance and Advanced Colored Lighting has been enabled. Also, performance libraries were added that should slightly improve chunk generation times. Finally, the Quilt framework has been updated to v28.
+### Mods
+#### Added
+  * **Noisium**: Optimises worldgen performance for a better gameplay experience.
+  * **TerraBlender**: A library mod for adding biomes in a simple and compatible manner with Minecraft's new biome/terrain system.
+  * **Faster Random**: Makes your game randomly faster!
+#### Updated
+  * **Amendments**: Many tweaks to Vanilla Blocks **(1.20-1.2.14 to 1.20-1.2.19)**
+  * **Archers (RPG Series)**: Draw, Release, Conquer - Master the art of Archery! **(1.2.5+1.20.1 to 1.3.0+1.20.1)**
+  * **Balm**: Abstraction Layer (but not really)TM for Blay's multiplatform mods **(7.3.10 to 7.3.18)**
+  * **Chat Heads**: See who are you chatting with!. This mod adds player heads next to their chat messages. **(0.13.7 to 0.13.13)**
+  * **Collective**: Collective is a shared library with common code for all of Serilum's mods. **(7.87 to 7.94)**
+  * **Distant Horizons**: This mod generates and renders simplified terrain beyond the normal view distance at a low performance cost. Allowing you to see much farther without turning your game into a slideshow. **(2.2.1-a to 2.3.1-b-dev)**
+  * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.7.10 to 1.20-2.7.20)**
+  * **Farmer's Delight**: A cozy expansion to farming and cooking! **(1.20.1-2.2.5+refabricated to 1.20.1-2.3.0+refabricated)**
+  * **FTB Chunks**: Claim chunks to protect your base from griefers! **(2001.3.4 to 2001.3.5)**
+  * **FTB Library**: Foundational library for FTB mods. **(2001.2.7 to 2001.2.9)**
+  * **FTB Ranks**: A simple mod that lets you create ranks for players, similar to Discord roles, and manage permissions for them **(2001.1.3 to 2001.1.4)**
+  * **FTB Teams**: FTB Teams adds ability to create your own teams that can be used for quests etc. **(2001.3.0 to 2001.3.1)**
+  * **Geophilic**: A subtle-ish overhaul of vanilla Overworld biomes. **(3.1.5 to 3.2)**
+  * **Illager Invasion**: The illagers are back! Be ready to fight new foes. A port of Illager Expansion. **(8.0.6 to 8.0.7)**
+  * **ImmediatelyFast**: Speed up and optimize immediate mode rendering in Minecraft **(1.3.3+1.20.4 to 1.3.6+1.20.4)**
+  * **Immersive Aircraft**: A bunch of rustic aircraft to travel, transport, and explore!.  **(1.1.8+1.20.1 to 1.2.1+1.20.1)**
+  * **Immersive Weathering**: An abundance of new natural systems to make your world feel more alive than ever. **(1.20.1-2.0.3 to 1.20.1-2.0.5)**
+  * **Indium**: Sodium addon providing support for the Fabric Rendering API, based on Indigo **(1.0.31+mc1.20.4 to 1.0.36+mc1.20.1)**
+  * **Iris**: A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs **(1.7.5+mc1.20.1 to 1.7.6+mc1.20.1)**
+  * **Jade**: Minecraft mod shows what you are looking at. (Hwyla fork) **(11.12.0+fabric to 11.12.3+fabric)**
+  * **[Let's Do] Vinery**: In Vino Veritas - it's time for wine! Build your own vineyard, produce wine, and establish your own winery. **(1.4.34 to 1.4.39)**
+  * **Lithium**: Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game. **(0.11.2 to 0.11.3)**
+  * **Macaw's Doors**: Adds a lot of new Doors! With vanila and unique styles. **(1.1.1 to 1.1.2)**
+  * **Macaw's Paths and Pavings**: Adds new vanila styled paths and pavings! **(1.0.5 to 1.1.0)**
+  * **Mod Loading Screen**: An advanced loading screen with the loading progress of mods **(1.0.4 to 1.0.5)**
+  * **ModernFix**: Egregious, yet effective performance improvements for modern Minecraft **(5.20.0+mc1.20.1 to 5.20.2+mc1.20.1)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.13.46 to 1.20-2.13.72)**
+  * **Neruina**: This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds. **(2.2.7 to 2.2.8)**
+  * **Paladins & Priests (RPG Series)**: Protect and heal your friends as a Paladin or a Priest. **(1.3.1+1.20.1 to 1.4.0+1.20.1)**
+  * **Pufferfish's Attributes**: Adds more attributes to the game. **(0.7.1 to 0.7.2)**
+  * **Pufferfish's Skills**: Adds a fully configurable skill system to the game. **(0.14.5 to 0.15.1)**
+  * **Puzzles Lib**: Why's it called Puzzles you ask? That's the puzzle! **(8.1.25 to 8.1.29)**
+  * **Resourcefulconfig**:  **(2.1.2 to 2.1.3)**
+  * **SimplySkills**: A comprehensive skill tree mod with a focus on combat specialisations. **(1.7.1+1.20.1 to 1.7.2+1.20.1)**
+  * **Smooth chunk save Mod**: Spreads out chunk saves equally and saves them after a configured delay **(1.20.1-3.8 to 1.20.1-4.0)**
+  * **Sodium**: Sodium is a powerful rendering engine for Minecraft which greatly improves frame rates and micro-stutter, while fixing many graphical issues **(0.5.11+mc1.20.1 to 0.5.13+mc1.20.1)**
+  * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-3.1.11 to 1.20-3.1.18)**
+  * **What Are They Up To**: Lets you see if players are typing, in a GUI, idle, with cool ingame visuals **(1.20.1-1.1.3 to 1.20.1-1.2.0)**
+  * **Wizards (RPG Series)**: Destroy your enemies with Arcane, Fire and Frost magic. **(1.3.0+1.20.1 to 1.4.1+1.20.1)**
+  * **YetAnotherConfigLib**: YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft. **(3.6.2+1.20.1-fabric to 3.6.3+1.20.1-fabric)**
 ## v6.5.0
 ### Technicals
 * Updated Quilt to v27.1
