@@ -32,7 +32,7 @@ _version = 3
 	#
 	# How many LOD generation requests per second should a client send? 
 	# Also limits the number of client requests allowed to stay in the server's queue.
-	generationRequestRateLimit = 20
+	generationRequestRateLimit = 100
 	#
 	# How many LOD sync requests per second should a client send? 
 	# Also limits the amount of player's requests allowed to stay in the server's queue.
@@ -159,7 +159,7 @@ _version = 3
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 24
+		numberOfThreads = 32
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
