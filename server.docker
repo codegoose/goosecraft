@@ -1,6 +1,6 @@
 from fedora:latest
 
-run yum install wget java-17-openjdk-headless -y
+run yum install wget java-21-openjdk-headless -y
 
 run yum install -y python310 && \
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
