@@ -3,42 +3,29 @@ services:
     image: goosecraft:6.6.0
     stop_grace_period: 2m
     ports:
-      - "25575:25565/tcp"
+      - "25565:25565/tcp"
     restart: unless-stopped
     volumes:
-      - pub-world:/server/world
-      - pub-schematics:/server/schematics
-      - pub-logs:/server/logs
-      - pub-crash-reports:/server/crash-reports
-      - pub-backups:/server/backups
-      - pub-cache:/server/.cache
+      - /data/volumes/minecraft/pub/world:/server/world
+      - /data/volumes/minecraft/pub/schematics:/server/schematics
+      - /data/volumes/minecraft/pub/logs:/server/logs
+      - /data/volumes/minecraft/pub/crash-reports:/server/crash-reports
+      - /data/volumes/minecraft/pub/backups:/server/backups
+      - /data/volumes/minecraft/pub/cache:/server/.cache
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
   dev:
     image: goosecraft:6.6.0
     stop_grace_period: 2m
     ports:
-      - "25576:25565/tcp"
+      - "25566:25565/tcp"
     restart: unless-stopped
     volumes:
-      - dev-world:/server/world
-      - dev-schematics:/server/schematics
-      - dev-logs:/server/logs
-      - dev-crash-reports:/server/crash-reports
-      - dev-backups:/server/backups
-      - dev-cache:/server/.cache
+      - /data/volumes/minecraft/dev/world:/server/world
+      - /data/volumes/minecraft/dev/schematics:/server/schematics
+      - /data/volumes/minecraft/dev/logs:/server/logs
+      - /data/volumes/minecraft/dev/crash-reports:/server/crash-reports
+      - /data/volumes/minecraft/dev/backups:/server/backups
+      - /data/volumes/minecraft/dev/cache:/server/.cache
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
-volumes:
-  pub-world:
-  pub-schematics:
-  pub-logs:
-  pub-crash-reports:
-  pub-backups:
-  pub-cache:
-  dev-world:
-  dev-schematics:
-  dev-logs:
-  dev-crash-reports:
-  dev-backups:
-  dev-cache:
