@@ -1,0 +1,185 @@
+[infrastructure]
+tickrateSyncTimer = 20
+
+[recipes]
+bulkPressing = false
+bulkCutting = false
+allowBrewingInMixer = true
+allowShapelessInMixer = true
+allowShapedSquareInPress = true
+allowRegularCraftingInCrafter = true
+maxFireworkIngredientsInCrafter = 9
+allowStonecuttingOnSaw = true
+allowWoodcuttingOnSaw = true
+allowCastingBySpout = true
+allowFillingBySpout = true
+displayLogStrippingRecipes = true
+lightSourceCountForRefinedRadiance = 10
+enableRefinedRadianceRecipe = true
+enableShadowSteelRecipe = true
+
+[kinetics]
+disableStress = false
+maxBeltLength = 20
+crushingDamage = 4
+maxRotationSpeed = 256
+ignoreDeployerAttacks = "CREEPERS"
+kineticValidationFrequency = 60
+crankHungerMultiplier = 0.009999999776482582
+minimumWindmillSails = 8
+windmillSailsPerRPM = 8
+maxEjectorDistance = 32
+ejectorScanInterval = 120
+
+[kinetics.encasedFan]
+fanPushDistance = 20
+fanPullDistance = 20
+fanBlockCheckRate = 30
+fanRotationArgmax = 256
+fanProcessingTime = 150
+
+[kinetics.contraptions]
+maxBlocksMoved = 2048
+maxDataSize = 2000000
+maxChassisRange = 16
+maxPistonPoles = 64
+maxRopeLength = 512
+maxCartCouplingLength = 32
+rollerFillDepth = 12
+survivalContraptionPickup = true
+contraptionPlacing = true
+movableSpawners = "NO_PICKUP"
+amethystMovement = "NO_PICKUP"
+movableObsidian = "UNMOVABLE"
+movableReinforcedDeepslate = "UNMOVABLE"
+moveItemsToStorage = true
+harvestPartiallyGrown = false
+harvesterReplants = true
+minecartContraptionInContainers = false
+stabiliseStableContraptions = false
+
+[kinetics.stats]
+mediumSpeed = 30.0
+fastSpeed = 100.0
+mediumStressImpact = 4.0
+highStressImpact = 8.0
+mediumCapacity = 256.0
+highCapacity = 1024.0
+
+[kinetics.stressValues.v2]
+
+[kinetics.stressValues.v2.impact]
+deployer = 4.0
+millstone = 4.0
+cuckoo_clock = 1.0
+speedometer = 0.0
+copper_backtank = 4.0
+mechanical_saw = 4.0
+flywheel = 0.0
+adjustable_chain_gearshift = 0.0
+mechanical_pump = 4.0
+crushing_wheel = 8.0
+mechanical_mixer = 4.0
+gantry_shaft = 0.0
+mechanical_arm = 2.0
+andesite_encased_shaft = 0.0
+mechanical_press = 8.0
+large_cogwheel = 0.0
+mechanical_drill = 4.0
+andesite_encased_large_cogwheel = 0.0
+stressometer = 0.0
+shaft = 0.0
+gearshift = 0.0
+sequenced_gearshift = 0.0
+weighted_ejector = 2.0
+andesite_encased_cogwheel = 0.0
+gearbox = 0.0
+elevator_pulley = 4.0
+mechanical_crafter = 2.0
+display_board = 0.0
+mechanical_piston = 4.0
+mechanical_bearing = 4.0
+clockwork_bearing = 4.0
+encased_chain_drive = 0.0
+clutch = 0.0
+encased_fan = 2.0
+rope_pulley = 4.0
+rotation_speed_controller = 0.0
+netherite_backtank = 4.0
+mysterious_cuckoo_clock = 1.0
+brass_encased_large_cogwheel = 0.0
+brass_encased_shaft = 0.0
+sticky_mechanical_piston = 4.0
+turntable = 4.0
+cogwheel = 0.0
+belt = 0.0
+brass_encased_cogwheel = 0.0
+hose_pulley = 4.0
+
+[kinetics.stressValues.v2.capacity]
+copper_valve_handle = 8.0
+hand_crank = 8.0
+steam_engine = 1024.0
+creative_motor = 16384.0
+large_water_wheel = 128.0
+water_wheel = 32.0
+windmill_bearing = 512.0
+
+[fluids]
+fluidTankCapacity = 8
+fluidTankMaxHeight = 32
+mechanicalPumpRange = 16
+hosePulleyRange = 128
+hosePulleyBlockThreshold = 10000
+fillInfinite = false
+bottomlessFluidMode = "ALLOW_BY_TAG"
+fluidFillPlaceFluidSourceBlocks = true
+pipesPlaceFluidSourceBlocks = true
+
+[logistics]
+defaultExtractionTimer = 8
+psiTimeout = 60
+mechanicalArmRange = 5
+linkRange = 256
+displayLinkRange = 64
+vaultCapacity = 20
+brassTunnelTimer = 10
+seatHostileMobs = true
+
+[schematics]
+creativePrintIncludesAir = false
+maxSchematics = 10
+maxTotalSchematicSize = 256
+maxSchematicPacketSize = 1024
+schematicIdleTimeout = 600
+
+[schematics.schematicannon]
+schematicannonDelay = 10
+schematicannonShotsPerGunpowder = 400
+
+[equipment]
+maxSymmetryWandRange = 50
+placementAssistRange = 12
+toolboxRange = 10
+airInBacktank = 900
+enchantedBacktankCapacity = 300
+maxExtendoGripActions = 1000
+maxPotatoCannonShots = 200
+potatoCannonWorldModification = true
+
+[trains]
+trainsCauseDamage = true
+maxTrackPlacementLength = 32
+maxAssemblyLength = 128
+maxBogeyCount = 20
+manualTrainSpeedModifier = 0.75
+
+[trains.trainStats]
+trainTopSpeed = 28.0
+trainTurningTopSpeed = 14.0
+trainAcceleration = 3.0
+
+[trains.poweredTrainStats]
+poweredTrainTopSpeed = 40.0
+poweredTrainTurningTopSpeed = 20.0
+poweredTrainAcceleration = 3.0
