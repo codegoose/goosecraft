@@ -1,4 +1,22 @@
 # Changelog
+## v6.7.0
+### Mods
+#### Updated
+  * **BotanyPots**: Pots for growing different types of plants. **(13.0.40 to 13.0.41)**
+  * **Geophilic**: A subtle-ish overhaul of vanilla Overworld biomes. **(3.2 to 3.3)**
+  * **Pufferfish's Attributes**: Adds more attributes to the game. **(0.7.2 to 0.7.3)**
+  * **Artifacts**: Adds various new powerful uncraftable items to make exploration a bit more interesting **(9.5.13 to 9.5.15)**
+  * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.7.21 to 1.20-2.7.24)**
+  * **Fright's Delight**: Fright's Delight is an add-on mod for Farmer's Delight Fabric that adds food made from mob drops. Dishes are created with a 'Horror' theme, consume with caution. **(1.2.2 to 1.3.1)**
+  * **Immersive Aircraft**: A bunch of rustic aircraft to travel, transport, and explore!.  **(1.2.1+1.20.1 to 1.2.2+1.20.1)**
+  * **ImmediatelyFast**: Speed up and optimize immediate mode rendering in Minecraft **(1.3.6+1.20.4 to 1.5.0+1.20.4)**
+  * **YetAnotherConfigLib**: YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft. **(3.6.3+1.20.1-fabric to 3.6.6+1.20.1-fabric)**
+  * **What Are They Up To**: Lets you see if players are typing, in a GUI, idle, with cool ingame visuals **(1.20.1-1.2.1 to 1.20.1-1.2.3)**
+  * **Sound Physics Remastered**: Provides realistic sound attenuation, reverberation, and absorption through blocks. **(1.20.1-1.4.8 to 1.20.1-1.4.10)**
+  * **Pufferfish's Skills**: Adds a fully configurable skill system to the game. **(0.15.1 to 0.15.4)**
+  * **GeckoLib 4**: GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more. **(4.7 to 4.7.1.2)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.13.72 to 1.20-2.13.79)**
+  * **Lovely Snails**: Adds some big snails. Made for Modfest 1.17. **(1.1.3+1.20.1 to 1.1.5+1.20.1)**
 ## v6.6.0
 ### Prominence
 This update contains updates to Distant Horizons that enable clients to request LOD data from the server for chunks that are outside of the server render distance. This means that you will be able to distant chunks without first having to traverse to them. The server will also generate yet-to-be-generated chunks on-demand as the LOD data is being requested. Additionally, Iris, Sodium and the Complementary shader pack have been updated to increase performance and Advanced Colored Lighting has been enabled. Also, performance libraries were added that should slightly improve chunk generation times. Finally, the Quilt framework has been updated to v28.

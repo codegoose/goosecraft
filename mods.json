@@ -7,6 +7,14 @@
     "file": "mods/current/sliceanddice-fabric-3.3.1.jar",
     "dependencies": {}
   },
+  "botanypots": {
+    "name": "BotanyPots",
+    "description": "Pots for growing different types of plants.",
+    "version": "13.0.41",
+    "environment": "*",
+    "file": "mods/current/BotanyPots-Fabric-1.20.1-13.0.41.jar",
+    "dependencies": {}
+  },
   "kambrik": {
     "name": "Kambrik",
     "description": "A Light-weight Kotlin Library Mod!",
@@ -109,14 +117,6 @@
     "version": "1.1.1",
     "environment": "*",
     "file": "mods/current/mcw-lights-1.1.1-mc1.20.1fabric.jar",
-    "dependencies": {}
-  },
-  "artifacts": {
-    "name": "Artifacts",
-    "description": "Adds various new powerful uncraftable items to make exploration a bit more interesting",
-    "version": "9.5.13",
-    "environment": "*",
-    "file": "mods/current/artifacts-fabric-9.5.13.jar",
     "dependencies": {}
   },
   "roughlyenoughitems": {
@@ -303,12 +303,12 @@
     "file": "mods/current/iris-1.7.6+mc1.20.1.jar",
     "dependencies": {}
   },
-  "lovely_snails": {
-    "name": "Lovely Snails",
-    "description": "Adds some big snails. Made for Modfest 1.17.",
-    "version": "1.1.3+1.20.1",
+  "geophilic": {
+    "name": "Geophilic",
+    "description": "A subtle-ish overhaul of vanilla Overworld biomes.",
+    "version": "3.3",
     "environment": "*",
-    "file": "mods/current/lovely_snails-1.1.3+1.20.1.jar",
+    "file": "mods/current/Geophilic v3.3 f15-71.jar",
     "dependencies": {}
   },
   "techsupportred": {
@@ -357,14 +357,6 @@
     "version": "1.20.1-v2.2.2",
     "environment": "*",
     "file": "mods/current/NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
-    "dependencies": {}
-  },
-  "everycomp": {
-    "name": "Every Compat",
-    "description": "Ultimate Wood Compat Mod",
-    "version": "1.20-2.7.21",
-    "environment": "*",
-    "file": "mods/current/everycomp-1.20-2.7.21-fabric.jar",
     "dependencies": {}
   },
   "fastipping": {
@@ -487,14 +479,6 @@
     "file": "mods/current/mcw-windows-2.3.0-mc1.20.1fabric.jar",
     "dependencies": {}
   },
-  "balm-fabric": {
-    "name": "Balm",
-    "description": "Abstraction Layer (but not really)TM for Blay's multiplatform mods",
-    "version": "7.3.18",
-    "environment": "*",
-    "file": "mods/current/balm-fabric-1.20.1-7.3.18.jar",
-    "dependencies": {}
-  },
   "tia": {
     "name": "Tiny Item Animations",
     "description": "Adds a cute little animation when picking up items with your mouse.",
@@ -519,14 +503,6 @@
     "file": "mods/current/polymorph-fabric-0.49.8+1.20.1.jar",
     "dependencies": {}
   },
-  "puffish_skills": {
-    "name": "Pufferfish's Skills",
-    "description": "Adds a fully configurable skill system to the game.",
-    "version": "0.15.1",
-    "environment": "*",
-    "file": "mods/current/puffish_skills-0.15.1-1.20-fabric.jar",
-    "dependencies": {}
-  },
   "qkl": {
     "name": "Quilt Kotlin Libraries",
     "description": "Quilt's official Kotlin libraries",
@@ -535,12 +511,12 @@
     "file": "mods/current/quilt-kotlin-libraries-2.1.3+kt.1.9.10+flk.1.10.10.jar",
     "dependencies": {}
   },
-  "yet_another_config_lib_v3": {
-    "name": "YetAnotherConfigLib",
-    "description": "YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.",
-    "version": "3.6.3+1.20.1-fabric",
+  "puffish_attributes": {
+    "name": "Pufferfish's Attributes",
+    "description": "Adds more attributes to the game.",
+    "version": "0.7.3",
     "environment": "*",
-    "file": "mods/current/yet_another_config_lib_v3-3.6.3+1.20.1-fabric.jar",
+    "file": "mods/current/puffish_attributes-0.7.3-1.20-fabric.jar",
     "dependencies": {}
   },
   "harvest_scythes": {
@@ -557,6 +533,22 @@
     "version": "8.0.0",
     "environment": "*",
     "file": "mods/current/VisualWorkbench-v8.0.0-1.20.1-Fabric.jar",
+    "dependencies": {}
+  },
+  "artifacts": {
+    "name": "Artifacts",
+    "description": "Adds various new powerful uncraftable items to make exploration a bit more interesting",
+    "version": "9.5.15",
+    "environment": "*",
+    "file": "mods/current/artifacts-fabric-9.5.15.jar",
+    "dependencies": {}
+  },
+  "everycomp": {
+    "name": "Every Compat",
+    "description": "Ultimate Wood Compat Mod",
+    "version": "1.20-2.7.24",
+    "environment": "*",
+    "file": "mods/current/everycomp-1.20-2.7.24-fabric.jar",
     "dependencies": {}
   },
   "bountiful": {
@@ -599,20 +591,20 @@
     "file": "mods/current/visuality-0.7.1+1.20.jar",
     "dependencies": {}
   },
+  "frightsdelight": {
+    "name": "Fright's Delight",
+    "description": "Fright's Delight is an add-on mod for Farmer's Delight Fabric that adds food made from mob drops. Dishes are created with a 'Horror' theme, consume with caution.",
+    "version": "1.3.1",
+    "environment": "*",
+    "file": "mods/current/frightsdelight-fabric-1.20.1-1.3.1.jar",
+    "dependencies": {}
+  },
   "netherportalfix": {
     "name": "NetherPortalFix",
     "description": "Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer.",
     "version": "13.0.1",
     "environment": "*",
     "file": "mods/current/netherportalfix-fabric-1.20-13.0.1.jar",
-    "dependencies": {}
-  },
-  "botanypots": {
-    "name": "BotanyPots",
-    "description": "Pots for growing different types of plants.",
-    "version": "13.0.40",
-    "environment": "*",
-    "file": "mods/current/BotanyPots-Fabric-1.20.1-13.0.40.jar",
     "dependencies": {}
   },
   "supermartijn642configlib": {
@@ -735,6 +727,14 @@
     "file": "mods/current/hamsters-fabric-1.0.3-1.20.1.jar",
     "dependencies": {}
   },
+  "immersive_aircraft": {
+    "name": "Immersive Aircraft",
+    "description": "A bunch of rustic aircraft to travel, transport, and explore!. ",
+    "version": "1.2.2+1.20.1",
+    "environment": "*",
+    "file": "mods/current/immersive_aircraft-1.2.2+1.20.1-fabric.jar",
+    "dependencies": {}
+  },
   "bettermineshafts": {
     "name": "YUNG's Better Mineshafts",
     "description": "The long-awaited and much-needed abandoned mineshaft overhaul!",
@@ -767,28 +767,12 @@
     "file": "mods/current/runes-0.9.13+1.20.1.jar",
     "dependencies": {}
   },
-  "watut": {
-    "name": "What Are They Up To",
-    "description": "Lets you see if players are typing, in a GUI, idle, with cool ingame visuals",
-    "version": "1.20.1-1.2.1",
-    "environment": "*",
-    "file": "mods/current/watut-fabric-1.20.1-1.2.1.jar",
-    "dependencies": {}
-  },
   "betteroceanmonuments": {
     "name": "YUNG's Better Ocean Monuments",
     "description": "A complete redesign of Minecraft's ocean monuments!",
     "version": "1.20-Fabric-3.0.4",
     "environment": "*",
     "file": "mods/current/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar",
-    "dependencies": {}
-  },
-  "geckolib": {
-    "name": "GeckoLib 4",
-    "description": "GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more.",
-    "version": "4.7",
-    "environment": "*",
-    "file": "mods/current/geckolib-fabric-1.20.1-4.7.jar",
     "dependencies": {}
   },
   "seamless_loading_screen": {
@@ -799,12 +783,12 @@
     "file": "mods/current/seamless-loading-screen-2.0.3+1.20.1-fabric.jar",
     "dependencies": {}
   },
-  "puffish_attributes": {
-    "name": "Pufferfish's Attributes",
-    "description": "Adds more attributes to the game.",
-    "version": "0.7.2",
-    "environment": "*",
-    "file": "mods/current/puffish_attributes-0.7.2-1.20-fabric.jar",
+  "immediatelyfast": {
+    "name": "ImmediatelyFast",
+    "description": "Speed up and optimize immediate mode rendering in Minecraft",
+    "version": "1.5.0+1.20.4",
+    "environment": "client",
+    "file": "mods/current/ImmediatelyFast-Fabric-1.5.0+1.20.4.jar",
     "dependencies": {}
   },
   "itemfilters": {
@@ -861,14 +845,6 @@
     "version": "1.2.1-1.20.1",
     "environment": "*",
     "file": "mods/current/betterarcheology-1.2.1-1.20.1.jar",
-    "dependencies": {}
-  },
-  "immediatelyfast": {
-    "name": "ImmediatelyFast",
-    "description": "Speed up and optimize immediate mode rendering in Minecraft",
-    "version": "1.3.6+1.20.4",
-    "environment": "client",
-    "file": "mods/current/ImmediatelyFast-Fabric-1.3.6+1.20.4.jar",
     "dependencies": {}
   },
   "smoothchunk": {
@@ -991,14 +967,6 @@
     "file": "mods/current/YungsBetterWitchHuts-1.20-Fabric-3.0.3.jar",
     "dependencies": {}
   },
-  "frightsdelight": {
-    "name": "Fright's Delight",
-    "description": "Fright's Delight is an add-on mod for Farmer's Delight Fabric that adds food made from mob drops. Dishes are created with a 'Horror' theme, consume with caution.",
-    "version": "1.2.2",
-    "environment": "*",
-    "file": "mods/current/frightsdelight-fabric-1.20.1-1.2.2.jar",
-    "dependencies": {}
-  },
   "kiwi": {
     "name": "Kiwi Library",
     "description": "Minecraft modding library",
@@ -1079,28 +1047,12 @@
     "file": "mods/current/Highlighter-1.20.1-fabric-1.1.9.jar",
     "dependencies": {}
   },
-  "immersive_aircraft": {
-    "name": "Immersive Aircraft",
-    "description": "A bunch of rustic aircraft to travel, transport, and explore!. ",
-    "version": "1.2.1+1.20.1",
-    "environment": "*",
-    "file": "mods/current/immersive_aircraft-1.2.1+1.20.1-fabric.jar",
-    "dependencies": {}
-  },
   "mcwholidays": {
     "name": "Macaw's Holidays",
     "description": "Adds 250+ Christmas decorations and 80+ Halloween themed decorations!",
     "version": "1.1.0",
     "environment": "*",
     "file": "mods/current/mcw-holidays-1.1.0-mc1.20.1fabric.jar",
-    "dependencies": {}
-  },
-  "geophilic": {
-    "name": "Geophilic",
-    "description": "A subtle-ish overhaul of vanilla Overworld biomes.",
-    "version": "3.2",
-    "environment": "*",
-    "file": "mods/current/Geophilic v3.2 f15-61.jar",
     "dependencies": {}
   },
   "collective": {
@@ -1231,12 +1183,12 @@
     "file": "mods/current/create_enchantment_industry-1.2.16.jar",
     "dependencies": {}
   },
-  "sound_physics_remastered": {
-    "name": "Sound Physics Remastered",
-    "description": "Provides realistic sound attenuation, reverberation, and absorption through blocks.",
-    "version": "1.20.1-1.4.8",
+  "yet_another_config_lib_v3": {
+    "name": "YetAnotherConfigLib",
+    "description": "YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.",
+    "version": "3.6.6+1.20.1-fabric",
     "environment": "*",
-    "file": "mods/current/sound-physics-remastered-fabric-1.20.1-1.4.8.jar",
+    "file": "mods/current/yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
     "dependencies": {}
   },
   "lithium": {
@@ -1293,6 +1245,14 @@
     "version": "1.20-Fabric-3.0.3",
     "environment": "*",
     "file": "mods/current/YungsBetterDesertTemples-1.20-Fabric-3.0.3.jar",
+    "dependencies": {}
+  },
+  "watut": {
+    "name": "What Are They Up To",
+    "description": "Lets you see if players are typing, in a GUI, idle, with cool ingame visuals",
+    "version": "1.20.1-1.2.3",
+    "environment": "*",
+    "file": "mods/current/watut-fabric-1.20.1-1.2.3.jar",
     "dependencies": {}
   },
   "immersive_weathering": {
@@ -1407,6 +1367,14 @@
     "file": "mods/current/DistantHorizons-fabric-forge-2.3.0-b-1.20.1.jar",
     "dependencies": {}
   },
+  "sound_physics_remastered": {
+    "name": "Sound Physics Remastered",
+    "description": "Provides realistic sound attenuation, reverberation, and absorption through blocks.",
+    "version": "1.20.1-1.4.10",
+    "environment": "*",
+    "file": "mods/current/sound-physics-remastered-fabric-1.20.1-1.4.10.jar",
+    "dependencies": {}
+  },
   "creeperoverhaul": {
     "name": "Creeper Overhaul",
     "description": "Creeper Overhaul replaces the vanilla creeper with a variety of different biome-specific creeper types, some friendlier than others :)",
@@ -1431,6 +1399,14 @@
     "file": "mods/current/ftbbackups2-fabric-1.20-1.0.23.jar",
     "dependencies": {}
   },
+  "puffish_skills": {
+    "name": "Pufferfish's Skills",
+    "description": "Adds a fully configurable skill system to the game.",
+    "version": "0.15.4",
+    "environment": "*",
+    "file": "mods/current/puffish_skills-0.15.4-1.20-fabric.jar",
+    "dependencies": {}
+  },
   "spell_power": {
     "name": "Spell Power Attribute",
     "description": "Spell Power entity attributes with related status effects and enchantments.",
@@ -1445,6 +1421,14 @@
     "version": "0.3.3+1.20",
     "environment": "*",
     "file": "mods/current/things-0.3.3+1.20.jar",
+    "dependencies": {}
+  },
+  "geckolib": {
+    "name": "GeckoLib 4",
+    "description": "GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more.",
+    "version": "4.7.1.2",
+    "environment": "*",
+    "file": "mods/current/geckolib-fabric-1.20.1-4.7.1.2.jar",
     "dependencies": {}
   },
   "expandeddelight": {
@@ -1479,12 +1463,28 @@
     "file": "mods/current/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
     "dependencies": {}
   },
+  "moonlight": {
+    "name": "Moonlight",
+    "description": "Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more",
+    "version": "1.20-2.13.79",
+    "environment": "*",
+    "file": "mods/current/moonlight-1.20-2.13.79-fabric.jar",
+    "dependencies": {}
+  },
   "chickensshed": {
     "name": "ChickensShed",
     "description": "Chickens shed their feathers occasionally.",
     "version": "1.6.0+mc1.20.1",
     "environment": "*",
     "file": "mods/current/chickensshed-fabric-1.6.0+mc1.20.1.jar",
+    "dependencies": {}
+  },
+  "balm": {
+    "name": "Balm",
+    "description": "Abstraction Layer (but not really)TM for Blay's multiplatform mods",
+    "version": "7.3.26",
+    "environment": "*",
+    "file": "mods/current/balm-fabric-1.20.1-7.3.26.jar",
     "dependencies": {}
   },
   "terrablender": {
@@ -1575,14 +1575,6 @@
     "file": "mods/current/oxidized-1.8.2.jar",
     "dependencies": {}
   },
-  "moonlight": {
-    "name": "Moonlight",
-    "description": "Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more",
-    "version": "1.20-2.13.72",
-    "environment": "*",
-    "file": "mods/current/moonlight-1.20-2.13.72-fabric.jar",
-    "dependencies": {}
-  },
   "emojiful": {
     "name": "Emojiful",
     "description": "Adds Emojis to the Game Chat!!!",
@@ -1613,6 +1605,14 @@
     "version": "1.1.25",
     "environment": "*",
     "file": "mods/current/Iceberg-1.20.1-fabric-1.1.25.jar",
+    "dependencies": {}
+  },
+  "lovely_snails": {
+    "name": "Lovely Snails",
+    "description": "Adds some big snails. Made for Modfest 1.17.",
+    "version": "1.1.5+1.20.1",
+    "environment": "*",
+    "file": "mods/current/lovely_snails-1.1.5+1.20.1.jar",
     "dependencies": {}
   },
   "cardinal-components": {

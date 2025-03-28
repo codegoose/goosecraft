@@ -103,7 +103,7 @@ def compare_lists(old_list, new_list):
   removed_entries = old_set - new_set
   return new_entries, removed_entries
 
-old_mods = scan_collection_dir('mods/v6-5-0')
+old_mods = scan_collection_dir('mods/v6-6-0')
 new_mods = scan_collection_dir('mods/current')
 
 open('mods-old.json', 'w+').write(json.dumps(old_mods, indent=2))
