@@ -1,0 +1,13 @@
+.git
+.gitignore
+*.md
+docker-compose.yml
+loki-config.yaml
+.env
+.DS_Store
+Dockerfile
+.dockerignore
+__pycache__
+*.pyc
+.idea
+.vscode

@@ -1,31 +1,72 @@
 services:
-  pub:
-    image: goosecraft:6.7.0
+
+  loki:
+    image: grafana/loki:latest
+    container_name: loki
+    restart: unless-stopped
+    ports:
+      - "3100:3100"
+    volumes:
+      - loki-data:/loki
+      - ./loki-config.yml:/etc/loki/local-config.yaml
+    command: -config.file=/etc/loki/local-config.yaml
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    restart: unless-stopped
+    environment:
+      - GF_SECURITY_ADMIN_USER=bwhite
+      - GF_SECURITY_ADMIN_PASSWORD=kkspv19gbmc
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - grafana-provisioning:/etc/grafana/provisioning
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+      - loki
+
+  minecraft:
+    image: goosecraft:latest
+    container_name: minecraft
     stop_grace_period: 2m
     ports:
       - "25565:25565/tcp"
     restart: unless-stopped
+    environment:
+      SERVER_ID: cow
+      TZ: America/Los_Angeles
+      JAVA_OPTS: "-Xms4G -Xmx16G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200"
     volumes:
-      - /data/volumes/minecraft/pub/world:/server/world
-      - /data/volumes/minecraft/pub/schematics:/server/schematics
-      - /data/volumes/minecraft/pub/logs:/server/logs
-      - /data/volumes/minecraft/pub/crash-reports:/server/crash-reports
-      - /data/volumes/minecraft/pub/backups:/server/backups
-      - /data/volumes/minecraft/pub/cache:/server/.cache
-      - /etc/timezone:/etc/timezone:ro
-      - /etc/localtime:/etc/localtime:ro
-  dev:
-    image: goosecraft:6.7.0
-    stop_grace_period: 2m
-    ports:
-      - "25566:25565/tcp"
-    restart: unless-stopped
-    volumes:
-      - /data/volumes/minecraft/dev/world:/server/world
-      - /data/volumes/minecraft/dev/schematics:/server/schematics
-      - /data/volumes/minecraft/dev/logs:/server/logs
-      - /data/volumes/minecraft/dev/crash-reports:/server/crash-reports
-      - /data/volumes/minecraft/dev/backups:/server/backups
-      - /data/volumes/minecraft/dev/cache:/server/.cache
-      - /etc/timezone:/etc/timezone:ro
-      - /etc/localtime:/etc/localtime:ro
+      - minecraft-world:/server/world
+      - minecraft-schematics:/server/schematics
+      - minecraft-logs:/server/logs
+      - minecraft-crash-reports:/server/crash-reports
+      - minecraft-backups:/server/backups
+      - minecraft-cache:/server/.cache
+    deploy:
+      resources:
+        limits:
+          memory: 18G
+        reservations:
+          memory: 4G
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+
+volumes:
+  zerotier-data:
+  postgres-data:
+  loki-data:
+  grafana-data:
+  grafana-provisioning:
+  minecraft-world:
+  minecraft-schematics:
+  minecraft-logs:
+  minecraft-crash-reports:
+  minecraft-backups:
+  minecraft-cache:

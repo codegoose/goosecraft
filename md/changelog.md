@@ -1,4 +1,59 @@
 # Changelog
+## v6.7.2
+### Mods
+#### Added
+  * **My Nether's Delight**: A nether expansion for the Farmer's Delight mod!
+  * **Amplified Nether**: The nether explorer's simple dream: doubled height and amplified terrain. What more is needed?
+  * **Create: Food**: Create: Food is an add-on for Farmer's Delight based on expanding food content found in Create, Farmer's Delight, and vanilla MC.
+  * **More Delight**: An addon mod for Farmer's Delight that adds extra features to the base mod.
+  * **Rustic Delight**: A rustic add-on for Farmer's Delight that adds Coffee, Cotton, Bell Peppers, Pancakes, Calamari and more!
+#### Updated
+  * **Fast IP Ping**: Yeet the laggy reversed DNS lookup for literal IP server addresses **(1.0.5 to 1.0.7)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.14.0 to 1.20-2.14.11)**
+  * **Geophilic**: A subtle-ish overhaul of vanilla Overworld biomes. **(3.4.1 to 3.4.2)**
+  * **FTB Ranks**: A simple mod that lets you create ranks for players, similar to Discord roles, and manage permissions for them **(2001.1.6 to 2001.1.7)**
+  * **Farmer's Respite**: An addon created by Umpaz, HoboJoe, and SoyTutta for the Farmer's Delight mod by vectorwing. Attempts to add tea and ways to brew it, as well as some other foods! **(3.0.8 to 3.0.2)**
+  * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.8.1 to 1.20-2.8.10)**
+  * **Concurrent Chunk Management Engine**: A Fabric mod designed to improve the chunk performance of Minecraft. **(0.2.0+alpha.11.0 to 0.2.0+alpha.11.16)**
+  * **Connectible Chains**: Connect your fences with a decorative chain! **(2.2.1+1.20.1 to 2.5.4-hotfix.1+1.20.1)**
+  * **Chalk**: Fabric port of the forge mod chalk by mortuusars with some additions **(2.2.0 to 2.2.4)**
+  * **Fright's Delight**: Fright's Delight is an add-on mod for Farmer's Delight Fabric that adds food made from mob drops. Dishes are created with a 'Horror' theme, consume with caution. **(1.3.2 to 1.3.4)**
+  * **Pufferfish's Attributes**: Adds more attributes to the game. **(0.7.3 to 0.7.4)**
+  * **Farmer's Delight**: A cozy expansion to farming and cooking! **(1.20.1-2.3.0+refabricated to 1.20.1-2.4.0+refabricated)**
+  * **Sound Physics Remastered**: Provides realistic sound attenuation, reverberation, and absorption through blocks. **(1.20.1-1.4.10 to 1.20.1-1.4.12)**
+  * **GeckoLib 4**: GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more. **(4.7.1.2 to 4.7.2)**
+  * **Boids**:  **(1.2.2 to 2.0.0+1.20.1)**
+  * **Balm**: Abstraction Layer (but not really)TM for Blay's multiplatform mods **(7.3.27 to 7.3.31)**
+  * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-3.1.30 to 1.20-3.1.34)**
+  * **ModernFix**: Egregious, yet effective performance improvements for modern Minecraft **(5.21.0+mc1.20.1 to 5.24.1+mc1.20.1)**
+  * **Macaw's Bridges**: A simple mod that adds a lot of bridges! **(3.0.0 to 3.1.0)**
+  * **Pufferfish's Skills**: Adds a fully configurable skill system to the game. **(0.15.4 to 0.16.3)**
+  * **Neruina**: This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds. **(2.2.11 to 2.3.1-beta.1)**
+#### Removed
+  * **Expanded Delight**: An addon mod for Farmer's Delight that adds many more crops and functionality to the base mod.
+## v6.7.1
+### Mods
+#### Updated
+  * **Balm**: Abstraction Layer (but not really)TM for Blay's multiplatform mods **(7.3.26 to 7.3.27)**
+  * **Chat Heads**: See who are you chatting with!. This mod adds player heads next to their chat messages. **(0.13.13 to 0.13.18)**
+  * **Collective**: Collective is a shared library with common code for all of Serilum's mods. **(7.94 to 8.3)**
+  * **Distant Horizons**: This mod generates and renders simplified terrain beyond the normal view distance at a low performance cost. Allowing you to see much farther without turning your game into a slideshow. **(2.3.0-b to 2.3.2-b)**
+  * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.7.24 to 1.20-2.8.1)**
+  * **Fright's Delight**: Fright's Delight is an add-on mod for Farmer's Delight Fabric that adds food made from mob drops. Dishes are created with a 'Horror' theme, consume with caution. **(1.3.1 to 1.3.2)**
+  * **FTB Chunks**: Claim chunks to protect your base from griefers! **(2001.3.5 to 2001.3.6)**
+  * **FTB Ranks**: A simple mod that lets you create ranks for players, similar to Discord roles, and manage permissions for them **(2001.1.4 to 2001.1.6)**
+  * **FTB XMod Compat**: Provides cross-mod compatibility/integration for all main FTB mods **(2.1.2 to 2.1.3)**
+  * **Geophilic**: A subtle-ish overhaul of vanilla Overworld biomes. **(3.3 to 3.4.1)**
+  * **Kiwi Library**: Minecraft modding library **(11.8.28+fabric to 11.8.29+fabric)**
+  * **Macaw's Fences and Walls**: Adds new vanila styled fences, walls and gates! **(1.1.2 to 1.2.0)**
+  * **Macaw's Lights and Lamps**: Adds vanila styled lights, lamps, torches, street lamp posts... Make your worlds brighter! **(1.1.1 to 1.1.2)**
+  * **Macaw's Roofs**: Builds roofs with actual roofs! **(2.3.1 to 2.3.2)**
+  * **ModernFix**: Egregious, yet effective performance improvements for modern Minecraft **(5.20.2+mc1.20.1 to 5.21.0+mc1.20.1)**
+  * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.13.79 to 1.20-2.14.0)**
+  * **Neruina**: This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds. **(2.2.8 to 2.2.11)**
+  * **Polymorph**: No more recipe conflicts! Adds an option to choose the crafting result if more than one is available. **(0.49.8+1.20.1 to 0.49.10+1.20.1)**
+  * **Puzzles Lib**: Why's it called Puzzles you ask? That's the puzzle! **(8.1.29 to 8.1.32)**
+  * **Supplementaries**: Many functional and useful Vanilla+ blocks **(1.20-3.1.18 to 1.20-3.1.30)**
 ## v6.7.0
 ### Mods
 #### Updated

@@ -6,7 +6,6 @@ A vanilla+ mod pack.
 
 * [Mod details](/mods.json)
 * [Changelog](/md/changelog.md)
-* [Notes](/md/notes.md)
 
 ## Screenshots
 
