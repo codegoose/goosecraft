@@ -58,8 +58,6 @@ services:
         max-file: "3"
 
 volumes:
-  zerotier-data:
-  postgres-data:
   loki-data:
   grafana-data:
   grafana-provisioning:
