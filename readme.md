@@ -6,10 +6,9 @@ A comprehensive vanilla+ modpack for Minecraft 1.20.1 that enhances the core exp
 
 ## Navigation
 
-- **[Complete Mod List](mods.json)**: Detailed information about all 165+ mods
+- **[Mods](mods.json)**: Detailed information about all 165+ mods
 - **[Changelog](md/changelog.md)**: Version history and updates
-- **[Server Files](server/)**: Pre-configured server setup files
-- **[Docker Setup](docker-compose.yml)**: Containerized server deployment
+- **[Compose](docker-compose.yml)**: Containerized server deployment
 
 ## Features
 
