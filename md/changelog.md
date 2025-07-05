@@ -12,7 +12,6 @@
   * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.14.0 to 1.20-2.14.11)**
   * **Geophilic**: A subtle-ish overhaul of vanilla Overworld biomes. **(3.4.1 to 3.4.2)**
   * **FTB Ranks**: A simple mod that lets you create ranks for players, similar to Discord roles, and manage permissions for them **(2001.1.6 to 2001.1.7)**
-  * **Farmer's Respite**: An addon created by Umpaz, HoboJoe, and SoyTutta for the Farmer's Delight mod by vectorwing. Attempts to add tea and ways to brew it, as well as some other foods! **(3.0.8 to 3.0.2)**
   * **Every Compat**: Ultimate Wood Compat Mod **(1.20-2.8.1 to 1.20-2.8.10)**
   * **Concurrent Chunk Management Engine**: A Fabric mod designed to improve the chunk performance of Minecraft. **(0.2.0+alpha.11.0 to 0.2.0+alpha.11.16)**
   * **Connectible Chains**: Connect your fences with a decorative chain! **(2.2.1+1.20.1 to 2.5.4-hotfix.1+1.20.1)**
