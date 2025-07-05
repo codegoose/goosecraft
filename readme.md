@@ -10,7 +10,7 @@ A comprehensive vanilla+ modpack for Minecraft 1.20.1 that enhances the core exp
 - **[Changelog](md/changelog.md)**: Version history and updates
 - **[Compose](docker-compose.yml)**: Containerized server deployment
 
-## Features
+## Overview
 
 Goosecraft is designed around:
 
@@ -20,6 +20,10 @@ Goosecraft is designed around:
 - **Automation**: Create-based mechanical systems
 - **Combat**: Improved combat mechanics and RPG progression
 - **Performance**: Smooth gameplay even with extensive content
+
+## Experience
+
+This is a lot of what you can expect, but it's not comprehensive:
 
 ### 🌍 World Generation
 
