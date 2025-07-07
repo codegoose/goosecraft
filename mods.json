@@ -1367,6 +1367,14 @@
     "file": "mods/current/mcw-furniture-3.3.0-mc1.20.1fabric.jar",
     "dependencies": {}
   },
+  "rconoutputnewline": {
+    "name": "Rcon Output Newline",
+    "description": "Fixes rcon output by appending a newline.",
+    "version": "0.2.0+1.20.1",
+    "environment": "server",
+    "file": "mods/current/rconoutputnewline-0.2.0+1.20.1-dev.jar",
+    "dependencies": {}
+  },
   "presencefootsteps": {
     "name": "Presence Footsteps",
     "description": "An overly complicated sound mod.",

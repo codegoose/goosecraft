@@ -7,6 +7,7 @@
   * **Create: Food**: Create: Food is an add-on for Farmer's Delight based on expanding food content found in Create, Farmer's Delight, and vanilla MC.
   * **More Delight**: An addon mod for Farmer's Delight that adds extra features to the base mod.
   * **Rustic Delight**: A rustic add-on for Farmer's Delight that adds Coffee, Cotton, Bell Peppers, Pancakes, Calamari and more!
+  * **Rcon Output Newline**: Fixes rcon output by appending a newline.
 #### Updated
   * **Fast IP Ping**: Yeet the laggy reversed DNS lookup for literal IP server addresses **(1.0.5 to 1.0.7)**
   * **Moonlight**: Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more **(1.20-2.14.0 to 1.20-2.14.11)**
